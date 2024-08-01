@@ -8,23 +8,25 @@ OntoGen is a configurable ontology generator designed to facilitate the creation
 
 ### Frontend
 
-1. **Navigate to the Frontend Directory:**
+**Navigate to the Frontend Directory:**
    ```bash
    cd ~/frontend/src
+   npm start
 
-2) - npm start
 
-If it throws some error ETC of packages NOT Installed OR ANYTHING.
+If it throws some error ETC of packages NOT Installed OR ANYTHING, then
 
-1) - THEN **Navigate to ** "~/frontend/"
+**Navigate to ** "~/frontend/"**
 
-2) - npm install (After Installing Everything)
-
-3) - cd src, then npm start.
+   ```bash
+   cd ~/frontend/
+   npm install (After Installing Everything)
+   cd src
+   npm start.
 
 Thats all for running FRONTEND
 
-### Backeend
+### Backend
 
 3) - Go to "src/main/java" --> "owl.cs.myfirst.owlapi" --> Demo2.java 
 
