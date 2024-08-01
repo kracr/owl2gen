@@ -1,0 +1,2 @@
+Person hasAffiliation only Organization 
+OrganizingCommittee hasOrganizingCommitteeMember only Organizer 

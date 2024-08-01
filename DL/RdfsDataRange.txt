@@ -1,0 +1,16 @@
+hasStatus range xsd:string
+hasEdition range xsd:string
+hasLocation range xsd:string
+hasStartDate range xsd:dateTimeStamp
+hasTitle range xsd:string
+hasWebsiteURL range xsd:anyURI
+givesTalkOn range xsd:string
+hasId range xsd:string
+givesKeynoteTalkOn range xsd:string
+givesInvitedTalkOn range xsd:string
+hasDeadline range xsd:dateTimeStamp
+hasTheme range xsd:string
+hasName range xsd:string
+hasDuration range xsd:string
+hasConferenceName range xsd:string
+hasVenue range xsd:string

@@ -1,0 +1,2 @@
+AcademicEvent hasWebsiteURL exactly 1 xsd:anyURI 
+Event hasTitle exactly 1 xsd:string 

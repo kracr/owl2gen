@@ -1,0 +1,2 @@
+AcademicEvent hasTalk min 1 Talks 
+AcademicManuscript hasAuthor min 1 Author 

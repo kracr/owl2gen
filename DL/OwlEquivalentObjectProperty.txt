@@ -1,0 +1,4 @@
+hasPaper equivalent isAuthorOf
+hasAttendee equivalent hasParticipant
+isAcceptedAt equivalent isPresentedAt
+hasOrganizerRoleAt equivalent isOrganizerOf

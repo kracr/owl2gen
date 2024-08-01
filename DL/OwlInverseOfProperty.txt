@@ -1,0 +1,8 @@
+hasChair inverseOf isChairOf
+isPresentedBy inverseOf presents
+hasOrganizer inverseOf isOrganizerOf
+givesTalkAt inverseOf hasSpeaker
+givesInvitedTalkAt inverseOf hasInvitedTalkSpeaker
+hasAuthor inverseOf isAuthorOf
+givesKeynoteTalkAt inverseOf hasKeynoteSpeaker
+attends inverseOf hasAttendee

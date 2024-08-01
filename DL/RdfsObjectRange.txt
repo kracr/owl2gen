@@ -1,0 +1,15 @@
+hasEventMode range EventMode
+hasRole range Concept
+attends range Event
+hasPaper range AcademicManuscript
+volunteersFor range Event
+isAuthorOf range AcademicManuscript
+hasKeynoteSpeaker range KeynoteSpeaker
+hasOrganizingCommitteeMember range Organizer
+hasSession range Session
+hasPaperTrack range ConferenceTrack
+givesTalkAt range Event
+hasAffiliation range Organization
+owl:topObjectProperty range AcademicManuscript
+hasOrganizer range Organizer
+organizes range Event

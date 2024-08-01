@@ -1,0 +1,1 @@
+Event hasLocation some xsd:string 

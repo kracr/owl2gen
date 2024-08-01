@@ -1,0 +1,2 @@
+NonAuthor complementOf Author
+NonAcademicOrganization complementOf AcademicOrganization

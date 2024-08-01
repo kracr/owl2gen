@@ -1,0 +1,6 @@
+ResearchPaper HasKey hasPaperId
+AcademicManuscript HasKey hasId
+WorkshopPaper HasKey hasPaperId
+ConferencePaper HasKey hasPaperId
+DemoPaper HasKey hasPaperId
+PosterPaper HasKey hasPaperId

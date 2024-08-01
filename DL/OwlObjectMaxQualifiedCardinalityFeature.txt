@@ -1,0 +1,1 @@
+ConferencePaper isAcceptedAt max 1 Conference 

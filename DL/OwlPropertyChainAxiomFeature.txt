@@ -1,0 +1,10 @@
+hasTalk , invitedTalkGivenBy,invitedTalkGivenBy
+hasOrganizingCommittee , hasOrganizingCommitteeMember,hasOrganizingCommittee
+isPartOf , hasLocation,hasLocation
+presents , hasAuthor,hasCoAuthor
+presents , isPresentedAt,attends
+hasInvitedTalk , invitedTalkGivenBy,hasInvitedTalkSpeaker
+hasPaperTrack , hasChair,hasOrganizer
+hasTalk , talkGivenBy,hasSpeaker
+hasAcceptedPaper , hasAuthor,hasCoAuthor
+hasKeynoteTalk , keynoteTalkGivenBy,hasKeynoteSpeaker

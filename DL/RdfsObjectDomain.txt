@@ -1,0 +1,17 @@
+hasAuthor domain AcademicManuscript
+isAcceptedAt domain AcademicManuscript
+hasOrganizingCommittee domain Event
+talkGivenBy domain Talks
+hasKeynoteSpeaker domain Event
+hasEventMode domain Event
+hasProject domain Organization
+hasSession domain Event
+hasAttendee domain Event
+givesInvitedTalkAt domain InvitedTalkSpeaker
+hasOrganizingCommitteeMember domain Event
+hasOrganizer domain Event
+givesKeynoteTalkAt domain KeynoteSpeaker
+isAuthorOf domain Person
+hasAccount domain Person
+hasRole domain Person
+hasInvitedTalkSpeaker domain Event

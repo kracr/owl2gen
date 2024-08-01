@@ -1,0 +1,1 @@
+StudentAuthor IntersectionOf Author,Student

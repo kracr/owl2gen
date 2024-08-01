@@ -1,0 +1,9 @@
+hasConferenceName domain Conference
+givesTalkOn domain Person
+hasEdition domain AcademicEvent
+hasDeadline domain AcademicEvent
+hasStartDate domain Event
+givesInvitedTalkOn domain InvitedTalkSpeaker
+givesKeynoteTalkOn domain KeynoteSpeaker
+hasDuration domain Event
+hasStatus domain AcademicEvent

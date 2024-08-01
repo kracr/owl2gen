@@ -1,0 +1,9 @@
+hasAuthorId subpropertyof hasId
+givesInvitedTalkOn subpropertyof givesTalkOn
+givesKeynoteTalkOn subpropertyof givesTalkOn
+hasEarlyRegistrationDeadline subpropertyof hasRegistrationDeadline
+hasPaperId subpropertyof hasId
+hasSubmissionDeadline subpropertyof hasDeadline
+hasRegistrationDeadline subpropertyof hasDeadline
+hasVenue subpropertyof owl:topDataProperty
+hasConferenceName subpropertyof hasName
