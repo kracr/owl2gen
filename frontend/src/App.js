@@ -368,7 +368,7 @@ function App() {
                             <hr/>
 
       <div className="row justify-content-center">
-        <h1 className="mt-4">OWL2Bench : Customized Ontology Generation </h1>
+        <h1 className="mt-4">OntoGen 1.0 </h1>
       </div>
       <hr></hr>
       <hr></hr>
