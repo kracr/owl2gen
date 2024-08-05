@@ -1,4 +1,5 @@
-Order in which to read files :-
+
+Documentation to understand the order in which to read files :-
 
 1)  Inside Package owlapi -> app.java
     Order in which to read functions :-
