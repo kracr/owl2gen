@@ -40,4 +40,6 @@ Thats all for running FRONTEND
 
 
 Files (axiomCountOntology.owl, userInputCountOntology.owl, randomAxiomCountOntology.owl, randomUserInputCountOntology.owl) will get SAVED in the 
-root directory of this project folder
+root directory of this project folder.
+
+In order to understand the code, refer [Documentation](https://github.com/kracr/ontogen/blob/master/ORDER.txt)
