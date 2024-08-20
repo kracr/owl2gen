@@ -8,7 +8,7 @@ constructs and profiles. It supports flexible configurations and provides option
 an ideal tool for benchmarking, performance evaluation, and ontology modeling research.
 
 
-![OntoGen](https://github.com/kracr/ontogen/blob/main/Images/configpanel.jpg?raw=true)
+![OntoGen](https://github.com/kracr/ontogen/blob/main/Images/configpanel.png?raw=true)
 
 ## Steps to Run the Code
 
