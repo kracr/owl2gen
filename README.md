@@ -14,31 +14,35 @@ an ideal tool for benchmarking, performance evaluation, and ontology modeling re
 ## Steps to Run the Code
 
 ### Frontend
-
+```
 **Navigate to the Frontend Directory:**
 
-   ```bash
+   
    cd ~/frontend/src
-   npm start ```
+   npm start 
+   ```
 
 
 If it throws some error ETC of packages NOT Installed OR ANYTHING, then
-
+```
 **Navigate to ** "~/frontend/"**
 
-   ```bash
+ 
    cd ~/frontend/
    npm install (After Installing Everything)
    cd src
-   npm start ```
+   npm start 
+   ```
 
 Thats all for running FRONTEND
 
 
 ### Backend
 
-    ```Go to "src/main/java" --> "owl.cs.myfirst.owlapi" --> Demo2.java 
-   Run as "Spring Boot App" ```
+    ```
+	Go to "src/main/java" --> "owl.cs.myfirst.owlapi" --> Demo2.java 
+   Run as "Spring Boot App" 
+   ```
    
 Files (axiomCountOntology.owl, userInputCountOntology.owl, randomAxiomCountOntology.owl, randomUserInputCountOntology.owl) will get SAVED in the 
 root directory of this project folder.
