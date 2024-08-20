@@ -1,8 +1,8 @@
-# OntoGen
+# OWL2Gen
 
 ## Introduction
 
-OntoGen is a configurable ontology generator designed to facilitate the creation of OWL 2 ontologies tailored to specific research needs. 
+OWL2Gen is a configurable ontology generator designed to facilitate the creation of OWL 2 ontologies tailored to specific research needs. 
 With a user-friendly interface and powerful backend capabilities, OntoGen allows users to generate custom ontologies based on selected OWL 2 
 constructs and profiles. It supports flexible configurations and provides options for both static and dynamic ontology generation, making it 
 an ideal tool for benchmarking, performance evaluation, and ontology modeling research.
