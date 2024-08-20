@@ -4,9 +4,9 @@
 
 OWL2Gen is a configurable ontology generator designed to facilitate the creation of OWL 2 ontologies tailored to specific research needs. With a user-friendly interface and powerful backend capabilities, OWL2Gen allows users to generate custom ontologies based on selected OWL 2 constructs and profiles. It supports flexible configurations and provides options for both static and dynamic ontology generation, making it an ideal tool for benchmarking, performance evaluation, and ontology modeling research.
 
-![OWL2Gen](https://github.com/kracr/ontogen/blob/main/Images/homepage.png?raw=true)
-![OWL2Gen2](https://github.com/kracr/ontogen/blob/main/Images/uploadPanel.png?raw=true)
-![OWL2Gen3](https://github.com/kracr/ontogen/blob/main/Images/configpanel.png?raw=true)
+<img src="https://github.com/kracr/ontogen/blob/main/Images/homepage.png?raw=true" alt="OWL2Gen" width="500"/>
+<img src="https://github.com/kracr/ontogen/blob/main/Images/uploadPanel.png?raw=true" alt="OWL2Gen2" width="500"/>
+<img src="https://github.com/kracr/ontogen/blob/main/Images/configpanel.png?raw=true" alt="OWL2Gen3" width="500"/>
 
 ## Steps to Run the Code
 
