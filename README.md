@@ -11,6 +11,7 @@ an ideal tool for benchmarking, performance evaluation, and ontology modeling re
 <img src="https://github.com/kracr/ontogen/blob/main/Images/homepage.png?raw=true" alt="OWL2Gen" width="500"/>
 <img src="https://github.com/kracr/ontogen/blob/main/Images/uploadPanel.png?raw=true" alt="OWL2Gen2" width="500"/>
 <img src="https://github.com/kracr/ontogen/blob/main/Images/configpanel.png?raw=true" alt="OWL2Gen3" width="500"/>
+
 ## Steps to Run the Code
 
 ### Frontend
@@ -31,19 +32,22 @@ If it throws some error ETC of packages NOT Installed OR ANYTHING, then
    cd ~/frontend/
    npm install (After Installing Everything)
    cd src
-   npm start 
+   npm start
+
    ```
 
-Thats all for running FRONTEND
+That's all for running FRONTEND
 
 
 ### Backend
 
-    ```
-	Go to "src/main/java" --> "owl.cs.myfirst.owlapi" --> Demo2.java 
+```
+   Go to "src/main/java" --> "owl.cs.myfirst.owlapi" --> Demo2.java 
    Run as "Spring Boot App" 
-   ```
    
+   ```
+
+
 Files (axiomCountOntology.owl, userInputCountOntology.owl, randomAxiomCountOntology.owl, randomUserInputCountOntology.owl) will get SAVED in the 
 root directory of this project folder.
 
