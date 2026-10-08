@@ -1,0 +1,2 @@
+{"timestamp":"2026-08-28T14:24:12.033207300Z","constructId":"CLASS_ASSERTION","attempt":2,"droppedFinal":true,"resolved":true,"keepBatch":false,"attempts":{"KONCLUDE":"INCONSISTENT"},"ontologyFile":"dropped_CLASS_ASSERTION_attempt2_KONCLUDE_INCONSISTENT.owl"}
+{"timestamp":"2026-08-28T14:24:12.932107900Z","constructId":"SAME_INDIVIDUAL","attempt":2,"droppedFinal":true,"resolved":true,"keepBatch":false,"attempts":{"KONCLUDE":"INCONSISTENT"},"ontologyFile":"dropped_SAME_INDIVIDUAL_attempt2_KONCLUDE_INCONSISTENT.owl"}

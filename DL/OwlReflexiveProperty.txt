@@ -1,2 +1,0 @@
-hasAccount reflexive
-hasCollaborator reflexive

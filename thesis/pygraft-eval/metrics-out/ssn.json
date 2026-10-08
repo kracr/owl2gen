@@ -1,0 +1,14 @@
+00:40:26.492 [main] INFO org.semanticweb.owlapi.io.DocumentSources -- URL connection input stream is compressed using gzip
+{
+  "file": "reference-ontologies/ssn.owl",
+  "numClasses": 22,
+  "numObjectProperties": 35,
+  "numDataProperties": 1,
+  "numIndividuals": 1,
+  "numAxioms": 262,
+  "metricsElapsedMs": 175,
+  "nesting": {"maxDepth": 1, "avgDepth": 0.2892561983471074},
+  "hierarchy": {"maxDepth": 1, "avgBranchingFactor": 1.75, "tangledness": 0.16666666666666666},
+  "graph": {"nodeCount": 67, "edgeCount": 169, "avgDegree": 5.044776119402985, "clusteringCoefficient": 0.5096354318786276},
+  "reasoning": {"computed": true, "assertedSubClassOfCount": 80, "inferredNewSubClassOfCount": 0, "inferredToAssertedRatio": 0.0}
+}

@@ -1,2 +1,0 @@
-hasCollaborationWith Symmetrical
-hasSameHomeTownWith Symmetrical

@@ -1,3 +1,0 @@
-enrollFor Functional
-hasDean Functional
-enrollIn Functional

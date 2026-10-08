@@ -1,0 +1,1012 @@
+\section{OWL2Gen: A Configurable OWL~2 Ontology Generator}
+\label{sec:OWL2Gen_intro}
+
+OWL2Bench provides a stable, domain-grounded setting in which OWL~2
+reasoners can be evaluated while data scale and expressivity are varied.
+However, some experiments require the ontology itself to become an
+experimental variable. Reasoning behaviour can depend not only on data
+size, but also on the OWL~2 constructs that occur, their frequencies,
+the organization of the class hierarchy, and the way entities are
+connected across axioms.
+
+Real-world ontologies are valuable for evaluating reasoners under
+representative modelling conditions, but they provide limited control over
+these characteristics. Changing one structural or logical property while
+keeping others fixed is generally difficult. A configurable synthetic
+generator provides a complementary setting in which such characteristics
+can be varied systematically.
+
+OWL2Gen addresses this requirement by generating domain-independent OWL~2
+ontologies from configurable parameters. Users can specify initial entity
+quantities, OWL~2 constructs and their frequencies, hierarchy and nesting
+parameters, entity-selection strategies, consistency verification,
+serialization format, and random seed. The current implementation supports
+OWL~2 DL and OWL~2 EL.
+
+The purpose of OWL2Gen is therefore not to reproduce a particular
+application domain, but to provide controlled ontology workloads in which
+logical and structural characteristics can be varied for systematic
+reasoner evaluation.
+
+
+\subsection{Design Objectives}
+\label{OWL2Gen_design_considerations}
+
+OWL2Gen was developed according to the following objectives:
+
+\begin{enumerate}
+
+\item \textbf{Configurable generation.}
+Users should be able to control the initial entity quantities, requested
+OWL~2 constructs, construct frequencies, language setting, and selected
+structural characteristics of an ontology.
+
+\item \textbf{Generation from scratch.}
+Ontologies should be generated without requiring an existing domain
+ontology, allowing their structure and construct composition to be
+controlled independently of a predefined model.
+
+\item \textbf{OWL~2 compliance.}
+Generated ontologies should conform to the selected OWL~2 DL or OWL~2 EL
+setting. Constructs outside OWL~2 EL should not be selectable when that
+setting is chosen.
+
+\item \textbf{Consistency management.}
+Generated ontologies should be checked for consistency, while an optional
+mode should attempt to preserve consistency during generation.
+
+\item \textbf{Structural variation.}
+Different patterns of hierarchy formation, expression nesting, and entity
+reuse should be supported so that ontologies with different structural
+characteristics can be produced from comparable construct configurations.
+
+\item \textbf{Characterization and inspection.}
+Generated ontologies should be accompanied by structural metrics and an
+interactive graph that allow users to inspect and compare the resulting
+structures.
+
+\item \textbf{Reproducibility.}
+Users should be able to provide a random seed and retain the generation
+configuration so that a generation run can be repeated.
+
+\end{enumerate}
+
+
+\vspace{1em}
+\noindent
+Table~\ref{tab:owl2gen_comparison} positions OWL2Gen with respect to the
+configurable ontology and knowledge-graph generation approaches discussed
+in Chapter~\ref{ch:litReview}. The comparison focuses on the capabilities
+most relevant to the design objectives above.
+
+\begin{table}[htbp]
+\centering
+\caption{Comparison of configurable ontology and knowledge-graph generation
+approaches.}
+\label{tab:owl2gen_comparison}
+\small
+\setlength{\tabcolsep}{3pt}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{lccccccc}
+\toprule
+\textbf{Approach} &
+\textbf{\begin{tabular}[c]{@{}c@{}}OWL~2\\Support\end{tabular}} &
+\textbf{\begin{tabular}[c]{@{}c@{}}From\\Scratch\end{tabular}} &
+\textbf{\begin{tabular}[c]{@{}c@{}}Construct\\Selection\end{tabular}} &
+\textbf{\begin{tabular}[c]{@{}c@{}}Construct\\Frequency\end{tabular}} &
+\textbf{\begin{tabular}[c]{@{}c@{}}Structural\\Control\end{tabular}} &
+\textbf{\begin{tabular}[c]{@{}c@{}}Consistency\\Checking\end{tabular}} &
+\textbf{\begin{tabular}[c]{@{}c@{}}Structural\\Metrics\end{tabular}} \\
+\midrule
+
+OntoBench~\cite{Ontobench}
+& \cmark
+& \cmark
+& \cmark
+& \xmark
+& \xmark
+& \xmark
+& \xmark \\
+
+PyGraft~\cite{pygraft}
+& Partial
+& \cmark
+& \xmark
+& \xmark
+& \cmark
+& \cmark
+& \xmark \\
+
+DLCC~\cite{DLCC}
+& \xmark
+& \cmark
+& \xmark
+& \xmark
+& \cmark
+& \xmark
+& \xmark \\
+
+\textbf{OWL2Gen}
+& \textbf{DL, EL}
+& \cmark
+& \cmark
+& \cmark
+& \cmark
+& \cmark
+& \cmark \\
+
+\bottomrule
+\end{tabular}%
+}
+\end{table}
+
+The OWL2Gen framework presented here extends our previous work on
+configurable ontology generation~\cite{singh2024owl2gen}. The extended
+approach removes the dependency on a seed ontology and broadens the
+generation process through additional OWL~2 construct support,
+configurable entity-selection and nesting mechanisms, consistency
+management, structural characterization, and visualization.
+
+
+\subsection{Design and Implementation}
+
+
+\subsubsection{User Interface and Workflow}
+\label{sec:gui_OWL2Gen1}
+
+OWL2Gen provides a graphical user interface that supports ontology
+configuration, generation, verification, inspection, and download.
+Figure~\ref{fig:owl2gen_configuration} shows the main stages of the
+configuration workflow.
+
+The landing page introduces OWL2Gen and summarizes the generation process
+(Figure~\ref{fig:owl2gen_configuration}\subref{fig:owl2gen_about}).
+The ontology-configuration page allows the user to select OWL~2 DL or
+OWL~2 EL and optionally specify the initial numbers of classes, object
+properties, data properties, and individuals
+(Figure~\ref{fig:owl2gen_configuration}\subref{fig:owl2gen_constructs}).
+
+The supported OWL~2 constructs are organized into collapsible categories
+based on the OWL~2 Quick Reference Guide~\cite{owl2}. For each construct,
+the user specifies the desired number of occurrences. Category-level
+controls allow all constructs within a category to be selected or cleared
+together. When OWL~2 EL is selected, constructs outside that profile are
+disabled automatically.
+
+Entity quantities and construct frequencies serve different purposes.
+The entity fields determine the initial sizes of the entity pools used
+during generation, whereas the construct fields specify the requested
+frequencies of supported axioms and expressions. Keeping these controls
+separate distinguishes vocabulary size from construct frequency.
+
+The structural-configuration page provides control over hierarchy depth
+and branching factor, maximum expression-nesting depth and per-level
+nesting probability, and the entity-selection strategy
+(Figure~\ref{fig:owl2gen_configuration}\subref{fig:owl2gen_structure}).
+These parameters influence how the requested constructs are instantiated
+and how entities are reused during generation.
+
+The output-configuration page provides options for consistency
+verification, verification timeout, ontology serialization, and random
+seed (Figure~\ref{fig:owl2gen_configuration}\subref{fig:owl2gen_output}).
+The random seed controls randomized choices made during generation,
+allowing a run to be reproduced under the same configuration.
+
+\begin{figure}[!ht]
+    \centering
+
+    \begin{subfigure}[t]{0.49\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figures/OWL2Gen/OWL2Gen1.png}
+        \caption{Landing page and workflow overview.}
+        \label{fig:owl2gen_about}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[t]{0.49\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figures/OWL2Gen/OWL2Gen2.png}
+        \caption{Ontology setting, entities, and constructs.}
+        \label{fig:owl2gen_constructs}
+    \end{subfigure}
+
+    \vspace{0.2em}
+
+    \begin{subfigure}[t]{0.49\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figures/OWL2Gen/OWL2Gen3.png}
+        \caption{Structural configuration.}
+        \label{fig:owl2gen_structure}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[t]{0.49\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{figures/OWL2Gen/OWL2Gen4.png}
+        \caption{Generation and output configuration.}
+        \label{fig:owl2gen_output}
+    \end{subfigure}
+
+    \caption{OWL2Gen user interface and configuration workflow.}
+    \label{fig:owl2gen_configuration}
+\end{figure}
+
+After generation, the results page presents the consistency-verification
+outcome and structural metrics. The generated ontology can also be
+inspected through an interactive graph and downloaded in the selected
+serialization format.
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[
+    width=0.92\textwidth,
+    height=0.62\textheight,
+    keepaspectratio
+]{figures/OWL2Gen/OWL2Gen5.png}
+\caption{OWL2Gen results page showing the verification outcome, structural
+metrics, and graph visualization.}
+\label{fig:owl2gen_results}
+\end{figure}
+
+
+\subsubsection{Ontology Construction}
+\label{sec:owl2gendl}
+
+A generation request can be represented as the configuration tuple
+\[
+\mathcal{G}
+=
+\langle \mathbf{n},\mathbf{q},\mathbf{h},\mathbf{x},s,p,g\rangle .
+\]
+
+Here, $\mathbf{n}=(n_C,n_{OP},n_{DP},n_I)$ specifies the initial numbers
+of classes, object properties, data properties, and individuals. These
+quantities are optional. If omitted, OWL2Gen uses the larger of the
+predefined default and the minimum required by the selected constructs.
+The minimum is computed component-wise across the selected constructs,
+since all constructs draw from shared entity pools. Explicitly specified
+values below this minimum are rejected.
+
+The construct-count mapping $\mathbf{q}$ assigns each selected construct
+its requested number of occurrences. The hierarchy parameters
+$\mathbf{h}=(d,b)$ specify target depth and branching factor, while the
+nesting parameters $\mathbf{x}=(m,r)$ specify maximum nesting depth and
+the probability of nesting at each level. The parameter $s$ identifies an
+entity-selection strategy, $p\in\{\mathrm{DL},\mathrm{EL}\}$ denotes the
+selected OWL~2 setting, and $g$ indicates whether
+\emph{Guarantee consistency} is enabled.
+
+Construction proceeds in five stages:
+
+\begin{enumerate}[label=\roman*)]
+
+\item \textbf{Configuration resolution and validation.}
+Optional entity quantities are resolved and the submitted configuration
+is validated against the selected constructs and OWL~2 setting.
+
+\item \textbf{Entity-pool initialization.}
+The class, object-property, data-property, and individual pools are
+initialized according to $\mathbf{n}$. These pools may grow during
+generation when additional entities are required.
+
+\item \textbf{Axiom generation.}
+The constructs requested by $\mathbf{q}$ are generated using the hierarchy,
+nesting, and entity-selection parameters. Each candidate axiom is checked
+by a local consistency guard before being added. When
+\emph{Guarantee consistency} is enabled, consistency is additionally
+checked after each construct batch.
+
+\item \textbf{Ontology completion and verification.}
+A completeness pass adds missing declaration axioms. Without
+\emph{Guarantee consistency}, the completed ontology is checked once by
+Openllet. With the option enabled, consistency checking is performed
+incrementally during generation.
+
+\item \textbf{Characterization and output.}
+OWL2Gen computes the structural metrics and prepares the generated ontology
+for inspection, visualization, and download.
+
+\end{enumerate}
+
+
+\paragraph{Entity representation and naming.}
+
+All generated entities use the namespace
+\texttt{http://owl2gendl.com/generated\#}. Each entity type has a fixed
+prefix and a separate counter, producing names such as
+\texttt{Class1}, \texttt{objectProperty1}, \texttt{dataProperty1}, and
+\texttt{individual1}. These names identify entity type and order of
+creation but do not encode domain meaning.
+
+For example, generated axioms may include
+\[
+\texttt{Class10}\sqsubseteq
+\exists\,\texttt{objectProperty2}.\texttt{Class3}
+\]
+and
+\[
+\texttt{Class106}(\texttt{individual1}).
+\]
+
+Nested expressions use entities from the same pools and may take forms
+such as
+\[
+\texttt{Class105}\equiv
+(\texttt{Class32}\sqcap\texttt{Class50})
+\sqcup\texttt{Class73}.
+\]
+Here, an intersection is nested within a union. The recursive construction
+of such expressions is controlled by $\mathbf{x}$.
+
+
+\paragraph{Entity pools and selection strategies.}
+
+Each entity type is managed by a separate pool. For every entity $e$, the
+pool records a usage count $u(e)$ that is incremented whenever the entity
+is selected. Let
+\[
+E_{\mathrm{available}}
+=
+\{e\mid u(e)<c\}
+\]
+denote the set of entities whose usage remains below the reuse limit $c$.
+If this set is empty, a new entity is created. Otherwise, an entity is
+selected according to $s$:
+
+\begin{itemize}
+
+\item \textbf{Uniform Random} assigns the same probability to every
+available entity and introduces no preference based on prior use.
+
+\item \textbf{Preferential} selects an entity with probability proportional
+to $u(e)+1$. Entities that have already been used frequently are therefore
+more likely to be selected again.
+
+\item \textbf{Chain} selects the most recently used entity, creating a
+sequential and concentrated pattern of reuse. The name describes the
+selection procedure and does not imply that the complete ontology graph
+forms a simple linear chain.
+
+\item \textbf{Balanced Tree} selects an entity with the lowest usage count,
+with ties resolved by insertion order. This distributes selections more
+evenly across the pool.
+
+\end{itemize}
+
+If a construct requires distinct operands, entities already selected for
+the current axiom are excluded. Selection is retried a bounded number of
+times, after which a new entity is created if no suitable existing entity
+is found. Consequently, the quantities in $\mathbf{n}$ specify initial
+pool sizes rather than strict upper bounds on the completed ontology.
+
+
+\paragraph{Accounting for requested construct counts.}
+
+For every selected construct, OWL2Gen attempts to generate the number of
+occurrences specified by $\mathbf{q}$. Nevertheless, the final number of
+axioms need not equal
+\[
+\sum_k \mathbf{q}(k).
+\]
+
+The completeness pass may add declaration axioms for entities introduced
+during construction, increasing the total. Conversely, when
+\emph{Guarantee consistency} is enabled, a construct batch that cannot be
+generated consistently within the retry limit may be omitted, decreasing
+the total. Requested construct counts should therefore be interpreted as
+generation targets, while the results page reports the quantities actually
+produced.
+
+\paragraph{Construct generation and ordering.}
+
+OWL2Gen processes each construct requested in $\mathbf{q}$ and attempts to
+generate its requested number of occurrences. The hierarchy parameters
+$\mathbf{h}$ guide the depth and branching of the asserted class hierarchy,
+while the nesting parameters $\mathbf{x}$ control the depth and probability
+of nested class expressions. If these parameters are not specified, default
+values are used. Nesting is determined locally for each generated expression.
+These parameters therefore influence the generated structure without
+determining its final measured values exactly.
+
+Construct types are processed sequentially in a configurable order. By
+default, this follows the construct catalog, which is organized according to
+the OWL~2 Quick Reference Guide~\cite{owl2quickreference}. Because each
+accepted axiom becomes part of the ontology used to generate and check
+subsequent candidates, construct order can affect both later generation and
+consistency checking.
+
+OWL2Gen therefore allows the construct order to be varied rather than imposing
+a single fixed strategy. Depending on the selected mode, constructs may follow
+the default catalog order, be grouped by category, be randomized using a
+request-specific seed, or follow an explicit user-supplied sequence. This
+allows the effect of different orderings to be explored without assuming that
+one ordering is preferable across all construct combinations and ontology
+structures.
+
+
+\paragraph{Local consistency guarding.}
+
+Before a candidate axiom is added, OWL2Gen checks whether it conflicts with
+constraints already established during generation. Common conflicts can be
+identified from incompatible combinations of constructs over the same
+entities. For example, an object property declared asymmetric cannot also
+be declared symmetric, and classes declared disjoint cannot subsequently
+be declared equivalent.
+
+Some OWL~2 DL restrictions require additional checks involving previously
+generated relationships:
+
+\begin{itemize}
+
+\item \textbf{Property simplicity.}
+OWL~2 DL restricts the use of non-simple object properties in constructs
+such as cardinality and self-restrictions. OWL2Gen tracks the relevant
+property characteristics and prevents their use where a simple property
+is required.
+
+\item \textbf{Functionality and cardinality.}
+Functional properties are prevented from being combined with restrictions
+that require more than one value.
+
+\item \textbf{Property-chain regularity.}
+OWL2Gen tracks dependencies introduced by subproperty and property-chain
+axioms and rejects additions that would violate OWL~2 DL regularity
+restrictions.
+
+\item \textbf{Identity and equivalence.}
+Equivalence and identity relationships are considered transitively when
+checking subsequent axioms. For example, if $a$ is declared identical to
+$b$ and $b$ to $c$, a later assertion that $a$ and $c$ are different is
+rejected.
+
+\end{itemize}
+
+When a candidate cannot satisfy the applicable constraints within the
+allowed number of attempts, it is abandoned rather than adding an axiom
+known to violate the tracked constraints.
+
+These checks are intentionally local and do not constitute a complete
+consistency procedure. Contradictions arising from interactions among
+multiple axioms may only be detected through reasoning. The local guard
+therefore prevents known conflicts during construction, while ontology
+consistency is verified separately by a reasoner.
+
+
+\paragraph{Reasoner-backed verification.}
+
+OWL2Gen uses Openllet to verify generated ontologies. By default, the
+completed ontology is checked once after construction. The reported outcome
+is \textsc{consistent}, \textsc{inconsistent}, or
+\textsc{not verified within budget}. The third outcome indicates that the
+configured timeout expired and is not interpreted as evidence of
+inconsistency.
+
+When \emph{Guarantee consistency} is enabled, verification is performed
+after the batch for each construct type is added. If a batch makes the
+ontology inconsistent, it is removed and regenerated up to three times.
+If all attempts fail, that construct batch is omitted and generation
+continues.
+
+This mode increases the likelihood of obtaining a consistent final
+ontology, but may alter the requested construct distribution and increase
+generation time. It should therefore be interpreted as a
+consistency-aware generation mode rather than as an unconditional
+guarantee that a reasoner will return a verdict.
+
+
+\subsubsection{Characterization of Generated Ontologies}
+\label{sec:metrics_owl2gendl}
+
+The generation configuration specifies requested constructs and selected
+structural targets, but it does not prescribe every entity choice made
+during construction. Different random choices and entity-selection
+strategies can therefore produce different relationships among the
+generated entities. OWL2Gen reports structural metrics to make these
+differences observable.
+
+The metrics are descriptive rather than normative. Greater hierarchy
+depth, average degree, clustering, or inferred-to-asserted ratio does not
+necessarily indicate a better ontology. Their purpose is to complement
+the construct configuration by describing how the generated axioms are
+organized and connected.
+
+
+\paragraph{Maximum nesting depth.}
+
+Maximum nesting depth records the greatest recursive depth of a class or
+data-range expression occurring within a single axiom. For example,
+\[
+A\sqsubseteq B
+\]
+is shallower than
+\[
+A\sqsubseteq\exists p.(B\sqcap\exists q.C).
+\]
+
+The metric describes syntactic expression depth. It does not by itself
+measure logical complexity or predict reasoning time.
+
+
+\paragraph{Hierarchy depth.}
+
+Hierarchy depth is the length of the longest path in the asserted hierarchy
+formed by \texttt{SubClassOf} relationships between named classes.
+Anonymous class expressions are excluded. A larger value therefore
+indicates a longer asserted sequence of class specialization.
+
+
+\paragraph{Average branching factor.}
+
+The average branching factor is the mean number of direct subclasses of
+non-leaf classes in the asserted named-class hierarchy. It distinguishes
+narrow hierarchies from broader structures in which superclass nodes have
+several direct children.
+
+
+\paragraph{Tangledness.}
+
+Tangledness describes the prevalence of multiple inheritance in the
+asserted named-class hierarchy. Let $C_H$ be the set of classes that
+participate as subclasses in this hierarchy. It is calculated as
+\[
+T=
+\frac{
+|\{c\in C_H\mid |\operatorname{parents}(c)|>1\}|
+}{
+|C_H|
+}.
+\]
+
+A value of zero indicates that no participating class has more than one
+direct superclass, while larger values indicate that multiple inheritance
+occurs more frequently.
+
+
+\paragraph{Entity-connectivity graph.}
+
+To measure how entities are shared across axioms, OWL2Gen constructs an
+undirected, unweighted graph $G=(V,E)$. The vertex set $V$ contains the
+named classes, object properties, data properties, and individuals
+occurring in logical axioms. For each logical axiom, an edge is added
+between every pair of distinct named entities occurring in that axiom.
+Declaration and annotation axioms are excluded, repeated co-occurrences
+produce a single edge, and self-loops are not included.
+
+The average node degree is
+\[
+\overline{d}
+=
+\frac{1}{|V|}
+\sum_{v\in V}\deg(v).
+\]
+
+It describes the average number of other entities with which an entity
+co-occurs. A larger value indicates denser entity co-occurrence, but does
+not necessarily imply greater semantic richness or reasoning difficulty.
+
+The clustering coefficient measures the extent to which the neighbours of
+an entity are also connected to one another. For a node $v$ with degree
+$k_v\geq 2$,
+\[
+C_v
+=
+\frac{2t_v}{k_v(k_v-1)},
+\]
+where $t_v$ is the number of edges between neighbours of $v$. The reported
+graph-level coefficient is the average of $C_v$ over eligible nodes.
+
+
+\paragraph{Inferred-to-asserted subclass ratio.}
+
+For an ontology whose consistency has been established, OWL2Gen measures
+the extent to which classification expands the asserted named-class
+hierarchy.
+
+Let $S_{\mathrm{asserted}}$ be the set of explicitly asserted
+\texttt{SubClassOf} pairs between named classes and
+$S_{\mathrm{entailed}}$ the corresponding subclass pairs obtained after
+classification. Trivial entailments, including reflexive subsumptions and
+relationships involving \texttt{owl:Thing} or \texttt{owl:Nothing}, are
+excluded. The ratio is
+
+\[
+R_{\mathrm{inf}}
+=
+\frac{
+\left|
+S_{\mathrm{entailed}}
+\setminus
+S_{\mathrm{asserted}}
+\right|
+}{
+\left|
+S_{\mathrm{asserted}}
+\right|
+}.
+\]
+
+For example, $R_{\mathrm{inf}}=2$ means that two additional named-class
+subclass relationships are inferred for every explicitly asserted one.
+The metric is not computed when consistency has not been established or
+when $S_{\mathrm{asserted}}$ is empty. It characterizes expansion of the
+named-class hierarchy only and does not include other forms of entailment.
+
+
+\paragraph{Visualization of generated ontologies.}
+
+In addition to the numerical metrics, OWL2Gen allows users to inspect a
+generated ontology as an interactive graph. Classes, object properties,
+data properties, and individuals are represented as typed nodes, while
+relationships between named entities are represented as labelled edges.
+
+This visualization is distinct from the entity-connectivity graph used for
+average degree and clustering. The metric graph records only whether two
+entities co-occur, whereas the visualization retains entity types,
+construct labels, and direction where applicable.
+
+To maintain responsiveness, the visualization displays at most 1,500
+edges. If this limit is exceeded, the interface reports that the displayed
+graph is partial; the complete ontology remains available through the
+download function.
+
+
+\subsection{Empirical Validation of OWL2Gen}
+\label{sec:owl2gen_evaluation}
+
+The evaluation demonstrates how OWL2Gen supports controlled variation in
+ontology composition and structure. We examine variation across repeated
+runs, the effect of entity-selection strategies, the scalability of
+consistency-aware generation, and structural correspondence with real
+ontologies. Rather than seeking a single best configuration, the goal
+throughout is to show how much these outcomes vary as the configuration is
+varied - across seeds, entity-selection strategies, and (with the reasoner
+tier itself now independently configurable) the reasoner used for
+consistency checking.
+
+All experiments were conducted on a machine with an Intel Core i7-14650HX
+processor (16 cores, 24 logical processors), 16~GB of memory, and Windows~11,
+using Java~17 (Eclipse Temurin 17.0.19+10). No explicit JVM heap limit was
+set; the default maximum heap was approximately 3.9~GB. Intermediate and
+final checks used timeouts of 3 and 30 seconds, respectively, and each
+generation run was limited to 120 seconds by the experimental script. These
+bounds were chosen to keep the validation manageable while exercising
+different OWL2Gen configurations. The four experiments below use a single,
+fixed reasoner tier (Openllet~2.6.5) for both intermediate and final
+consistency checks; a separate evaluation of reasoner behavior when
+multiple tiers are configured is presented afterward.
+
+
+\subsubsection{Structural Variation across Repeated Runs}
+
+The first experiment examines whether repeated runs of the same configuration
+produce structurally different ontologies. All 64 supported OWL~2 DL
+constructs were requested five times each, except \texttt{SubClassOf}, which
+was requested 40 times to provide sufficient scope for hierarchy formation,
+giving 355 requested occurrences. Each request used 80 classes, 6 object
+properties, 3 data properties, and 10 individuals, with a hierarchy target
+depth of 5 and branching factor of 3. The default nesting parameters $m=2$
+and $r=0.3$ were used. Uniform Random selection and \emph{Guarantee
+consistency} were enabled, and seeds 1--10 were evaluated. All ten generated
+ontologies were verified as consistent.
+
+{\small
+\begin{table}[htbp]
+\centering
+\caption{Structural variation across ten runs of the same configuration.}
+\label{tab:metric-summary}
+\small
+\begin{tabular}{lrrrr}
+\toprule
+Metric & Mean & Std.\ dev. & Minimum & Maximum \\
+\midrule
+Final axiom count                 & 438.90 & 5.86  & 428   & 447   \\
+Achieved hierarchy depth          & 4.30   & 0.64  & 3     & 5     \\
+Achieved average branching factor & 1.21   & 0.07  & 1.11  & 1.33  \\
+Tangledness                       & 0.185  & 0.048 & 0.11  & 0.25  \\
+Achieved maximum nesting depth    & 2.00   & 0.00  & 2     & 2     \\
+Average degree                    & 6.22   & 0.25  & 5.84  & 6.62  \\
+Clustering coefficient            & 0.307  & 0.016 & 0.281 & 0.327 \\
+Inferred-to-asserted ratio        & 21.85  & 4.02  & 17.17 & 29.82 \\
+\bottomrule
+\end{tabular}
+\end{table}
+}
+
+Although the configuration is fixed, the resulting ontologies vary across
+seeds. Average degree ranges from 5.84 to 6.62 and the inferred-to-asserted
+ratio from 17.17 to 29.82, with variation also observed in hierarchy depth,
+tangledness, clustering, and final axiom count.
+
+The hierarchy results additionally show that $\mathbf{h}$ defines targets
+rather than guaranteed outcomes. With 40 requested \texttt{SubClassOf}
+axioms, achieved depth ranges from 3 to 5 and reaches the target of 5 in some
+runs, while branching ranges from 1.11 to 1.33. The realized hierarchy
+therefore depends on the structural targets, requested subclass axioms, and
+entity-selection strategy. Maximum nesting depth is 2 in every run, matching
+the configured $m=2$. Overall, a fixed OWL2Gen configuration can produce
+different structural and inferred characteristics across seeds.
+
+
+\subsubsection{Structural Effects of Entity-Selection Strategies}
+
+The second experiment examines whether entity-selection strategy provides
+additional control over ontology structure. All 64 supported OWL~2 DL
+constructs were requested eight times, giving 512 requested occurrences.
+Each strategy was evaluated over ten seeds with \emph{Guarantee consistency}
+enabled.
+
+\begin{table}[htbp]
+\centering
+\caption{Structural characteristics of the four entity-selection strategies
+at 512 requested occurrences. Values are medians over runs verified as
+consistent from ten seeds.}
+\label{tab:strategy-comparison}
+\small
+\setlength{\tabcolsep}{2pt}
+\begin{tabular}{lrrrrrrr}
+\toprule
+Strategy & Verified (/10) & Depth & Branch. & Tangled. &
+Avg Deg. & Cluster. & $R_{\mathrm{inf}}$ \\
+\midrule
+Uniform Random & 10 & 0.50 & 0.50 & 0.00 & 7.16 & 0.326 & 13.53 \\
+Chain          & 10 & 1.00 & 1.00 & 1.00 & 2.54 & 0.317 & 18.55 \\
+Balanced Tree  & 3  & 1.00 & 1.00 & 0.00 & 7.38 & 0.306 & 11.81 \\
+Preferential   & 10 & 1.50 & 1.00 & 0.07 & 6.21 & 0.514 & 10.70 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The strategies produce distinct structural characteristics under the same
+construct configuration. Chain has the lowest median average degree (2.54)
+and highest tangledness, consistent with concentrated entity reuse. Balanced
+Tree has the highest median average degree among its verified runs (7.38),
+while Preferential produces the highest clustering coefficient (0.514).
+The inferred-to-asserted ratio also varies, with the highest median for
+Chain (18.55).
+
+During these experiments, Balanced Tree exposed a reproducible
+\texttt{NullPointerException} in Openllet~2.6.5, traced to a previously
+documented defect in the \texttt{JoinCondition}
+implementation.\footnote{\url{https://github.com/Galigator/openllet/issues/39}}
+The documented correction was applied and the experiments repeated. Only
+three of ten Balanced Tree runs then completed consistency verification; the
+remaining runs terminated with other Openllet exceptions rather than an
+inconsistent verdict. They are therefore treated as reasoner execution
+failures, not as evidence of ontology inconsistency. Overall, entity-selection
+strategy provides an additional mechanism for varying ontology structure
+beyond construct frequencies alone.
+
+
+\subsubsection{Scalability of Consistency-Aware Generation}
+
+The third experiment examines \emph{Guarantee consistency} as the requested
+ontology size increases. The 64 supported OWL~2 DL constructs were requested
+two, five, and eight times, corresponding to 128, 320, and 512 occurrences.
+Each configuration was evaluated over ten seeds for all four strategies.
+Generation times are end-to-end and include reasoner-backed consistency
+checks.
+
+\begin{table}[htbp]
+\centering
+\caption{Runs verified as consistent and end-to-end generation time as the
+requested ontology size increases. Times are medians with [minimum, maximum]
+over verified runs.}
+\label{tab:consistency-scaling}
+\footnotesize
+\setlength{\tabcolsep}{2.5pt}
+\begin{tabular}{lrrrrrr}
+\toprule
+& \multicolumn{2}{c}{128} &
+  \multicolumn{2}{c}{320} &
+  \multicolumn{2}{c}{512} \\
+\cmidrule(lr){2-3}
+\cmidrule(lr){4-5}
+\cmidrule(lr){6-7}
+Strategy &
+Verified & Time (s) &
+Verified & Time (s) &
+Verified & Time (s) \\
+\midrule
+Uniform Random
+& 10/10 & 1.30 [1.08, 1.62]
+& 10/10 & 2.27 [1.83, 4.09]
+& 10/10 & 2.66 [1.92, 21.48] \\
+
+Chain
+& 10/10 & 1.24 [1.08, 31.55]
+& 10/10 & 1.95 [1.84, 2.18]
+& 10/10 & 21.28 [19.49, 23.82] \\
+
+Balanced Tree
+& 10/10 & 1.29 [1.18, 1.54]
+& 6/10  & 29.93 [9.94, 71.80]
+& 3/10  & 7.28 [2.98, 7.64] \\
+
+Preferential
+& 10/10 & 1.15 [0.31, 1.35]
+& 10/10 & 1.68 [1.47, 1.90]
+& 10/10 & 1.95 [1.75, 2.08] \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+At 128 occurrences, all runs are verified and median generation times remain
+low. At larger sizes, behavior becomes more strategy-dependent. Uniform
+Random and Preferential remain verified across all seeds with relatively low
+median times, whereas Chain reaches a median of 21.28\,s at 512 occurrences.
+
+Balanced Tree shows the greatest variability. At 320 occurrences, six of ten
+runs are verified, with times from 9.94\,s to 71.80\,s and a median of
+29.93\,s. At 512, only three runs are verified, with times from 2.98\,s to
+7.64\,s. The lower median should not be interpreted as improved scalability
+because it is based on only three completed runs; the others terminate with
+Openllet exceptions rather than inconsistent verdicts. Occasional long runs
+also occur for Chain at 128 and Uniform Random at 512. Thus,
+consistency-aware generation varies with workload size and entity-selection
+strategy, while reasoner behavior can further affect verification.
+
+
+\subsubsection{Structural Correspondence with Real Ontologies}
+\label{sec:owl2gen_real_ontologies}
+
+OWL2Gen is not intended to reconstruct existing ontologies. This experiment
+instead examines whether configurations derived from real ontologies produce
+structural characteristics that were not explicitly supplied to the
+generator.
+
+Six ontologies were considered: PROV-O~\cite{provo},
+SSN~\cite{ssn-sosa}, SOSA~\cite{ssn-sosa,sosa-journal},
+Pizza~\cite{pizza-ontology}, a GO slim ontology
+~\cite{geneontology2000,geneontology}, and the W3C Wine
+ontology~\cite{owlguide}. Observed entity quantities and supported construct
+frequencies, together with hierarchy depth and average branching factor, were
+used to configure OWL2Gen. In all six cases, the reference entity quantities
+were sufficient for generation, so no additional entities were introduced
+and the configured counts were retained. Tangledness, average degree,
+clustering coefficient, and the inferred-to-asserted subclass ratio were held
+out and measured only after generation.
+
+For each reference-derived configuration, all four entity-selection
+strategies were evaluated over ten seeds with \emph{Guarantee consistency}
+enabled. Table~\ref{tab:real-ontology-comparison} compares reference values
+with medians from verified runs. Bold values indicate held-out metrics for
+which the reference value falls within the generated interquartile range.
+
+{\scriptsize
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.1}
+\setlength{\LTpre}{0pt}
+\setlength{\LTpost}{0pt}
+
+\begin{longtable}{llrrrrrrr}
+\caption{Structural characteristics of the reference ontologies and the
+corresponding OWL2Gen outputs. Generated values are medians over verified
+runs from ten seeds.}
+\label{tab:real-ontology-comparison}\\
+
+\toprule
+Reference & Strategy & Verified (/10) & Depth & Branch. & Tangled. &
+Avg Deg. & Cluster. & $R_{\mathrm{inf}}$ \\
+\midrule
+\endfirsthead
+
+\multicolumn{9}{c}{\tablename~\thetable\ continued} \\
+\toprule
+Reference & Strategy & Verified (/10) & Depth & Branch. & Tangled. &
+Avg Deg. & Cluster. & $R_{\mathrm{inf}}$ \\
+\midrule
+\endhead
+
+\midrule
+\multicolumn{9}{r}{Continued on next page} \\
+\endfoot
+
+\bottomrule
+\endlastfoot
+
+PROV-O & \textit{Reference} & --- & 3 & 3.11 & 0.217 & 5.36 & 0.270 & 0.586 \\
+       & Uniform Random & 10 & 4.50 & 1.35 & 0.35 & 5.06 & 0.15 & 5.94 \\
+       & Chain & 0 & --- & --- & --- & --- & --- & --- \\
+       & Balanced Tree & 10 & 3.50 & 1.26 & 0.27 & \textbf{5.20} & 0.12 & 4.30 \\
+       & Preferential & 7 & 8.00 & 1.69 & 0.39 & \textbf{5.38} & 0.25 & 7.46 \\
+\midrule
+
+SSN & \textit{Reference} & --- & 1 & 1.75 & 0.167 & 5.04 & 0.510 & 0.000 \\
+    & Uniform Random & 10 & 6.00 & 4.40 & 0.83 & 9.47 & 0.50 & 0.41 \\
+    & Chain & 10 & 1.00 & 1.00 & 1.00 & 2.44 & 0.19 & 0.58 \\
+    & Balanced Tree & 7 & 2.00 & 5.45 & 1.00 & 10.00 & 0.49 & 0.17 \\
+    & Preferential & 10 & 8.00 & 3.82 & 0.72 & 9.79 & 0.56 & 0.13 \\
+\midrule
+
+SOSA & \textit{Reference} & --- & 0 & 0.00 & 0.000 & 1.03 & 0.000 & 0.000 \\
+     & Uniform Random & 10 & 0.00 & 0.00 & \textbf{0.00} &
+       1.35 & \textbf{0.00} & \textbf{0.00} \\
+     & Chain & 10 & 0.00 & 0.00 & \textbf{0.00} &
+       1.57 & \textbf{0.00} & \textbf{0.00} \\
+     & Balanced Tree & 10 & 0.00 & 0.00 & \textbf{0.00} &
+       1.08 & \textbf{0.00} & \textbf{0.00} \\
+     & Preferential & 10 & 0.00 & 0.00 & \textbf{0.00} &
+       1.56 & \textbf{0.00} & \textbf{0.00} \\
+\midrule
+
+Pizza & \textit{Reference} & --- & 6 & 4.00 & 0.012 & 16.30 & 0.622 & 2.336 \\
+      & Uniform Random & 10 & 5.50 & 6.83 & 0.42 & 7.32 & 0.38 & 23.06 \\
+      & Chain & 10 & 1.00 & 1.00 & 1.00 & 2.99 & 0.56 & 28.76 \\
+      & Balanced Tree & 10 & 4.00 & 4.20 & 0.24 & 6.82 & 0.42 & 25.82 \\
+      & Preferential & 10 & 0.00 & 0.00 & \textbf{0.00} &
+        6.08 & 0.49 & 61.41 \\
+\midrule
+
+GO slim & \textit{Reference} & --- & 2 & 3.50 & 0.000 & 2.59 & 0.347 & 0.062 \\
+        & Uniform Random & 10 & 4.00 & 1.25 & 0.21 & 3.37 & 0.28 & 0.57 \\
+        & Chain & 10 & 1.00 & 1.00 & 1.00 & 2.31 & 0.18 & 0.87 \\
+        & Balanced Tree & 10 & 1.00 & 1.00 & \textbf{0.00} &
+          \textbf{2.59} & 0.21 & 0.02 \\
+        & Preferential & 10 & 6.00 & 1.42 & 0.30 & 3.85 & 0.29 & 1.27 \\
+\midrule
+
+Wine & \textit{Reference} & --- & 3 & 1.50 & 0.071 & 16.59 & 0.485 & 3.683 \\
+     & Uniform Random & 8 & 0.00 & 0.00 & 0.00 & 5.88 &
+       \textbf{0.50} & \textbf{0.00} \\
+     & Chain & 10 & 1.00 & 1.00 & 1.00 & 3.20 & 0.54 & 105.18 \\
+     & Balanced Tree & 4 & 0.00 & 0.00 & 0.00 & 4.82 &
+       \textbf{0.49} & 36.42 \\
+     & Preferential & 10 & 0.00 & 0.00 & 0.00 & 6.29 &
+       \textbf{0.54} & \textbf{23.18} \\
+
+\end{longtable}
+}
+
+For PROV-O with Chain, all ten runs reached the final
+consistency-verification timeout without a reasoner exception and are
+therefore treated as unavailable rather than as structural mismatches.
+
+Overall, correspondence on the held-out characteristics is limited. SOSA,
+with its comparatively flat structure, shows the closest correspondence,
+whereas Pizza and Wine show larger differences, particularly in average
+degree and inferred subclass relationships. Even hierarchy depth and
+branching, although supplied as targets, are not always realized exactly.
+Matching entity quantities, construct frequencies, and hierarchy targets
+therefore does not determine all structural properties of a reference
+ontology; closer correspondence would require additional control over, for
+example, entity reuse and co-occurrence across axioms.
+
+\vspace{1em}
+\noindent
+Overall, the experiments show that OWL2Gen generates controlled but
+structurally varied ontology workloads. Construct configuration,
+entity-selection strategy, and randomization influence different structural
+characteristics, while consistency-aware generation also depends on the
+integrated reasoner. The experiments exposed reproducible Openllet failures,
+illustrating the usefulness of configurable generation for reasoner testing
+as well as benchmarking. The real-ontology comparison further shows that
+controlled synthetic generation should not be interpreted as exact ontology
+reconstruction.
+
+
+\subsection{Limitations}
+\label{sec:owl2gendl_limitations}
+
+OWL2Gen generates domain-independent ontologies using generic entity names.
+Its outputs therefore do not capture the semantics or modelling practices
+of a particular application domain. The comparison with real ontologies
+further shows that configurations derived from observed entity quantities,
+construct frequencies, and hierarchy characteristics do not necessarily
+reproduce other structural properties of the reference ontology. Supporting
+closer structural or domain-specific correspondence would require
+additional generation controls.
+
+Requested entity and construct quantities are generation targets rather
+than exact properties of the completed ontology. Entity quantities define
+initial pool sizes and may grow during generation, while declaration axioms
+may increase the final axiom count. Conversely, when
+\emph{Guarantee consistency} is enabled, construct batches that cannot be
+retained consistently may be omitted. Similarly, hierarchy depth and
+branching factor are target characteristics and need not be achieved
+exactly in every generated ontology.
+
+Consistency checking currently relies on Openllet and a configurable
+timeout. Consequently, \emph{Guarantee consistency} cannot ensure that the
+reasoner will always return a verdict, and its practical scalability
+depends partly on the integrated reasoner. Finally, the reported structural
+metrics describe selected properties of generated ontologies and should
+not be interpreted as measures of ontology quality or as general
+predictors of reasoning difficulty.

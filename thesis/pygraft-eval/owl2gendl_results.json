@@ -1,0 +1,656 @@
+[
+  {
+    "name": "small",
+    "status": "COMPLETED",
+    "elapsed_s": 2.2899773120880127,
+    "requested_axioms": 1030,
+    "actual_axioms": 1158,
+    "variant_status": "COMPLETED",
+    "verification": {
+      "status": "INCONSISTENT",
+      "tier": "OPENLLET",
+      "profile": {
+        "el": true,
+        "ql": true,
+        "rl": true,
+        "dl": true
+      },
+      "elapsedMillis": 5,
+      "requestedProfile": "DL",
+      "profileGuaranteeSatisfied": null
+    }
+  },
+  {
+    "name": "medium",
+    "status": "COMPLETED",
+    "elapsed_s": 2.041086435317993,
+    "requested_axioms": 10120,
+    "actual_axioms": 11269,
+    "variant_status": "COMPLETED",
+    "verification": {
+      "status": "INCONSISTENT",
+      "tier": "OPENLLET",
+      "profile": {
+        "el": true,
+        "ql": true,
+        "rl": true,
+        "dl": true
+      },
+      "elapsedMillis": 22,
+      "requestedProfile": "DL",
+      "profileGuaranteeSatisfied": null
+    }
+  },
+  {
+    "name": "small_uniform_random",
+    "status": "COMPLETED",
+    "elapsed_s": 0.7918782234191895,
+    "requested_axioms": 1030,
+    "actual_axioms": 1158,
+    "variant_status": "COMPLETED",
+    "verification": {
+      "status": "INCONSISTENT",
+      "tier": "OPENLLET",
+      "profile": {
+        "el": true,
+        "ql": true,
+        "rl": true,
+        "dl": true
+      },
+      "elapsedMillis": 2,
+      "requestedProfile": "DL",
+      "profileGuaranteeSatisfied": null
+    }
+  },
+  {
+    "name": "small_chain",
+    "status": "COMPLETED",
+    "elapsed_s": 0.4407939910888672,
+    "requested_axioms": 1030,
+    "actual_axioms": 1046,
+    "variant_status": "COMPLETED",
+    "verification": {
+      "status": "INCONSISTENT",
+      "tier": "OPENLLET",
+      "profile": {
+        "el": true,
+        "ql": true,
+        "rl": true,
+        "dl": true
+      },
+      "elapsedMillis": 1,
+      "requestedProfile": "DL",
+      "profileGuaranteeSatisfied": null
+    }
+  },
+  {
+    "name": "small_balanced_tree",
+    "status": "COMPLETED",
+    "elapsed_s": 0.16593265533447266,
+    "requested_axioms": 1030,
+    "actual_axioms": 1182,
+    "variant_status": "COMPLETED",
+    "verification": {
+      "status": "INCONSISTENT",
+      "tier": "OPENLLET",
+      "profile": {
+        "el": true,
+        "ql": true,
+        "rl": true,
+        "dl": true
+      },
+      "elapsedMillis": 1,
+      "requestedProfile": "DL",
+      "profileGuaranteeSatisfied": null
+    }
+  },
+  {
+    "name": "small_preferential",
+    "status": "COMPLETED",
+    "elapsed_s": 0.11042022705078125,
+    "requested_axioms": 1030,
+    "actual_axioms": 1081,
+    "variant_status": "COMPLETED",
+    "verification": {
+      "status": "INCONSISTENT",
+      "tier": "OPENLLET",
+      "profile": {
+        "el": true,
+        "ql": true,
+        "rl": true,
+        "dl": true
+      },
+      "elapsedMillis": 0,
+      "requestedProfile": "DL",
+      "profileGuaranteeSatisfied": null
+    }
+  },
+  {
+    "name": "small_uniform_random_strict",
+    "status": "COMPLETED",
+    "elapsed_s": 0.2655820846557617,
+    "requested_axioms": 1030,
+    "actual_axioms": 844,
+    "variant_status": "COMPLETED",
+    "verification": {
+      "status": "CONSISTENT",
+      "tier": "OPENLLET",
+      "profile": {
+        "el": true,
+        "ql": true,
+        "rl": true,
+        "dl": true
+      },
+      "elapsedMillis": 1,
+      "requestedProfile": "DL",
+      "profileGuaranteeSatisfied": null
+    },
+    "metrics": {
+      "nesting": {
+        "maxDepth": 0,
+        "avgDepth": 0.0
+      },
+      "hierarchy": {
+        "maxDepth": 3,
+        "avgBranchingFactor": 1.7692307692307692,
+        "tangledness": 0.3333333333333333
+      },
+      "graph": {
+        "nodeCount": 150,
+        "edgeCount": 1287,
+        "avgDegree": 17.16,
+        "clusteringCoefficient": 0.22309019990883433
+      },
+      "reasoning": {
+        "computed": true,
+        "assertedSubClassOfCount": 23,
+        "inferredNewSubClassOfCount": 25,
+        "inferredToAssertedRatio": 1.0869565217391304
+      }
+    }
+  },
+  {
+    "name": "small_chain_strict",
+    "status": "COMPLETED",
+    "elapsed_s": 0.3160696029663086,
+    "requested_axioms": 1030,
+    "actual_axioms": 1047,
+    "variant_status": "COMPLETED",
+    "verification": {
+      "status": "CONSISTENT",
+      "tier": "OPENLLET",
+      "profile": {
+        "el": true,
+        "ql": true,
+        "rl": true,
+        "dl": true
+      },
+      "elapsedMillis": 1,
+      "requestedProfile": "DL",
+      "profileGuaranteeSatisfied": null
+    },
+    "metrics": {
+      "nesting": {
+        "maxDepth": 0,
+        "avgDepth": 0.0
+      },
+      "hierarchy": {
+        "maxDepth": 1,
+        "avgBranchingFactor": 1.0,
+        "tangledness": 1.0
+      },
+      "graph": {
+        "nodeCount": 358,
+        "edgeCount": 692,
+        "avgDegree": 3.8659217877094973,
+        "clusteringCoefficient": 0.6313198993621885
+      },
+      "reasoning": {
+        "computed": true,
+        "assertedSubClassOfCount": 18,
+        "inferredNewSubClassOfCount": 2,
+        "inferredToAssertedRatio": 0.1111111111111111
+      }
+    }
+  },
+  {
+    "name": "small_balanced_tree_strict",
+    "status": "COMPLETED",
+    "elapsed_s": 0.16308951377868652,
+    "requested_axioms": 1030,
+    "actual_axioms": 848,
+    "variant_status": "COMPLETED",
+    "verification": {
+      "status": "CONSISTENT",
+      "tier": "OPENLLET",
+      "profile": {
+        "el": true,
+        "ql": true,
+        "rl": true,
+        "dl": true
+      },
+      "elapsedMillis": 2,
+      "requestedProfile": "DL",
+      "profileGuaranteeSatisfied": null
+    },
+    "metrics": {
+      "nesting": {
+        "maxDepth": 0,
+        "avgDepth": 0.0
+      },
+      "hierarchy": {
+        "maxDepth": 11,
+        "avgBranchingFactor": 1.3888888888888888,
+        "tangledness": 0.0
+      },
+      "graph": {
+        "nodeCount": 152,
+        "edgeCount": 1156,
+        "avgDegree": 15.210526315789474,
+        "clusteringCoefficient": 0.12776384850411843
+      },
+      "reasoning": {
+        "computed": true,
+        "assertedSubClassOfCount": 25,
+        "inferredNewSubClassOfCount": 110,
+        "inferredToAssertedRatio": 4.4
+      }
+    }
+  },
+  {
+    "name": "small_preferential_strict",
+    "status": "COMPLETED",
+    "elapsed_s": 0.21226716041564941,
+    "requested_axioms": 1030,
+    "actual_axioms": 835,
+    "variant_status": "COMPLETED",
+    "verification": {
+      "status": "CONSISTENT",
+      "tier": "OPENLLET",
+      "profile": {
+        "el": true,
+        "ql": true,
+        "rl": true,
+        "dl": true
+      },
+      "elapsedMillis": 0,
+      "requestedProfile": "DL",
+      "profileGuaranteeSatisfied": null
+    },
+    "metrics": {
+      "nesting": {
+        "maxDepth": 0,
+        "avgDepth": 0.0
+      },
+      "hierarchy": {
+        "maxDepth": 3,
+        "avgBranchingFactor": 1.8461538461538463,
+        "tangledness": 0.5454545454545454
+      },
+      "graph": {
+        "nodeCount": 141,
+        "edgeCount": 1080,
+        "avgDegree": 15.319148936170214,
+        "clusteringCoefficient": 0.39474916664093646
+      },
+      "reasoning": {
+        "computed": true,
+        "assertedSubClassOfCount": 24,
+        "inferredNewSubClassOfCount": 41,
+        "inferredToAssertedRatio": 1.7083333333333333
+      }
+    }
+  },
+  {
+    "name": "medium_uniform_random_strict",
+    "status": "COMPLETED",
+    "elapsed_s": 1.27339506149292,
+    "requested_axioms": 10120,
+    "actual_axioms": 7979,
+    "variant_status": "COMPLETED",
+    "verification": {
+      "status": "CONSISTENT",
+      "tier": "OPENLLET",
+      "profile": {
+        "el": true,
+        "ql": true,
+        "rl": true,
+        "dl": true
+      },
+      "elapsedMillis": 5,
+      "requestedProfile": "DL",
+      "profileGuaranteeSatisfied": null
+    },
+    "metrics": {
+      "nesting": {
+        "maxDepth": 0,
+        "avgDepth": 0.0
+      },
+      "hierarchy": {
+        "maxDepth": 13,
+        "avgBranchingFactor": 1.5625,
+        "tangledness": 0.4126984126984127
+      },
+      "graph": {
+        "nodeCount": 1193,
+        "edgeCount": 13925,
+        "avgDegree": 23.344509639564123,
+        "clusteringCoefficient": 0.14668075117592222
+      },
+      "reasoning": {
+        "computed": true,
+        "assertedSubClassOfCount": 100,
+        "inferredNewSubClassOfCount": 1175,
+        "inferredToAssertedRatio": 11.75
+      }
+    }
+  },
+  {
+    "name": "medium_chain_strict",
+    "status": "COMPLETED",
+    "elapsed_s": 2.566819190979004,
+    "requested_axioms": 10120,
+    "actual_axioms": 10160,
+    "variant_status": "COMPLETED",
+    "verification": {
+      "status": "CONSISTENT",
+      "tier": "OPENLLET",
+      "profile": {
+        "el": true,
+        "ql": true,
+        "rl": true,
+        "dl": true
+      },
+      "elapsedMillis": 17,
+      "requestedProfile": "DL",
+      "profileGuaranteeSatisfied": null
+    },
+    "metrics": {
+      "nesting": {
+        "maxDepth": 0,
+        "avgDepth": 0.0
+      },
+      "hierarchy": {
+        "maxDepth": 1,
+        "avgBranchingFactor": 1.0,
+        "tangledness": 1.0
+      },
+      "graph": {
+        "nodeCount": 3414,
+        "edgeCount": 6756,
+        "avgDegree": 3.9578207381370825,
+        "clusteringCoefficient": 0.6529984320203915
+      },
+      "reasoning": {
+        "computed": true,
+        "assertedSubClassOfCount": 67,
+        "inferredNewSubClassOfCount": 9,
+        "inferredToAssertedRatio": 0.13432835820895522
+      }
+    }
+  },
+  {
+    "name": "medium_balanced_tree_strict",
+    "status": "COMPLETED",
+    "elapsed_s": 0.9404733180999756,
+    "requested_axioms": 10120,
+    "actual_axioms": 5155,
+    "variant_status": "COMPLETED",
+    "verification": {
+      "status": "CONSISTENT",
+      "tier": "OPENLLET",
+      "profile": {
+        "el": true,
+        "ql": true,
+        "rl": true,
+        "dl": true
+      },
+      "elapsedMillis": 5,
+      "requestedProfile": "DL",
+      "profileGuaranteeSatisfied": null
+    },
+    "metrics": {
+      "nesting": {
+        "maxDepth": 0,
+        "avgDepth": 0.0
+      },
+      "hierarchy": {
+        "maxDepth": 23,
+        "avgBranchingFactor": 1.5151515151515151,
+        "tangledness": 0.0
+      },
+      "graph": {
+        "nodeCount": 1202,
+        "edgeCount": 3670,
+        "avgDegree": 6.10648918469218,
+        "clusteringCoefficient": 0.42337454857877804
+      },
+      "reasoning": {
+        "computed": true,
+        "assertedSubClassOfCount": 100,
+        "inferredNewSubClassOfCount": 2824,
+        "inferredToAssertedRatio": 28.24
+      }
+    }
+  },
+  {
+    "name": "medium_preferential_strict",
+    "status": "COMPLETED",
+    "elapsed_s": 0.9512465000152588,
+    "requested_axioms": 10120,
+    "actual_axioms": 7875,
+    "variant_status": "COMPLETED",
+    "verification": {
+      "status": "CONSISTENT",
+      "tier": "OPENLLET",
+      "profile": {
+        "el": true,
+        "ql": true,
+        "rl": true,
+        "dl": true
+      },
+      "elapsedMillis": 6,
+      "requestedProfile": "DL",
+      "profileGuaranteeSatisfied": null
+    },
+    "metrics": {
+      "nesting": {
+        "maxDepth": 0,
+        "avgDepth": 0.0
+      },
+      "hierarchy": {
+        "maxDepth": 14,
+        "avgBranchingFactor": 1.546875,
+        "tangledness": 0.5
+      },
+      "graph": {
+        "nodeCount": 1091,
+        "edgeCount": 12824,
+        "avgDegree": 23.508707607699357,
+        "clusteringCoefficient": 0.2908891982657095
+      },
+      "reasoning": {
+        "computed": true,
+        "assertedSubClassOfCount": 99,
+        "inferredNewSubClassOfCount": 659,
+        "inferredToAssertedRatio": 6.656565656565657
+      }
+    }
+  },
+  {
+    "name": "large_uniform_random_strict",
+    "status": "COMPLETED",
+    "elapsed_s": 33.435245513916016,
+    "requested_axioms": 100300,
+    "actual_axioms": 77447,
+    "variant_status": "COMPLETED",
+    "verification": {
+      "status": "CONSISTENT",
+      "tier": "OPENLLET",
+      "profile": {
+        "el": true,
+        "ql": true,
+        "rl": true,
+        "dl": true
+      },
+      "elapsedMillis": 96,
+      "requestedProfile": "DL",
+      "profileGuaranteeSatisfied": null
+    },
+    "metrics": {
+      "nesting": {
+        "maxDepth": 0,
+        "avgDepth": 0.0
+      },
+      "hierarchy": {
+        "maxDepth": 30,
+        "avgBranchingFactor": 1.5060240963855422,
+        "tangledness": 0.41509433962264153
+      },
+      "graph": {
+        "nodeCount": 10482,
+        "edgeCount": 141264,
+        "avgDegree": 26.953634802518604,
+        "clusteringCoefficient": 0.13569399814677574
+      },
+      "reasoning": {
+        "computed": true,
+        "assertedSubClassOfCount": 250,
+        "inferredNewSubClassOfCount": 9306,
+        "inferredToAssertedRatio": 37.224
+      }
+    }
+  },
+  {
+    "name": "large_chain_strict",
+    "status": "COMPLETED",
+    "elapsed_s": 186.35247802734375,
+    "requested_axioms": 100300,
+    "actual_axioms": 99885,
+    "variant_status": "COMPLETED",
+    "verification": {
+      "status": "CONSISTENT",
+      "tier": "OPENLLET",
+      "profile": {
+        "el": true,
+        "ql": true,
+        "rl": true,
+        "dl": true
+      },
+      "elapsedMillis": 131,
+      "requestedProfile": "DL",
+      "profileGuaranteeSatisfied": null
+    },
+    "metrics": {
+      "nesting": {
+        "maxDepth": 0,
+        "avgDepth": 0.0
+      },
+      "hierarchy": {
+        "maxDepth": 1,
+        "avgBranchingFactor": 1.0,
+        "tangledness": 1.0
+      },
+      "graph": {
+        "nodeCount": 33521,
+        "edgeCount": 66885,
+        "avgDegree": 3.9906327376868234,
+        "clusteringCoefficient": 0.6634448532783372
+      },
+      "reasoning": {
+        "computed": true,
+        "assertedSubClassOfCount": 165,
+        "inferredNewSubClassOfCount": 18,
+        "inferredToAssertedRatio": 0.10909090909090909
+      }
+    }
+  },
+  {
+    "name": "large_balanced_tree_strict",
+    "status": "COMPLETED",
+    "elapsed_s": 41.622392416000366,
+    "requested_axioms": 100300,
+    "actual_axioms": 49135,
+    "variant_status": "COMPLETED",
+    "verification": {
+      "status": "CONSISTENT",
+      "tier": "OPENLLET",
+      "profile": {
+        "el": true,
+        "ql": true,
+        "rl": true,
+        "dl": true
+      },
+      "elapsedMillis": 68,
+      "requestedProfile": "DL",
+      "profileGuaranteeSatisfied": null
+    },
+    "metrics": {
+      "nesting": {
+        "maxDepth": 0,
+        "avgDepth": 0.0
+      },
+      "hierarchy": {
+        "maxDepth": 32,
+        "avgBranchingFactor": 1.5527950310559007,
+        "tangledness": 0.0
+      },
+      "graph": {
+        "nodeCount": 10502,
+        "edgeCount": 35424,
+        "avgDegree": 6.7461435916968195,
+        "clusteringCoefficient": 0.4765443716340989
+      },
+      "reasoning": {
+        "computed": true,
+        "assertedSubClassOfCount": 250,
+        "inferredNewSubClassOfCount": 497,
+        "inferredToAssertedRatio": 1.988
+      }
+    }
+  },
+  {
+    "name": "large_preferential_strict",
+    "status": "COMPLETED",
+    "elapsed_s": 47.12559151649475,
+    "requested_axioms": 100300,
+    "actual_axioms": 76524,
+    "variant_status": "COMPLETED",
+    "verification": {
+      "status": "CONSISTENT",
+      "tier": "OPENLLET",
+      "profile": {
+        "el": true,
+        "ql": true,
+        "rl": true,
+        "dl": true
+      },
+      "elapsedMillis": 104,
+      "requestedProfile": "DL",
+      "profileGuaranteeSatisfied": null
+    },
+    "metrics": {
+      "nesting": {
+        "maxDepth": 0,
+        "avgDepth": 0.0
+      },
+      "hierarchy": {
+        "maxDepth": 21,
+        "avgBranchingFactor": 1.537037037037037,
+        "tangledness": 0.48360655737704916
+      },
+      "graph": {
+        "nodeCount": 9560,
+        "edgeCount": 133951,
+        "avgDegree": 28.023221757322176,
+        "clusteringCoefficient": 0.27420074663189714
+      },
+      "reasoning": {
+        "computed": true,
+        "assertedSubClassOfCount": 249,
+        "inferredNewSubClassOfCount": 5774,
+        "inferredToAssertedRatio": 23.188755020080322
+      }
+    }
+  }
+]

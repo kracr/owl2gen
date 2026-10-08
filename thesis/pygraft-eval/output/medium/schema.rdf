@@ -1,0 +1,1001 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://pygraf.t/R71">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    <rdfs:domain rdf:resource="http://pygraf.t/C56"/>
+    <rdfs:range rdf:resource="http://pygraf.t/C56"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R10">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://pygraf.t/C74"/>
+    <rdfs:range rdf:resource="http://pygraf.t/C73"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R74">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+    <rdfs:domain rdf:resource="http://pygraf.t/C24"/>
+    <rdfs:range rdf:resource="http://pygraf.t/C24"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C84">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C87"/>
+    <owl:disjointWith rdf:resource="http://pygraf.t/C53"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C61">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C80"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C97">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C98"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R35">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://pygraf.t/C37"/>
+    <rdfs:range rdf:resource="http://pygraf.t/C39"/>
+    <owl:inverseOf rdf:resource="http://pygraf.t/R36"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R52">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://pygraf.t/C52"/>
+    <rdfs:range rdf:resource="http://pygraf.t/C14"/>
+    <owl:inverseOf rdf:resource="http://pygraf.t/R53"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C96">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C99"/>
+    <owl:disjointWith rdf:resource="http://pygraf.t/C91"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C21">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C28"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R48">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://pygraf.t/C68"/>
+    <rdfs:range rdf:resource="http://pygraf.t/C41"/>
+    <owl:inverseOf rdf:resource="http://pygraf.t/R47"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C92">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:disjointWith rdf:resource="http://pygraf.t/C15"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C27">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C40"/>
+    <owl:disjointWith rdf:resource="http://pygraf.t/C80"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R31">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ReflexiveProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://pygraf.t/R33"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C69">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C71"/>
+    <owl:disjointWith rdf:resource="http://pygraf.t/C90"/>
+    <owl:disjointWith rdf:resource="http://pygraf.t/C12"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C60">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:disjointWith rdf:resource="http://pygraf.t/C89"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C16">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C99"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C75">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C80"/>
+    <owl:disjointWith rdf:resource="http://pygraf.t/C25"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R12">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    <rdfs:domain rdf:resource="http://pygraf.t/C77"/>
+    <rdfs:range rdf:resource="http://pygraf.t/C77"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C5">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C18"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R50">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ReflexiveProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C52">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:disjointWith rdf:resource="http://pygraf.t/C67"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R3">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ReflexiveProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://pygraf.t/R6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C78">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C92"/>
+    <owl:disjointWith rdf:resource="http://pygraf.t/C11"/>
+    <owl:disjointWith rdf:resource="http://pygraf.t/C13"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R56">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ReflexiveProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R78">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+    <rdfs:domain rdf:resource="http://pygraf.t/C64"/>
+    <rdfs:range rdf:resource="http://pygraf.t/C64"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R84">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://pygraf.t/C57"/>
+    <rdfs:range rdf:resource="http://pygraf.t/C14"/>
+    <owl:inverseOf rdf:resource="http://pygraf.t/R83"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C99">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C100"/>
+    <owl:disjointWith rdf:resource="http://pygraf.t/C19"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R6">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ReflexiveProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://pygraf.t/R9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R32">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://pygraf.t/C73"/>
+    <rdfs:range rdf:resource="http://pygraf.t/C53"/>
+    <owl:inverseOf rdf:resource="http://pygraf.t/R30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R53">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://pygraf.t/C14"/>
+    <rdfs:range rdf:resource="http://pygraf.t/C52"/>
+    <owl:inverseOf rdf:resource="http://pygraf.t/R52"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R19">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+    <rdfs:domain rdf:resource="http://pygraf.t/C39"/>
+    <rdfs:range rdf:resource="http://pygraf.t/C39"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C33">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C54"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C34">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C64"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C35">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C64"/>
+    <owl:disjointWith rdf:resource="http://pygraf.t/C44"/>
+    <owl:disjointWith rdf:resource="http://pygraf.t/C68"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C67">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C87"/>
+    <owl:disjointWith rdf:resource="http://pygraf.t/C52"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C32">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C93"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R42">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ReflexiveProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R55">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://pygraf.t/C16"/>
+    <rdfs:range rdf:resource="http://pygraf.t/C53"/>
+    <owl:inverseOf rdf:resource="http://pygraf.t/R59"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C4">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C12"/>
+    <owl:disjointWith rdf:resource="http://pygraf.t/C30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C19">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C52"/>
+    <owl:disjointWith rdf:resource="http://pygraf.t/C99"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R13">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://pygraf.t/C89"/>
+    <rdfs:range rdf:resource="http://pygraf.t/C32"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C15">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:disjointWith rdf:resource="http://pygraf.t/C92"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C79">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C92"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C28">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R79">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ReflexiveProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R24">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://pygraf.t/C79"/>
+    <rdfs:range rdf:resource="http://pygraf.t/C34"/>
+    <owl:inverseOf rdf:resource="http://pygraf.t/R22"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R85">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    <rdfs:domain rdf:resource="http://pygraf.t/C29"/>
+    <rdfs:range rdf:resource="http://pygraf.t/C29"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R26">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    <rdfs:domain rdf:resource="http://pygraf.t/C95"/>
+    <rdfs:range rdf:resource="http://pygraf.t/C95"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C58">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C80"/>
+    <owl:disjointWith rdf:resource="http://pygraf.t/C29"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R37">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://pygraf.t/C89"/>
+    <rdfs:range rdf:resource="http://pygraf.t/C89"/>
+    <owl:inverseOf rdf:resource="http://pygraf.t/R41"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R94">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <owl:inverseOf rdf:resource="http://pygraf.t/R92"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R16">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    <rdfs:domain rdf:resource="http://pygraf.t/C37"/>
+    <rdfs:range rdf:resource="http://pygraf.t/C37"/>
+    <rdfs:subPropertyOf rdf:resource="http://pygraf.t/R44"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R77">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://pygraf.t/C12"/>
+    <rdfs:range rdf:resource="http://pygraf.t/C6"/>
+    <owl:inverseOf rdf:resource="http://pygraf.t/R76"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R49">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ReflexiveProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R23">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ReflexiveProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://pygraf.t/R49"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R46">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    <rdfs:domain rdf:resource="http://pygraf.t/C18"/>
+    <rdfs:range rdf:resource="http://pygraf.t/C18"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R65">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://pygraf.t/C38"/>
+    <rdfs:range rdf:resource="http://pygraf.t/C17"/>
+    <owl:inverseOf rdf:resource="http://pygraf.t/R64"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C63">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C81"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R60">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://pygraf.t/C70"/>
+    <rdfs:range rdf:resource="http://pygraf.t/C33"/>
+    <owl:inverseOf rdf:resource="http://pygraf.t/R61"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C38">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C47"/>
+    <owl:disjointWith rdf:resource="http://pygraf.t/C90"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C74">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C84"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C23">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C39"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R61">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://pygraf.t/C33"/>
+    <rdfs:range rdf:resource="http://pygraf.t/C70"/>
+    <owl:inverseOf rdf:resource="http://pygraf.t/R60"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C44">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C52"/>
+    <owl:disjointWith rdf:resource="http://pygraf.t/C35"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R45">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ReflexiveProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R59">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://pygraf.t/C53"/>
+    <rdfs:range rdf:resource="http://pygraf.t/C16"/>
+    <owl:inverseOf rdf:resource="http://pygraf.t/R55"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C40">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C44"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R73">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ReflexiveProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C42">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C50"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C45">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C100"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R34">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    <rdfs:domain rdf:resource="http://pygraf.t/C33"/>
+    <rdfs:range rdf:resource="http://pygraf.t/C33"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C46">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C84"/>
+    <owl:disjointWith rdf:resource="http://pygraf.t/C50"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C98">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C99"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R64">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://pygraf.t/C17"/>
+    <rdfs:range rdf:resource="http://pygraf.t/C38"/>
+    <owl:inverseOf rdf:resource="http://pygraf.t/R65"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C10">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C70"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C86">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C39">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C70"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R38">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ReflexiveProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://pygraf.t/R42"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R2">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://pygraf.t/C79"/>
+    <rdfs:range rdf:resource="http://pygraf.t/C57"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R90">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    <rdfs:domain rdf:resource="http://pygraf.t/C52"/>
+    <rdfs:range rdf:resource="http://pygraf.t/C52"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R91">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://pygraf.t/C30"/>
+    <rdfs:range rdf:resource="http://pygraf.t/C40"/>
+    <owl:inverseOf rdf:resource="http://pygraf.t/R88"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R41">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://pygraf.t/C89"/>
+    <rdfs:range rdf:resource="http://pygraf.t/C89"/>
+    <owl:inverseOf rdf:resource="http://pygraf.t/R37"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R89">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ReflexiveProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C30">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C41"/>
+    <owl:disjointWith rdf:resource="http://pygraf.t/C4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R40">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    <rdfs:domain rdf:resource="http://pygraf.t/C69"/>
+    <rdfs:range rdf:resource="http://pygraf.t/C69"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R92">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <owl:inverseOf rdf:resource="http://pygraf.t/R94"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R29">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ReflexiveProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://pygraf.t/R31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R51">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    <rdfs:domain rdf:resource="http://pygraf.t/C65"/>
+    <rdfs:range rdf:resource="http://pygraf.t/C65"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C24">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C39"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R18">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://pygraf.t/C48"/>
+    <rdfs:range rdf:resource="http://pygraf.t/C74"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C77">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C87"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R30">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://pygraf.t/C53"/>
+    <rdfs:range rdf:resource="http://pygraf.t/C73"/>
+    <owl:inverseOf rdf:resource="http://pygraf.t/R32"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R9">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ReflexiveProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://pygraf.t/R15"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C93">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C100"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R36">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://pygraf.t/C39"/>
+    <rdfs:range rdf:resource="http://pygraf.t/C37"/>
+    <owl:inverseOf rdf:resource="http://pygraf.t/R35"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R58">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ReflexiveProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R63">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ReflexiveProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C90">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C99"/>
+    <owl:disjointWith rdf:resource="http://pygraf.t/C69"/>
+    <owl:disjointWith rdf:resource="http://pygraf.t/C38"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C68">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C98"/>
+    <owl:disjointWith rdf:resource="http://pygraf.t/C35"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C83">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C93"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R20">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://pygraf.t/C24"/>
+    <rdfs:range rdf:resource="http://pygraf.t/C51"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R43">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    <rdfs:domain rdf:resource="http://pygraf.t/C98"/>
+    <rdfs:range rdf:resource="http://pygraf.t/C98"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R15">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ReflexiveProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://pygraf.t/R21"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R25">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ReflexiveProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://pygraf.t/R29"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C91">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C94"/>
+    <owl:disjointWith rdf:resource="http://pygraf.t/C96"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R96">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <owl:inverseOf rdf:resource="http://pygraf.t/R97"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C50">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C60"/>
+    <owl:disjointWith rdf:resource="http://pygraf.t/C46"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C12"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R97">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <owl:inverseOf rdf:resource="http://pygraf.t/R96"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R27">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ReflexiveProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://pygraf.t/R45"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C6">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C61"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R66">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ReflexiveProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R54">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    <rdfs:domain rdf:resource="http://pygraf.t/C59"/>
+    <rdfs:range rdf:resource="http://pygraf.t/C59"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R93">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C56">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:disjointWith rdf:resource="http://pygraf.t/C94"/>
+    <owl:disjointWith rdf:resource="http://pygraf.t/C53"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C94">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C99"/>
+    <owl:disjointWith rdf:resource="http://pygraf.t/C56"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R75">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    <rdfs:domain rdf:resource="http://pygraf.t/C82"/>
+    <rdfs:range rdf:resource="http://pygraf.t/C82"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R68">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ReflexiveProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R80">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ReflexiveProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C20">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C94"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R69">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    <rdfs:domain rdf:resource="http://pygraf.t/C7"/>
+    <rdfs:range rdf:resource="http://pygraf.t/C7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R76">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://pygraf.t/C6"/>
+    <rdfs:range rdf:resource="http://pygraf.t/C12"/>
+    <owl:inverseOf rdf:resource="http://pygraf.t/R77"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C82">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C99"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C73">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C86"/>
+    <owl:disjointWith rdf:resource="http://pygraf.t/C48"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C11">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C77"/>
+    <owl:disjointWith rdf:resource="http://pygraf.t/C78"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C47">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C70"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R67">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    <rdfs:domain rdf:resource="http://pygraf.t/C9"/>
+    <rdfs:range rdf:resource="http://pygraf.t/C9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R72">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://pygraf.t/C3"/>
+    <rdfs:range rdf:resource="http://pygraf.t/C13"/>
+    <owl:inverseOf rdf:resource="http://pygraf.t/R70"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R5">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://pygraf.t/C78"/>
+    <rdfs:range rdf:resource="http://pygraf.t/C82"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R47">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://pygraf.t/C41"/>
+    <rdfs:range rdf:resource="http://pygraf.t/C68"/>
+    <owl:inverseOf rdf:resource="http://pygraf.t/R48"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R88">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://pygraf.t/C40"/>
+    <rdfs:range rdf:resource="http://pygraf.t/C30"/>
+    <owl:inverseOf rdf:resource="http://pygraf.t/R91"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R14">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://pygraf.t/C14"/>
+    <rdfs:range rdf:resource="http://pygraf.t/C48"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R87">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    <rdfs:domain rdf:resource="http://pygraf.t/C15"/>
+    <rdfs:range rdf:resource="http://pygraf.t/C15"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R86">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    <rdfs:domain rdf:resource="http://pygraf.t/C11"/>
+    <rdfs:range rdf:resource="http://pygraf.t/C11"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C8">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C19"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C14">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C37"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R82">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    <rdfs:domain rdf:resource="http://pygraf.t/C84"/>
+    <rdfs:range rdf:resource="http://pygraf.t/C84"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C43">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C76">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C25">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:disjointWith rdf:resource="http://pygraf.t/C75"/>
+    <owl:disjointWith rdf:resource="http://pygraf.t/C62"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C66">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C71">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C100"/>
+    <owl:disjointWith rdf:resource="http://pygraf.t/C48"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C62">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C79"/>
+    <owl:disjointWith rdf:resource="http://pygraf.t/C25"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C29">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C56"/>
+    <owl:disjointWith rdf:resource="http://pygraf.t/C58"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R21">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ReflexiveProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://pygraf.t/R25"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R39">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    <rdfs:domain rdf:resource="http://pygraf.t/C53"/>
+    <rdfs:range rdf:resource="http://pygraf.t/C53"/>
+    <rdfs:subPropertyOf rdf:resource="http://pygraf.t/R40"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C49">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C52"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R83">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://pygraf.t/C14"/>
+    <rdfs:range rdf:resource="http://pygraf.t/C57"/>
+    <owl:inverseOf rdf:resource="http://pygraf.t/R84"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R81">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ReflexiveProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C53">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C69"/>
+    <owl:disjointWith rdf:resource="http://pygraf.t/C84"/>
+    <owl:disjointWith rdf:resource="http://pygraf.t/C56"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C54">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C26">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C100"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <dcterms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C48">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C78"/>
+    <owl:disjointWith rdf:resource="http://pygraf.t/C71"/>
+    <owl:disjointWith rdf:resource="http://pygraf.t/C73"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C37">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C56"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C64">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:disjointWith rdf:resource="http://pygraf.t/C36"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C13">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C94"/>
+    <owl:disjointWith rdf:resource="http://pygraf.t/C78"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R11">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    <rdfs:domain rdf:resource="http://pygraf.t/C80"/>
+    <rdfs:range rdf:resource="http://pygraf.t/C80"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R57">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ReflexiveProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R28">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    <rdfs:domain rdf:resource="http://pygraf.t/C97"/>
+    <rdfs:range rdf:resource="http://pygraf.t/C97"/>
+    <rdfs:subPropertyOf rdf:resource="http://pygraf.t/R43"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C51">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C67"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R17">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://pygraf.t/C25"/>
+    <rdfs:range rdf:resource="http://pygraf.t/C69"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C65">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C79"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R7">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+    <rdfs:domain rdf:resource="http://pygraf.t/C76"/>
+    <rdfs:range rdf:resource="http://pygraf.t/C76"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C2">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C44"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R70">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://pygraf.t/C13"/>
+    <rdfs:range rdf:resource="http://pygraf.t/C3"/>
+    <owl:inverseOf rdf:resource="http://pygraf.t/R72"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C59">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C78"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C22">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C85">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C96"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R98">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ReflexiveProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R100">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ReflexiveProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R44">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    <rdfs:domain rdf:resource="http://pygraf.t/C56"/>
+    <rdfs:range rdf:resource="http://pygraf.t/C56"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C100">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C88">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C95"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R33">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ReflexiveProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://pygraf.t/R38"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C17">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C73"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C87">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C100"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C9">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C3">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C89"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R99">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C57">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C81"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C89">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:disjointWith rdf:resource="http://pygraf.t/C60"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C55">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C63"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C12">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:disjointWith rdf:resource="http://pygraf.t/C69"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R22">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://pygraf.t/C34"/>
+    <rdfs:range rdf:resource="http://pygraf.t/C79"/>
+    <owl:inverseOf rdf:resource="http://pygraf.t/R24"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C95">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C99"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C7">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C73"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C41">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C87"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R62">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ReflexiveProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C80">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C100"/>
+    <owl:disjointWith rdf:resource="http://pygraf.t/C27"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R8">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://pygraf.t/C53"/>
+    <rdfs:range rdf:resource="http://pygraf.t/C58"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C70">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    <rdfs:domain rdf:resource="http://pygraf.t/C73"/>
+    <rdfs:range rdf:resource="http://pygraf.t/C73"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C18">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C31">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C64"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R4">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://pygraf.t/C48"/>
+    <rdfs:range rdf:resource="http://pygraf.t/C40"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C72">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C99"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C36">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C69"/>
+    <owl:disjointWith rdf:resource="http://pygraf.t/C64"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R95">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C81">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C92"/>
+  </rdf:Description>
+</rdf:RDF>

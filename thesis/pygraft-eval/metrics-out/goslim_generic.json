@@ -1,0 +1,13 @@
+{
+  "file": "reference-ontologies/goslim_generic.owl",
+  "numClasses": 140,
+  "numObjectProperties": 9,
+  "numDataProperties": 0,
+  "numIndividuals": 0,
+  "numAxioms": 2586,
+  "metricsElapsedMs": 225,
+  "nesting": {"maxDepth": 2, "avgDepth": 0.10596026490066225},
+  "hierarchy": {"maxDepth": 2, "avgBranchingFactor": 3.5, "tangledness": 0.0},
+  "graph": {"nodeCount": 129, "edgeCount": 167, "avgDegree": 2.5891472868217056, "clusteringCoefficient": 0.3466605433254803},
+  "reasoning": {"computed": true, "assertedSubClassOfCount": 64, "inferredNewSubClassOfCount": 4, "inferredToAssertedRatio": 0.0625}
+}

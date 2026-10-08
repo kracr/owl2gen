@@ -1,1 +1,0 @@
-SingleAuthorPaper hasAuthor exactly 1 Author 

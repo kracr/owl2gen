@@ -22,3 +22,17 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# Maven build output
+backend/target/
+
+# Local, machine-specific scratch (absolute .m2 paths, ad-hoc run output) - not reproducible elsewhere
+backend/cp.txt
+backend/run-log.txt
+
+# Node dependencies - reinstalled via package.json, not committed
+node_modules/
+
+# Python bytecode cache
+__pycache__/
+*.pyc

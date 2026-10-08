@@ -1,0 +1,65 @@
+[
+  {
+    "name": "small",
+    "triple_count": 1249,
+    "hierarchy": {
+      "maxDepth": 2,
+      "avgBranchingFactor": 2.1666666666666665,
+      "tangledness": 0.0
+    },
+    "graph": {
+      "nodeCount": 154,
+      "edgeCount": 1617,
+      "avgDegree": 21.0,
+      "clusteringCoefficient": 0.39367912322945153
+    },
+    "reasoning": {
+      "computed": true,
+      "assertedSubClassOfCount": 13,
+      "inferredNewSubClassOfCount": 1,
+      "inferredToAssertedRatio": 0.07692307692307693
+    }
+  },
+  {
+    "name": "medium",
+    "triple_count": 11591,
+    "hierarchy": {
+      "maxDepth": 3,
+      "avgBranchingFactor": 1.975609756097561,
+      "tangledness": 0.0
+    },
+    "graph": {
+      "nodeCount": 1187,
+      "edgeCount": 21221,
+      "avgDegree": 35.755686604886264,
+      "clusteringCoefficient": 0.19316825057244602
+    },
+    "reasoning": {
+      "computed": true,
+      "assertedSubClassOfCount": 81,
+      "inferredNewSubClassOfCount": 69,
+      "inferredToAssertedRatio": 0.8518518518518519
+    }
+  },
+  {
+    "name": "large",
+    "triple_count": 111481,
+    "hierarchy": {
+      "maxDepth": 4,
+      "avgBranchingFactor": 2.0,
+      "tangledness": 0.0
+    },
+    "graph": {
+      "nodeCount": 10443,
+      "edgeCount": 223023,
+      "avgDegree": 42.71243895432347,
+      "clusteringCoefficient": 0.1036094302102485
+    },
+    "reasoning": {
+      "computed": true,
+      "assertedSubClassOfCount": 210,
+      "inferredNewSubClassOfCount": 290,
+      "inferredToAssertedRatio": 1.380952380952381
+    }
+  }
+]

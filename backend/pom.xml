@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>3.3.5</version>
+		<relativePath/>
+	</parent>
+
+	<groupId>com.owl2gendl</groupId>
+	<artifactId>owl2gen-dl-backend</artifactId>
+	<version>0.1.0-SNAPSHOT</version>
+	<name>owl2gen-dl-backend</name>
+	<description>OWL2Gen-DL: configurable OWL2 ontology generator for benchmarking DL reasoners</description>
+
+	<properties>
+		<java.version>17</java.version>
+		<owlapi.version>5.5.0</owlapi.version>
+		<!-- Patched build of upstream 2.6.5: fixes a reproducible NullPointerException in Openllet's own
+			 RETE rule engine (openllet.core.rules.rete.JoinCondition.test, triggered when property-chain
+			 axioms interact with someValuesFrom restrictions on densely-reused entities), a known, long-
+			 standing upstream defect (Galigator/openllet issue 39) with a proposed one-line null-safety fix
+			 that was never merged into any released version, including 2.6.5, the latest available. Built
+			 locally from the unmodified 2.6.5 source tree plus that one fix; see
+			 backend/openllet-patch-joincondition-npe.patch for the exact diff. -->
+		<openllet.version>2.6.5-owl2gendl-patch1</openllet.version>
+		<!-- net.sourceforge.owlapi:org.semanticweb.hermit is the official OWL-API-maintained HermiT build
+			 (distinct from the original com.hermit-reasoner group), versioned against the OWL API release
+			 it targets — this one against 5.x, matching owlapi.version above. Do not swap in a
+			 com.github.ansell.hermit coordinate: that one bundles its own renamed OWL API 3.4.6 fork under
+			 the same org.semanticweb.owlapi.* package names as the real 5.5.0 already on this classpath,
+			 a silent split-package conflict confirmed via a real dependency:tree check. -->
+		<hermit.version>1.4.4.519</hermit.version>
+		<springdoc.version>2.6.0</springdoc.version>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-validation</artifactId>
+		</dependency>
+
+		<!-- OWL API core -->
+		<dependency>
+			<groupId>net.sourceforge.owlapi</groupId>
+			<artifactId>owlapi-distribution</artifactId>
+			<version>${owlapi.version}</version>
+		</dependency>
+
+		<!--
+			Full-DL reasoner. ELK was evaluated as a fast EL-profile tier but dropped: its OWL API wrapper
+			was last published in 2016 and throws NoSuchMethodError against modern OWL API on anything past
+			bare SubClassOf between named classes (confirmed via a runtime spike, not just dependency
+			resolution) - it's abandoned and unusable here. A future faster tier (e.g. invoking the Konclude
+			binary as an external process) is a plausible follow-up; ReasonerTier/ReasonerTierSelector are
+			kept as a seam for that without speculatively building it now.
+		-->
+		<dependency>
+			<groupId>com.github.galigator.openllet</groupId>
+			<artifactId>openllet-owlapi</artifactId>
+			<version>${openllet.version}</version>
+		</dependency>
+
+		<!-- Second full-DL reasoner tier (ReasonerTier.HERMIT), for the configurable cross-reasoner
+			 fallback described in ReasonerTier's own doc comment. -->
+		<dependency>
+			<groupId>net.sourceforge.owlapi</groupId>
+			<artifactId>org.semanticweb.hermit</artifactId>
+			<version>${hermit.version}</version>
+		</dependency>
+
+		<!--
+			No JGraphT dependency here (deliberately): openllet-core transitively needs jgrapht-core:1.1.0
+			(org.jgrapht.alg.KosarajuStrongConnectivityInspector, removed from that package in JGraphT's 1.2
+			package reorganization) for taxonomy cycle detection, while the graph metrics this project needs
+			would want a modern jgrapht-core (org.jgrapht.alg.scoring.ClusteringCoefficient etc.) - only one
+			version of the same groupId:artifactId can be on the classpath, so both can't coexist. Confirmed
+			via a full end-to-end run (reasoner.precomputeInferences() throws NoClassDefFoundError the moment
+			Openllet's taxonomy builder needs cycle detection), not caught by smaller isolated tests that
+			never exercised this code path. Graph metrics are hand-rolled with plain Java collections instead
+			(see metrics/EntityRelationGraphBuilder, metrics/GraphMetricsCalculator) - they're simple enough
+			(degree, clustering coefficient) not to need a graph library, which avoids the conflict entirely.
+		-->
+
+		<!-- OpenAPI spec generation (frontend TS type generation source) -->
+		<dependency>
+			<groupId>org.springdoc</groupId>
+			<artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+			<version>${springdoc.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
+</project>

@@ -1,0 +1,13 @@
+{
+  "file": "reference-ontologies/sosa.owl",
+  "numClasses": 16,
+  "numObjectProperties": 21,
+  "numDataProperties": 2,
+  "numIndividuals": 1,
+  "numAxioms": 316,
+  "metricsElapsedMs": 136,
+  "nesting": {"maxDepth": 0, "avgDepth": 0.0},
+  "hierarchy": {"maxDepth": 0, "avgBranchingFactor": 0.0, "tangledness": 0.0},
+  "graph": {"nodeCount": 33, "edgeCount": 17, "avgDegree": 1.0303030303030303, "clusteringCoefficient": 0.0},
+  "reasoning": {"computed": true, "assertedSubClassOfCount": 0, "inferredNewSubClassOfCount": 0, "inferredToAssertedRatio": 0.0}
+}

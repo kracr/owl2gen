@@ -1,1 +1,0 @@
-hasDuration disjointWithData hasLocation

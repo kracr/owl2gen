@@ -1,4 +1,0 @@
-advises disjointWithObject courseOfferedBy
-advises disjointWithObject enrollFor
-dislikes disjointWithObject likes
-advises disjointWithObject hasMajor

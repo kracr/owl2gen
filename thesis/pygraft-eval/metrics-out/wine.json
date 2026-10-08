@@ -1,0 +1,15 @@
+00:40:31.561 [main] INFO org.semanticweb.owlapi.io.DocumentSources -- URL connection input stream is compressed using gzip
+00:40:31.787 [main] INFO org.semanticweb.owlapi.io.DocumentSources -- URL connection input stream is compressed using gzip
+{
+  "file": "reference-ontologies/wine.owl",
+  "numClasses": 77,
+  "numObjectProperties": 13,
+  "numDataProperties": 1,
+  "numIndividuals": 161,
+  "numAxioms": 747,
+  "metricsElapsedMs": 2718,
+  "nesting": {"maxDepth": 2, "avgDepth": 0.15789473684210525},
+  "hierarchy": {"maxDepth": 3, "avgBranchingFactor": 1.5, "tangledness": 0.07142857142857142},
+  "graph": {"nodeCount": 257, "edgeCount": 2132, "avgDegree": 16.591439688715955, "clusteringCoefficient": 0.48463471800698255},
+  "reasoning": {"computed": true, "assertedSubClassOfCount": 126, "inferredNewSubClassOfCount": 464, "inferredToAssertedRatio": 3.6825396825396823}
+}

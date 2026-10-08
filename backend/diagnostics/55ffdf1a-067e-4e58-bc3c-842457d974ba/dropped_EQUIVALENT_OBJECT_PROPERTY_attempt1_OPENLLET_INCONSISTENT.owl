@@ -1,0 +1,1680 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://owl2gendl.com/generated#"
+     xml:base="http://owl2gendl.com/generated"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://owl2gendl.com/generated#"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://owl2gendl.com/generated#objectProperty16 -->
+
+
+    <owl:ObjectProperty rdf:about="http://owl2gendl.com/generated#objectProperty16">
+        <owl:equivalentProperty rdf:resource="http://owl2gendl.com/generated#objectProperty17"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://owl2gendl.com/generated#objectProperty17 -->
+
+
+    <owl:ObjectProperty rdf:about="http://owl2gendl.com/generated#objectProperty17">
+        <owl:equivalentProperty rdf:resource="http://owl2gendl.com/generated#objectProperty18"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://owl2gendl.com/generated#objectProperty18 -->
+
+
+    <owl:ObjectProperty rdf:about="http://owl2gendl.com/generated#objectProperty18">
+        <owl:equivalentProperty rdf:resource="http://owl2gendl.com/generated#objectProperty19"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://owl2gendl.com/generated#objectProperty19 -->
+
+
+    <owl:ObjectProperty rdf:about="http://owl2gendl.com/generated#objectProperty19">
+        <owl:equivalentProperty rdf:resource="http://owl2gendl.com/generated#objectProperty20"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://owl2gendl.com/generated#objectProperty20 -->
+
+
+    <owl:ObjectProperty rdf:about="http://owl2gendl.com/generated#objectProperty20">
+        <owl:equivalentProperty rdf:resource="http://owl2gendl.com/generated#objectProperty21"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://owl2gendl.com/generated#objectProperty21 -->
+
+
+    <owl:ObjectProperty rdf:about="http://owl2gendl.com/generated#objectProperty21">
+        <owl:equivalentProperty rdf:resource="http://owl2gendl.com/generated#objectProperty22"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://owl2gendl.com/generated#objectProperty22 -->
+
+
+    <owl:ObjectProperty rdf:about="http://owl2gendl.com/generated#objectProperty22">
+        <owl:equivalentProperty rdf:resource="http://owl2gendl.com/generated#objectProperty23"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://owl2gendl.com/generated#objectProperty23 -->
+
+
+    <owl:ObjectProperty rdf:about="http://owl2gendl.com/generated#objectProperty23">
+        <owl:equivalentProperty rdf:resource="http://owl2gendl.com/generated#objectProperty24"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://owl2gendl.com/generated#objectProperty24 -->
+
+
+    <owl:ObjectProperty rdf:about="http://owl2gendl.com/generated#objectProperty24">
+        <owl:equivalentProperty rdf:resource="http://owl2gendl.com/generated#objectProperty25"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://owl2gendl.com/generated#objectProperty25 -->
+
+
+    <owl:ObjectProperty rdf:about="http://owl2gendl.com/generated#objectProperty25">
+        <owl:equivalentProperty rdf:resource="http://owl2gendl.com/generated#objectProperty26"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://owl2gendl.com/generated#objectProperty26 -->
+
+
+    <owl:ObjectProperty rdf:about="http://owl2gendl.com/generated#objectProperty26"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class125 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class125">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://owl2gendl.com/generated#Class125"/>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://owl2gendl.com/generated#Class125"/>
+                            <rdf:Description rdf:about="http://owl2gendl.com/generated#Class126"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class126 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class126"/>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class127 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class127">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://owl2gendl.com/generated#Class127"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="http://owl2gendl.com/generated#Class127"/>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class128 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class128">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://owl2gendl.com/generated#Class128"/>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://owl2gendl.com/generated#Class128"/>
+                            <rdf:Description rdf:about="http://owl2gendl.com/generated#Class129"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class129 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class129"/>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class130 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class130">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://owl2gendl.com/generated#Class130"/>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://owl2gendl.com/generated#Class130"/>
+                            <rdf:Description rdf:about="http://owl2gendl.com/generated#Class131"/>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class131 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class131"/>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class132 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class132">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://owl2gendl.com/generated#Class132"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="http://owl2gendl.com/generated#Class132"/>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class133 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class133">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://owl2gendl.com/generated#Class133"/>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://owl2gendl.com/generated#Class133"/>
+                            <rdf:Description rdf:about="http://owl2gendl.com/generated#Class134"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class134 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class134"/>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class135 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class135">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://owl2gendl.com/generated#Class135"/>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://owl2gendl.com/generated#Class135"/>
+                            <rdf:Description rdf:about="http://owl2gendl.com/generated#Class136"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class136 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class136"/>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class137 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class137">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://owl2gendl.com/generated#Class138"/>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://owl2gendl.com/generated#Class137"/>
+                            <rdf:Description rdf:about="http://owl2gendl.com/generated#Class138"/>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class138 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class138"/>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class139 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class139">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://owl2gendl.com/generated#Class139"/>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://owl2gendl.com/generated#Class139"/>
+                            <rdf:Description rdf:about="http://owl2gendl.com/generated#Class140"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class140 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class140"/>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class141 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class141">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://owl2gendl.com/generated#Class141"/>
+                            <rdf:Description rdf:about="http://owl2gendl.com/generated#Class142"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://owl2gendl.com/generated#Class142"/>
+                            <rdf:Description rdf:about="http://owl2gendl.com/generated#Class143"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class142 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class142"/>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class143 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class143"/>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class154 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class154">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://owl2gendl.com/generated#individual20"/>
+                    <rdf:Description rdf:about="http://owl2gendl.com/generated#individual21"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class155 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class155">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://owl2gendl.com/generated#individual21"/>
+                    <rdf:Description rdf:about="http://owl2gendl.com/generated#individual22"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class156 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class156">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://owl2gendl.com/generated#individual22"/>
+                    <rdf:Description rdf:about="http://owl2gendl.com/generated#individual23"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class157 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class157">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://owl2gendl.com/generated#individual23"/>
+                    <rdf:Description rdf:about="http://owl2gendl.com/generated#individual24"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class158 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class158">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://owl2gendl.com/generated#individual24"/>
+                    <rdf:Description rdf:about="http://owl2gendl.com/generated#individual25"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class159 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class159">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://owl2gendl.com/generated#individual25"/>
+                    <rdf:Description rdf:about="http://owl2gendl.com/generated#individual26"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class160 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class160">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://owl2gendl.com/generated#individual26"/>
+                    <rdf:Description rdf:about="http://owl2gendl.com/generated#individual27"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class161 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class161">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://owl2gendl.com/generated#individual27"/>
+                    <rdf:Description rdf:about="http://owl2gendl.com/generated#individual28"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class162 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class162">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://owl2gendl.com/generated#individual28"/>
+                    <rdf:Description rdf:about="http://owl2gendl.com/generated#individual29"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class163 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class163">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://owl2gendl.com/generated#individual29"/>
+                    <rdf:Description rdf:about="http://owl2gendl.com/generated#individual30"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class164 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class164">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://owl2gendl.com/generated#Class165"/>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://owl2gendl.com/generated#Class164"/>
+                            <rdf:Description rdf:about="http://owl2gendl.com/generated#Class165"/>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class165 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class165"/>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class166 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class166">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://owl2gendl.com/generated#Class166"/>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://owl2gendl.com/generated#Class166"/>
+                            <rdf:Description rdf:about="http://owl2gendl.com/generated#Class167"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class167 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class167"/>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class168 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class168">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://owl2gendl.com/generated#Class168"/>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://owl2gendl.com/generated#Class168"/>
+                            <rdf:Description rdf:about="http://owl2gendl.com/generated#Class169"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class169 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class169"/>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class170 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class170">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://owl2gendl.com/generated#Class171"/>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://owl2gendl.com/generated#Class170"/>
+                            <rdf:Description rdf:about="http://owl2gendl.com/generated#Class171"/>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class171 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class171"/>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class172 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class172">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://owl2gendl.com/generated#Class172"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="http://owl2gendl.com/generated#Class172"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class173 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class173">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://owl2gendl.com/generated#Class173"/>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://owl2gendl.com/generated#Class173"/>
+                            <rdf:Description rdf:about="http://owl2gendl.com/generated#Class174"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class174 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class174"/>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class175 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class175">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://owl2gendl.com/generated#Class175"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="http://owl2gendl.com/generated#Class175"/>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class176 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class176">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://owl2gendl.com/generated#Class176"/>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://owl2gendl.com/generated#Class176"/>
+                            <rdf:Description rdf:about="http://owl2gendl.com/generated#Class177"/>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class177 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class177"/>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class178 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class178">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://owl2gendl.com/generated#Class178"/>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://owl2gendl.com/generated#Class178"/>
+                            <rdf:Description rdf:about="http://owl2gendl.com/generated#Class179"/>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class179 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class179"/>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class180 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class180">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://owl2gendl.com/generated#Class180"/>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://owl2gendl.com/generated#Class180"/>
+                            <rdf:Description rdf:about="http://owl2gendl.com/generated#Class181"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class181 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class181">
+        <owl:disjointUnionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://owl2gendl.com/generated#Class182"/>
+            <rdf:Description rdf:about="http://owl2gendl.com/generated#Class183"/>
+        </owl:disjointUnionOf>
+    </owl:Class>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class182 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class182"/>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class183 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class183">
+        <owl:disjointUnionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://owl2gendl.com/generated#Class184"/>
+            <rdf:Description rdf:about="http://owl2gendl.com/generated#Class185"/>
+        </owl:disjointUnionOf>
+    </owl:Class>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class184 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class184"/>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class185 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class185">
+        <owl:disjointUnionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://owl2gendl.com/generated#Class186"/>
+            <rdf:Description rdf:about="http://owl2gendl.com/generated#Class187"/>
+        </owl:disjointUnionOf>
+    </owl:Class>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class186 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class186"/>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class187 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class187">
+        <owl:disjointUnionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://owl2gendl.com/generated#Class188"/>
+            <rdf:Description rdf:about="http://owl2gendl.com/generated#Class189"/>
+        </owl:disjointUnionOf>
+    </owl:Class>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class188 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class188"/>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class189 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class189">
+        <owl:disjointUnionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://owl2gendl.com/generated#Class190"/>
+            <rdf:Description rdf:about="http://owl2gendl.com/generated#Class191"/>
+        </owl:disjointUnionOf>
+    </owl:Class>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class190 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class190"/>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class191 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class191">
+        <owl:disjointUnionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://owl2gendl.com/generated#Class192"/>
+            <rdf:Description rdf:about="http://owl2gendl.com/generated#Class193"/>
+        </owl:disjointUnionOf>
+    </owl:Class>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class192 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class192"/>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class193 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class193">
+        <owl:disjointUnionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://owl2gendl.com/generated#Class194"/>
+            <rdf:Description rdf:about="http://owl2gendl.com/generated#Class195"/>
+        </owl:disjointUnionOf>
+    </owl:Class>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class194 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class194"/>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class195 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class195">
+        <owl:disjointUnionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://owl2gendl.com/generated#Class196"/>
+            <rdf:Description rdf:about="http://owl2gendl.com/generated#Class197"/>
+        </owl:disjointUnionOf>
+    </owl:Class>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class196 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class196"/>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class197 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class197">
+        <owl:disjointUnionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://owl2gendl.com/generated#Class198"/>
+            <rdf:Description rdf:about="http://owl2gendl.com/generated#Class199"/>
+        </owl:disjointUnionOf>
+    </owl:Class>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class198 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class198"/>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class199 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class199">
+        <owl:disjointUnionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://owl2gendl.com/generated#Class200"/>
+            <rdf:Description rdf:about="http://owl2gendl.com/generated#Class201"/>
+        </owl:disjointUnionOf>
+    </owl:Class>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class200 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class200"/>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class201 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class201">
+        <owl:disjointWith rdf:resource="http://owl2gendl.com/generated#Class202"/>
+    </owl:Class>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class202 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class202">
+        <owl:disjointWith rdf:resource="http://owl2gendl.com/generated#Class203"/>
+    </owl:Class>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class203 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class203">
+        <owl:disjointWith rdf:resource="http://owl2gendl.com/generated#Class204"/>
+    </owl:Class>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class204 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class204">
+        <owl:disjointWith rdf:resource="http://owl2gendl.com/generated#Class205"/>
+    </owl:Class>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class205 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class205">
+        <owl:disjointWith rdf:resource="http://owl2gendl.com/generated#Class206"/>
+    </owl:Class>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class206 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class206">
+        <owl:disjointWith rdf:resource="http://owl2gendl.com/generated#Class207"/>
+    </owl:Class>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class207 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class207">
+        <owl:disjointWith rdf:resource="http://owl2gendl.com/generated#Class208"/>
+    </owl:Class>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class208 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class208">
+        <owl:disjointWith rdf:resource="http://owl2gendl.com/generated#Class209"/>
+    </owl:Class>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class209 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class209">
+        <owl:disjointWith rdf:resource="http://owl2gendl.com/generated#Class210"/>
+    </owl:Class>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class210 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class210">
+        <owl:disjointWith rdf:resource="http://owl2gendl.com/generated#Class211"/>
+    </owl:Class>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class211 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class211">
+        <owl:equivalentClass rdf:resource="http://owl2gendl.com/generated#Class212"/>
+    </owl:Class>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class212 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class212">
+        <owl:equivalentClass rdf:resource="http://owl2gendl.com/generated#Class213"/>
+    </owl:Class>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class213 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class213">
+        <owl:equivalentClass rdf:resource="http://owl2gendl.com/generated#Class214"/>
+    </owl:Class>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class214 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class214">
+        <owl:equivalentClass rdf:resource="http://owl2gendl.com/generated#Class215"/>
+    </owl:Class>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class215 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class215">
+        <owl:equivalentClass rdf:resource="http://owl2gendl.com/generated#Class216"/>
+    </owl:Class>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class216 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class216">
+        <owl:equivalentClass rdf:resource="http://owl2gendl.com/generated#Class217"/>
+    </owl:Class>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class217 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class217">
+        <owl:equivalentClass rdf:resource="http://owl2gendl.com/generated#Class218"/>
+    </owl:Class>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class218 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class218">
+        <owl:equivalentClass rdf:resource="http://owl2gendl.com/generated#Class219"/>
+    </owl:Class>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class219 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class219">
+        <owl:equivalentClass rdf:resource="http://owl2gendl.com/generated#Class220"/>
+    </owl:Class>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class220 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class220">
+        <owl:equivalentClass rdf:resource="http://owl2gendl.com/generated#Class221"/>
+    </owl:Class>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class221 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class221">
+        <rdfs:subClassOf rdf:resource="http://owl2gendl.com/generated#Class214"/>
+        <rdfs:subClassOf rdf:resource="http://owl2gendl.com/generated#Class215"/>
+        <rdfs:subClassOf rdf:resource="http://owl2gendl.com/generated#Class216"/>
+        <rdfs:subClassOf rdf:resource="http://owl2gendl.com/generated#Class217"/>
+    </owl:Class>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class241 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class241"/>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class242 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class242"/>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class243 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class243"/>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class244 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class244"/>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class245 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class245"/>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class246 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class246"/>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class247 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class247"/>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class248 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class248"/>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class249 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class249"/>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class250 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class250"/>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class251 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class251"/>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class252 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class252"/>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class253 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class253"/>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class254 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class254"/>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class255 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class255"/>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class256 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class256"/>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class257 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class257"/>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class258 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class258"/>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class259 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class259"/>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class260 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class260"/>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class261 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class261"/>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class81 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class81">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:complementOf rdf:resource="http://owl2gendl.com/generated#Class81"/>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class82 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class82">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:complementOf rdf:resource="http://owl2gendl.com/generated#Class82"/>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class83 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class83">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:complementOf rdf:resource="http://owl2gendl.com/generated#Class83"/>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class84 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class84">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:complementOf rdf:resource="http://owl2gendl.com/generated#Class84"/>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class85 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class85">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:complementOf>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://owl2gendl.com/generated#Class85"/>
+                            <rdf:Description rdf:about="http://owl2gendl.com/generated#Class86"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:complementOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class86 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class86"/>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class87 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class87">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:complementOf rdf:resource="http://owl2gendl.com/generated#Class87"/>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class88 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class88">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:complementOf rdf:resource="http://owl2gendl.com/generated#Class88"/>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class89 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class89">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:complementOf>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="http://owl2gendl.com/generated#Class89"/>
+                    </owl:Class>
+                </owl:complementOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class90 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class90">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:complementOf rdf:resource="http://owl2gendl.com/generated#Class90"/>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://owl2gendl.com/generated#Class91 -->
+
+
+    <owl:Class rdf:about="http://owl2gendl.com/generated#Class91">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:complementOf rdf:resource="http://owl2gendl.com/generated#Class91"/>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://owl2gendl.com/generated#individual20 -->
+
+
+    <owl:NamedIndividual rdf:about="http://owl2gendl.com/generated#individual20"/>
+    
+
+
+    <!-- http://owl2gendl.com/generated#individual21 -->
+
+
+    <owl:NamedIndividual rdf:about="http://owl2gendl.com/generated#individual21"/>
+    
+
+
+    <!-- http://owl2gendl.com/generated#individual22 -->
+
+
+    <owl:NamedIndividual rdf:about="http://owl2gendl.com/generated#individual22"/>
+    
+
+
+    <!-- http://owl2gendl.com/generated#individual23 -->
+
+
+    <owl:NamedIndividual rdf:about="http://owl2gendl.com/generated#individual23"/>
+    
+
+
+    <!-- http://owl2gendl.com/generated#individual24 -->
+
+
+    <owl:NamedIndividual rdf:about="http://owl2gendl.com/generated#individual24"/>
+    
+
+
+    <!-- http://owl2gendl.com/generated#individual25 -->
+
+
+    <owl:NamedIndividual rdf:about="http://owl2gendl.com/generated#individual25"/>
+    
+
+
+    <!-- http://owl2gendl.com/generated#individual26 -->
+
+
+    <owl:NamedIndividual rdf:about="http://owl2gendl.com/generated#individual26"/>
+    
+
+
+    <!-- http://owl2gendl.com/generated#individual27 -->
+
+
+    <owl:NamedIndividual rdf:about="http://owl2gendl.com/generated#individual27"/>
+    
+
+
+    <!-- http://owl2gendl.com/generated#individual28 -->
+
+
+    <owl:NamedIndividual rdf:about="http://owl2gendl.com/generated#individual28"/>
+    
+
+
+    <!-- http://owl2gendl.com/generated#individual29 -->
+
+
+    <owl:NamedIndividual rdf:about="http://owl2gendl.com/generated#individual29"/>
+    
+
+
+    <!-- http://owl2gendl.com/generated#individual30 -->
+
+
+    <owl:NamedIndividual rdf:about="http://owl2gendl.com/generated#individual30"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://owl2gendl.com/generated#Class241"/>
+            <rdf:Description rdf:about="http://owl2gendl.com/generated#Class242"/>
+            <rdf:Description rdf:about="http://owl2gendl.com/generated#Class243"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://owl2gendl.com/generated#Class243"/>
+            <rdf:Description rdf:about="http://owl2gendl.com/generated#Class244"/>
+            <rdf:Description rdf:about="http://owl2gendl.com/generated#Class245"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://owl2gendl.com/generated#Class245"/>
+            <rdf:Description rdf:about="http://owl2gendl.com/generated#Class246"/>
+            <rdf:Description rdf:about="http://owl2gendl.com/generated#Class247"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://owl2gendl.com/generated#Class247"/>
+            <rdf:Description rdf:about="http://owl2gendl.com/generated#Class248"/>
+            <rdf:Description rdf:about="http://owl2gendl.com/generated#Class249"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://owl2gendl.com/generated#Class249"/>
+            <rdf:Description rdf:about="http://owl2gendl.com/generated#Class250"/>
+            <rdf:Description rdf:about="http://owl2gendl.com/generated#Class251"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://owl2gendl.com/generated#Class251"/>
+            <rdf:Description rdf:about="http://owl2gendl.com/generated#Class252"/>
+            <rdf:Description rdf:about="http://owl2gendl.com/generated#Class253"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://owl2gendl.com/generated#Class253"/>
+            <rdf:Description rdf:about="http://owl2gendl.com/generated#Class254"/>
+            <rdf:Description rdf:about="http://owl2gendl.com/generated#Class255"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://owl2gendl.com/generated#Class255"/>
+            <rdf:Description rdf:about="http://owl2gendl.com/generated#Class256"/>
+            <rdf:Description rdf:about="http://owl2gendl.com/generated#Class257"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://owl2gendl.com/generated#Class257"/>
+            <rdf:Description rdf:about="http://owl2gendl.com/generated#Class258"/>
+            <rdf:Description rdf:about="http://owl2gendl.com/generated#Class259"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://owl2gendl.com/generated#Class259"/>
+            <rdf:Description rdf:about="http://owl2gendl.com/generated#Class260"/>
+            <rdf:Description rdf:about="http://owl2gendl.com/generated#Class261"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.5.0.2023-01-14T12:41:38Z) https://github.com/owlcs/owlapi/ -->
+
+

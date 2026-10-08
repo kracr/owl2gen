@@ -1,0 +1,15 @@
+00:40:25.040 [main] WARN uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl -- Illegal redeclarations of entities: reuse of entity http://www.w3.org/ns/prov#wasRevisionOf in punning not allowed [Declaration(AnnotationProperty(<http://www.w3.org/ns/prov#wasRevisionOf>)), Declaration(ObjectProperty(<http://www.w3.org/ns/prov#wasRevisionOf>))]
+00:40:25.049 [main] WARN uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl -- Illegal redeclarations of entities: reuse of entity http://www.w3.org/ns/prov#specializationOf in punning not allowed [Declaration(ObjectProperty(<http://www.w3.org/ns/prov#specializationOf>)), Declaration(AnnotationProperty(<http://www.w3.org/ns/prov#specializationOf>))]
+{
+  "file": "reference-ontologies/prov-o.owl",
+  "numClasses": 31,
+  "numObjectProperties": 44,
+  "numDataProperties": 6,
+  "numIndividuals": 3,
+  "numAxioms": 972,
+  "metricsElapsedMs": 212,
+  "nesting": {"maxDepth": 1, "avgDepth": 0.03349282296650718},
+  "hierarchy": {"maxDepth": 3, "avgBranchingFactor": 3.111111111111111, "tangledness": 0.21739130434782608},
+  "graph": {"nodeCount": 106, "edgeCount": 284, "avgDegree": 5.3584905660377355, "clusteringCoefficient": 0.26964441960498975},
+  "reasoning": {"computed": true, "assertedSubClassOfCount": 29, "inferredNewSubClassOfCount": 17, "inferredToAssertedRatio": 0.5862068965517241}
+}

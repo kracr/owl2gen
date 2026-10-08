@@ -1,0 +1,13 @@
+{
+  "file": "reference-ontologies/pizza.owl",
+  "numClasses": 100,
+  "numObjectProperties": 8,
+  "numDataProperties": 0,
+  "numIndividuals": 5,
+  "numAxioms": 801,
+  "metricsElapsedMs": 870,
+  "nesting": {"maxDepth": 4, "avgDepth": 0.24838411819021236},
+  "hierarchy": {"maxDepth": 6, "avgBranchingFactor": 4.0, "tangledness": 0.012048192771084338},
+  "graph": {"nodeCount": 121, "edgeCount": 986, "avgDegree": 16.297520661157026, "clusteringCoefficient": 0.6219368376381414},
+  "reasoning": {"computed": true, "assertedSubClassOfCount": 259, "inferredNewSubClassOfCount": 605, "inferredToAssertedRatio": 2.335907335907336}
+}

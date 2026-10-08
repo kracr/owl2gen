@@ -1,0 +1,11 @@
+[Chain@640/seed=1] submitted job undefined
+[Chain@640/seed=1] job undefined DID NOT COMPLETE within 900000ms client-side poll (server may still be running it)
+[UniformRandom@512/seed=1] submitted job undefined
+[UniformRandom@512/seed=1] job undefined DID NOT COMPLETE within 300000ms client-side poll (server may still be running it)
+[UniformRandom@512/seed=2] submitted job undefined
+[UniformRandom@512/seed=2] job undefined DID NOT COMPLETE within 300000ms client-side poll (server may still be running it)
+
+=== SUMMARY ===
+{"label":"Chain@640/seed=1","timedOut":true,"totalMs":901367}
+{"label":"UniformRandom@512/seed=1","timedOut":true,"totalMs":301830}
+{"label":"UniformRandom@512/seed=2","timedOut":true,"totalMs":301875}

@@ -1,0 +1,1560 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:sc="http://pygraf.t/"
+>
+  <rdf:Description rdf:about="http://pygraf.t/E21">
+    <rdf:type rdf:resource="http://pygraf.t/C23"/>
+    <sc:R20 rdf:resource="http://pygraf.t/E46"/>
+    <sc:R20 rdf:resource="http://pygraf.t/E34"/>
+    <sc:R13 rdf:resource="http://pygraf.t/E21"/>
+    <sc:R13 rdf:resource="http://pygraf.t/E42"/>
+    <sc:R6 rdf:resource="http://pygraf.t/E62"/>
+    <sc:R6 rdf:resource="http://pygraf.t/E94"/>
+    <sc:R5 rdf:resource="http://pygraf.t/E67"/>
+    <sc:R5 rdf:resource="http://pygraf.t/E96"/>
+    <sc:R5 rdf:resource="http://pygraf.t/E98"/>
+    <sc:R23 rdf:resource="http://pygraf.t/E44"/>
+    <sc:R23 rdf:resource="http://pygraf.t/E98"/>
+    <sc:R23 rdf:resource="http://pygraf.t/E21"/>
+    <sc:R24 rdf:resource="http://pygraf.t/E66"/>
+    <sc:R4 rdf:resource="http://pygraf.t/E92"/>
+    <sc:R4 rdf:resource="http://pygraf.t/E15"/>
+    <sc:R9 rdf:resource="http://pygraf.t/E76"/>
+    <sc:R16 rdf:resource="http://pygraf.t/E72"/>
+    <sc:R10 rdf:resource="http://pygraf.t/E38"/>
+    <sc:R10 rdf:resource="http://pygraf.t/E90"/>
+    <sc:R10 rdf:resource="http://pygraf.t/E31"/>
+    <sc:R11 rdf:resource="http://pygraf.t/E42"/>
+    <sc:R11 rdf:resource="http://pygraf.t/E92"/>
+    <sc:R11 rdf:resource="http://pygraf.t/E98"/>
+    <sc:R11 rdf:resource="http://pygraf.t/E93"/>
+    <sc:R25 rdf:resource="http://pygraf.t/E69"/>
+    <sc:R17 rdf:resource="http://pygraf.t/E99"/>
+    <sc:R18 rdf:resource="http://pygraf.t/E88"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E44">
+    <sc:R9 rdf:resource="http://pygraf.t/E76"/>
+    <sc:R9 rdf:resource="http://pygraf.t/E54"/>
+    <rdf:type rdf:resource="http://pygraf.t/C23"/>
+    <sc:R18 rdf:resource="http://pygraf.t/E15"/>
+    <sc:R18 rdf:resource="http://pygraf.t/E61"/>
+    <sc:R18 rdf:resource="http://pygraf.t/E86"/>
+    <sc:R18 rdf:resource="http://pygraf.t/E96"/>
+    <sc:R20 rdf:resource="http://pygraf.t/E38"/>
+    <sc:R20 rdf:resource="http://pygraf.t/E34"/>
+    <sc:R20 rdf:resource="http://pygraf.t/E46"/>
+    <sc:R8 rdf:resource="http://pygraf.t/E66"/>
+    <sc:R15 rdf:resource="http://pygraf.t/E94"/>
+    <sc:R15 rdf:resource="http://pygraf.t/E44"/>
+    <sc:R16 rdf:resource="http://pygraf.t/E72"/>
+    <sc:R6 rdf:resource="http://pygraf.t/E86"/>
+    <sc:R6 rdf:resource="http://pygraf.t/E44"/>
+    <sc:R6 rdf:resource="http://pygraf.t/E71"/>
+    <sc:R23 rdf:resource="http://pygraf.t/E15"/>
+    <sc:R23 rdf:resource="http://pygraf.t/E69"/>
+    <sc:R23 rdf:resource="http://pygraf.t/E44"/>
+    <sc:R17 rdf:resource="http://pygraf.t/E53"/>
+    <sc:R11 rdf:resource="http://pygraf.t/E21"/>
+    <sc:R11 rdf:resource="http://pygraf.t/E61"/>
+    <sc:R5 rdf:resource="http://pygraf.t/E98"/>
+    <sc:R12 rdf:resource="http://pygraf.t/E63"/>
+    <sc:R12 rdf:resource="http://pygraf.t/E23"/>
+    <sc:R21 rdf:resource="http://pygraf.t/E90"/>
+    <sc:R4 rdf:resource="http://pygraf.t/E96"/>
+    <sc:R4 rdf:resource="http://pygraf.t/E51"/>
+    <sc:R24 rdf:resource="http://pygraf.t/E63"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E98">
+    <sc:R6 rdf:resource="http://pygraf.t/E92"/>
+    <sc:R6 rdf:resource="http://pygraf.t/E98"/>
+    <sc:R6 rdf:resource="http://pygraf.t/E88"/>
+    <rdf:type rdf:resource="http://pygraf.t/C23"/>
+    <sc:R4 rdf:resource="http://pygraf.t/E94"/>
+    <sc:R4 rdf:resource="http://pygraf.t/E67"/>
+    <sc:R23 rdf:resource="http://pygraf.t/E67"/>
+    <sc:R23 rdf:resource="http://pygraf.t/E96"/>
+    <sc:R23 rdf:resource="http://pygraf.t/E51"/>
+    <sc:R23 rdf:resource="http://pygraf.t/E86"/>
+    <sc:R11 rdf:resource="http://pygraf.t/E71"/>
+    <sc:R11 rdf:resource="http://pygraf.t/E69"/>
+    <sc:R20 rdf:resource="http://pygraf.t/E46"/>
+    <sc:R20 rdf:resource="http://pygraf.t/E34"/>
+    <sc:R20 rdf:resource="http://pygraf.t/E38"/>
+    <sc:R9 rdf:resource="http://pygraf.t/E54"/>
+    <sc:R9 rdf:resource="http://pygraf.t/E76"/>
+    <sc:R9 rdf:resource="http://pygraf.t/E30"/>
+    <sc:R15 rdf:resource="http://pygraf.t/E67"/>
+    <sc:R24 rdf:resource="http://pygraf.t/E95"/>
+    <sc:R13 rdf:resource="http://pygraf.t/E47"/>
+    <sc:R5 rdf:resource="http://pygraf.t/E71"/>
+    <sc:R5 rdf:resource="http://pygraf.t/E21"/>
+    <sc:R5 rdf:resource="http://pygraf.t/E69"/>
+    <sc:R18 rdf:resource="http://pygraf.t/E42"/>
+    <sc:R18 rdf:resource="http://pygraf.t/E94"/>
+    <sc:R16 rdf:resource="http://pygraf.t/E72"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E93">
+    <rdf:type rdf:resource="http://pygraf.t/C23"/>
+    <sc:R11 rdf:resource="http://pygraf.t/E62"/>
+    <sc:R11 rdf:resource="http://pygraf.t/E94"/>
+    <sc:R11 rdf:resource="http://pygraf.t/E88"/>
+    <sc:R11 rdf:resource="http://pygraf.t/E47"/>
+    <sc:R11 rdf:resource="http://pygraf.t/E71"/>
+    <sc:R15 rdf:resource="http://pygraf.t/E92"/>
+    <sc:R15 rdf:resource="http://pygraf.t/E61"/>
+    <sc:R17 rdf:resource="http://pygraf.t/E95"/>
+    <sc:R12 rdf:resource="http://pygraf.t/E18"/>
+    <sc:R13 rdf:resource="http://pygraf.t/E47"/>
+    <sc:R13 rdf:resource="http://pygraf.t/E44"/>
+    <sc:R13 rdf:resource="http://pygraf.t/E98"/>
+    <sc:R5 rdf:resource="http://pygraf.t/E88"/>
+    <sc:R23 rdf:resource="http://pygraf.t/E42"/>
+    <sc:R23 rdf:resource="http://pygraf.t/E44"/>
+    <sc:R8 rdf:resource="http://pygraf.t/E51"/>
+    <sc:R9 rdf:resource="http://pygraf.t/E76"/>
+    <sc:R16 rdf:resource="http://pygraf.t/E72"/>
+    <sc:R20 rdf:resource="http://pygraf.t/E34"/>
+    <sc:R18 rdf:resource="http://pygraf.t/E93"/>
+    <sc:R18 rdf:resource="http://pygraf.t/E61"/>
+    <sc:R6 rdf:resource="http://pygraf.t/E92"/>
+    <sc:R4 rdf:resource="http://pygraf.t/E71"/>
+    <sc:R4 rdf:resource="http://pygraf.t/E61"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E61">
+    <rdf:type rdf:resource="http://pygraf.t/C23"/>
+    <sc:R9 rdf:resource="http://pygraf.t/E30"/>
+    <sc:R11 rdf:resource="http://pygraf.t/E47"/>
+    <sc:R11 rdf:resource="http://pygraf.t/E42"/>
+    <sc:R11 rdf:resource="http://pygraf.t/E21"/>
+    <sc:R15 rdf:resource="http://pygraf.t/E93"/>
+    <sc:R15 rdf:resource="http://pygraf.t/E96"/>
+    <sc:R15 rdf:resource="http://pygraf.t/E61"/>
+    <sc:R25 rdf:resource="http://pygraf.t/E47"/>
+    <sc:R25 rdf:resource="http://pygraf.t/E75"/>
+    <sc:R10 rdf:resource="http://pygraf.t/E79"/>
+    <sc:R18 rdf:resource="http://pygraf.t/E44"/>
+    <sc:R18 rdf:resource="http://pygraf.t/E98"/>
+    <sc:R18 rdf:resource="http://pygraf.t/E69"/>
+    <sc:R8 rdf:resource="http://pygraf.t/E69"/>
+    <sc:R8 rdf:resource="http://pygraf.t/E89"/>
+    <sc:R4 rdf:resource="http://pygraf.t/E44"/>
+    <sc:R5 rdf:resource="http://pygraf.t/E69"/>
+    <sc:R5 rdf:resource="http://pygraf.t/E93"/>
+    <sc:R5 rdf:resource="http://pygraf.t/E44"/>
+    <sc:R23 rdf:resource="http://pygraf.t/E86"/>
+    <sc:R16 rdf:resource="http://pygraf.t/E72"/>
+    <sc:R20 rdf:resource="http://pygraf.t/E38"/>
+    <sc:R20 rdf:resource="http://pygraf.t/E34"/>
+    <sc:R6 rdf:resource="http://pygraf.t/E93"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E1">
+    <rdf:type rdf:resource="http://pygraf.t/C6"/>
+    <sc:R17 rdf:resource="http://pygraf.t/E69"/>
+    <sc:R17 rdf:resource="http://pygraf.t/E1"/>
+    <sc:R22 rdf:resource="http://pygraf.t/E49"/>
+    <sc:R22 rdf:resource="http://pygraf.t/E1"/>
+    <sc:R2 rdf:resource="http://pygraf.t/E25"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E42">
+    <rdf:type rdf:resource="http://pygraf.t/C23"/>
+    <sc:R11 rdf:resource="http://pygraf.t/E15"/>
+    <sc:R11 rdf:resource="http://pygraf.t/E71"/>
+    <sc:R6 rdf:resource="http://pygraf.t/E44"/>
+    <sc:R6 rdf:resource="http://pygraf.t/E98"/>
+    <sc:R6 rdf:resource="http://pygraf.t/E21"/>
+    <sc:R6 rdf:resource="http://pygraf.t/E69"/>
+    <sc:R9 rdf:resource="http://pygraf.t/E30"/>
+    <sc:R9 rdf:resource="http://pygraf.t/E54"/>
+    <sc:R13 rdf:resource="http://pygraf.t/E71"/>
+    <sc:R13 rdf:resource="http://pygraf.t/E21"/>
+    <sc:R13 rdf:resource="http://pygraf.t/E92"/>
+    <sc:R15 rdf:resource="http://pygraf.t/E96"/>
+    <sc:R15 rdf:resource="http://pygraf.t/E93"/>
+    <sc:R15 rdf:resource="http://pygraf.t/E42"/>
+    <sc:R15 rdf:resource="http://pygraf.t/E94"/>
+    <sc:R5 rdf:resource="http://pygraf.t/E98"/>
+    <sc:R23 rdf:resource="http://pygraf.t/E47"/>
+    <sc:R10 rdf:resource="http://pygraf.t/E84"/>
+    <sc:R10 rdf:resource="http://pygraf.t/E39"/>
+    <sc:R20 rdf:resource="http://pygraf.t/E46"/>
+    <sc:R20 rdf:resource="http://pygraf.t/E34"/>
+    <sc:R20 rdf:resource="http://pygraf.t/E38"/>
+    <sc:R16 rdf:resource="http://pygraf.t/E72"/>
+    <sc:R12 rdf:resource="http://pygraf.t/E96"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E78">
+    <rdf:type rdf:resource="http://pygraf.t/C25"/>
+    <sc:R24 rdf:resource="http://pygraf.t/E69"/>
+    <sc:R8 rdf:resource="http://pygraf.t/E73"/>
+    <sc:R10 rdf:resource="http://pygraf.t/E1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E15">
+    <rdf:type rdf:resource="http://pygraf.t/C23"/>
+    <sc:R12 rdf:resource="http://pygraf.t/E75"/>
+    <sc:R4 rdf:resource="http://pygraf.t/E51"/>
+    <sc:R4 rdf:resource="http://pygraf.t/E88"/>
+    <sc:R25 rdf:resource="http://pygraf.t/E53"/>
+    <sc:R25 rdf:resource="http://pygraf.t/E10"/>
+    <sc:R25 rdf:resource="http://pygraf.t/E71"/>
+    <sc:R23 rdf:resource="http://pygraf.t/E96"/>
+    <sc:R23 rdf:resource="http://pygraf.t/E15"/>
+    <sc:R23 rdf:resource="http://pygraf.t/E71"/>
+    <sc:R23 rdf:resource="http://pygraf.t/E21"/>
+    <sc:R23 rdf:resource="http://pygraf.t/E93"/>
+    <sc:R23 rdf:resource="http://pygraf.t/E62"/>
+    <sc:R11 rdf:resource="http://pygraf.t/E42"/>
+    <sc:R11 rdf:resource="http://pygraf.t/E94"/>
+    <sc:R11 rdf:resource="http://pygraf.t/E93"/>
+    <sc:R5 rdf:resource="http://pygraf.t/E44"/>
+    <sc:R5 rdf:resource="http://pygraf.t/E51"/>
+    <sc:R5 rdf:resource="http://pygraf.t/E61"/>
+    <sc:R5 rdf:resource="http://pygraf.t/E67"/>
+    <sc:R15 rdf:resource="http://pygraf.t/E61"/>
+    <sc:R15 rdf:resource="http://pygraf.t/E93"/>
+    <sc:R20 rdf:resource="http://pygraf.t/E34"/>
+    <sc:R20 rdf:resource="http://pygraf.t/E38"/>
+    <sc:R16 rdf:resource="http://pygraf.t/E72"/>
+    <sc:R18 rdf:resource="http://pygraf.t/E62"/>
+    <sc:R18 rdf:resource="http://pygraf.t/E21"/>
+    <sc:R18 rdf:resource="http://pygraf.t/E94"/>
+    <sc:R6 rdf:resource="http://pygraf.t/E44"/>
+    <sc:R6 rdf:resource="http://pygraf.t/E92"/>
+    <sc:R6 rdf:resource="http://pygraf.t/E98"/>
+    <sc:R9 rdf:resource="http://pygraf.t/E30"/>
+    <sc:R2 rdf:resource="http://pygraf.t/E32"/>
+    <sc:R13 rdf:resource="http://pygraf.t/E15"/>
+    <sc:R13 rdf:resource="http://pygraf.t/E21"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E91">
+    <sc:R10 rdf:resource="http://pygraf.t/E2"/>
+    <sc:R10 rdf:resource="http://pygraf.t/E81"/>
+    <rdf:type rdf:resource="http://pygraf.t/C15"/>
+    <sc:R25 rdf:resource="http://pygraf.t/E22"/>
+    <sc:R12 rdf:resource="http://pygraf.t/E78"/>
+    <sc:R24 rdf:resource="http://pygraf.t/E67"/>
+    <sc:R24 rdf:resource="http://pygraf.t/E73"/>
+    <sc:R8 rdf:resource="http://pygraf.t/E55"/>
+    <sc:R21 rdf:resource="http://pygraf.t/E56"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E92">
+    <rdf:type rdf:resource="http://pygraf.t/C23"/>
+    <sc:R11 rdf:resource="http://pygraf.t/E88"/>
+    <sc:R11 rdf:resource="http://pygraf.t/E96"/>
+    <sc:R11 rdf:resource="http://pygraf.t/E15"/>
+    <sc:R11 rdf:resource="http://pygraf.t/E61"/>
+    <sc:R5 rdf:resource="http://pygraf.t/E71"/>
+    <sc:R5 rdf:resource="http://pygraf.t/E61"/>
+    <sc:R5 rdf:resource="http://pygraf.t/E47"/>
+    <sc:R5 rdf:resource="http://pygraf.t/E88"/>
+    <sc:R6 rdf:resource="http://pygraf.t/E98"/>
+    <sc:R6 rdf:resource="http://pygraf.t/E15"/>
+    <sc:R6 rdf:resource="http://pygraf.t/E88"/>
+    <sc:R6 rdf:resource="http://pygraf.t/E51"/>
+    <sc:R9 rdf:resource="http://pygraf.t/E54"/>
+    <sc:R9 rdf:resource="http://pygraf.t/E76"/>
+    <sc:R9 rdf:resource="http://pygraf.t/E30"/>
+    <sc:R18 rdf:resource="http://pygraf.t/E92"/>
+    <sc:R18 rdf:resource="http://pygraf.t/E94"/>
+    <sc:R23 rdf:resource="http://pygraf.t/E86"/>
+    <sc:R23 rdf:resource="http://pygraf.t/E92"/>
+    <sc:R23 rdf:resource="http://pygraf.t/E98"/>
+    <sc:R12 rdf:resource="http://pygraf.t/E80"/>
+    <sc:R12 rdf:resource="http://pygraf.t/E13"/>
+    <sc:R25 rdf:resource="http://pygraf.t/E46"/>
+    <sc:R25 rdf:resource="http://pygraf.t/E64"/>
+    <sc:R13 rdf:resource="http://pygraf.t/E47"/>
+    <sc:R20 rdf:resource="http://pygraf.t/E38"/>
+    <sc:R15 rdf:resource="http://pygraf.t/E71"/>
+    <sc:R15 rdf:resource="http://pygraf.t/E67"/>
+    <sc:R15 rdf:resource="http://pygraf.t/E62"/>
+    <sc:R4 rdf:resource="http://pygraf.t/E94"/>
+    <sc:R16 rdf:resource="http://pygraf.t/E72"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E97">
+    <sc:R3 rdf:resource="http://pygraf.t/E35"/>
+    <sc:R3 rdf:resource="http://pygraf.t/E36"/>
+    <sc:R3 rdf:resource="http://pygraf.t/E3"/>
+    <sc:R3 rdf:resource="http://pygraf.t/E80"/>
+    <rdf:type rdf:resource="http://pygraf.t/C17"/>
+    <sc:R25 rdf:resource="http://pygraf.t/E72"/>
+    <sc:R25 rdf:resource="http://pygraf.t/E18"/>
+    <sc:R21 rdf:resource="http://pygraf.t/E15"/>
+    <sc:R10 rdf:resource="http://pygraf.t/E13"/>
+    <sc:R10 rdf:resource="http://pygraf.t/E10"/>
+    <sc:R8 rdf:resource="http://pygraf.t/E53"/>
+    <sc:R2 rdf:resource="http://pygraf.t/E84"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E64">
+    <sc:R8 rdf:resource="http://pygraf.t/E58"/>
+    <rdf:type rdf:resource="http://pygraf.t/C15"/>
+    <sc:R2 rdf:resource="http://pygraf.t/E38"/>
+    <sc:R21 rdf:resource="http://pygraf.t/E2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C19">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:disjointWith rdf:resource="http://pygraf.t/C20"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E18">
+    <sc:R17 rdf:resource="http://pygraf.t/E12"/>
+    <sc:R17 rdf:resource="http://pygraf.t/E25"/>
+    <rdf:type rdf:resource="http://pygraf.t/C15"/>
+    <sc:R24 rdf:resource="http://pygraf.t/E48"/>
+    <sc:R21 rdf:resource="http://pygraf.t/E5"/>
+    <sc:R21 rdf:resource="http://pygraf.t/E31"/>
+    <sc:R8 rdf:resource="http://pygraf.t/E86"/>
+    <sc:R8 rdf:resource="http://pygraf.t/E53"/>
+    <sc:R2 rdf:resource="http://pygraf.t/E37"/>
+    <sc:R25 rdf:resource="http://pygraf.t/E5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E55">
+    <sc:R8 rdf:resource="http://pygraf.t/E74"/>
+    <sc:R8 rdf:resource="http://pygraf.t/E88"/>
+    <rdf:type rdf:resource="http://pygraf.t/C20"/>
+    <sc:R2 rdf:resource="http://pygraf.t/E87"/>
+    <sc:R12 rdf:resource="http://pygraf.t/E61"/>
+    <sc:R25 rdf:resource="http://pygraf.t/E70"/>
+    <sc:R24 rdf:resource="http://pygraf.t/E3"/>
+    <sc:R24 rdf:resource="http://pygraf.t/E15"/>
+    <sc:R17 rdf:resource="http://pygraf.t/E87"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E39">
+    <sc:R10 rdf:resource="http://pygraf.t/E53"/>
+    <rdf:type rdf:resource="http://pygraf.t/C5"/>
+    <sc:R8 rdf:resource="http://pygraf.t/E6"/>
+    <sc:R21 rdf:resource="http://pygraf.t/E92"/>
+    <sc:R17 rdf:resource="http://pygraf.t/E44"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R20">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://pygraf.t/C23"/>
+    <rdfs:range rdf:resource="http://pygraf.t/C7"/>
+    <owl:inverseOf rdf:resource="http://pygraf.t/R19"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E7">
+    <sc:R1 rdf:resource="http://pygraf.t/E51"/>
+    <sc:R1 rdf:resource="http://pygraf.t/E42"/>
+    <sc:R1 rdf:resource="http://pygraf.t/E92"/>
+    <sc:R1 rdf:resource="http://pygraf.t/E98"/>
+    <sc:R1 rdf:resource="http://pygraf.t/E71"/>
+    <sc:R1 rdf:resource="http://pygraf.t/E62"/>
+    <sc:R1 rdf:resource="http://pygraf.t/E21"/>
+    <sc:R1 rdf:resource="http://pygraf.t/E94"/>
+    <sc:R1 rdf:resource="http://pygraf.t/E61"/>
+    <sc:R1 rdf:resource="http://pygraf.t/E67"/>
+    <sc:R1 rdf:resource="http://pygraf.t/E96"/>
+    <sc:R1 rdf:resource="http://pygraf.t/E86"/>
+    <sc:R1 rdf:resource="http://pygraf.t/E44"/>
+    <rdf:type rdf:resource="http://pygraf.t/C10"/>
+    <sc:R8 rdf:resource="http://pygraf.t/E30"/>
+    <sc:R12 rdf:resource="http://pygraf.t/E99"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E79">
+    <sc:R3 rdf:resource="http://pygraf.t/E36"/>
+    <sc:R3 rdf:resource="http://pygraf.t/E97"/>
+    <sc:R3 rdf:resource="http://pygraf.t/E79"/>
+    <sc:R3 rdf:resource="http://pygraf.t/E3"/>
+    <sc:R3 rdf:resource="http://pygraf.t/E35"/>
+    <sc:R3 rdf:resource="http://pygraf.t/E80"/>
+    <rdf:type rdf:resource="http://pygraf.t/C17"/>
+    <sc:R12 rdf:resource="http://pygraf.t/E28"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E74">
+    <sc:R17 rdf:resource="http://pygraf.t/E65"/>
+    <rdf:type rdf:resource="http://pygraf.t/C18"/>
+    <sc:R8 rdf:resource="http://pygraf.t/E21"/>
+    <sc:R8 rdf:resource="http://pygraf.t/E7"/>
+    <sc:R8 rdf:resource="http://pygraf.t/E22"/>
+    <sc:R25 rdf:resource="http://pygraf.t/E78"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:disjointWith rdf:resource="http://pygraf.t/C5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E96">
+    <sc:R8 rdf:resource="http://pygraf.t/E34"/>
+    <rdf:type rdf:resource="http://pygraf.t/C23"/>
+    <sc:R11 rdf:resource="http://pygraf.t/E98"/>
+    <sc:R11 rdf:resource="http://pygraf.t/E93"/>
+    <sc:R11 rdf:resource="http://pygraf.t/E51"/>
+    <sc:R16 rdf:resource="http://pygraf.t/E72"/>
+    <sc:R5 rdf:resource="http://pygraf.t/E62"/>
+    <sc:R20 rdf:resource="http://pygraf.t/E34"/>
+    <sc:R20 rdf:resource="http://pygraf.t/E38"/>
+    <sc:R20 rdf:resource="http://pygraf.t/E46"/>
+    <sc:R12 rdf:resource="http://pygraf.t/E19"/>
+    <sc:R18 rdf:resource="http://pygraf.t/E71"/>
+    <sc:R18 rdf:resource="http://pygraf.t/E47"/>
+    <sc:R18 rdf:resource="http://pygraf.t/E42"/>
+    <sc:R9 rdf:resource="http://pygraf.t/E30"/>
+    <sc:R9 rdf:resource="http://pygraf.t/E54"/>
+    <sc:R4 rdf:resource="http://pygraf.t/E15"/>
+    <sc:R4 rdf:resource="http://pygraf.t/E88"/>
+    <sc:R4 rdf:resource="http://pygraf.t/E86"/>
+    <sc:R4 rdf:resource="http://pygraf.t/E98"/>
+    <sc:R15 rdf:resource="http://pygraf.t/E61"/>
+    <sc:R15 rdf:resource="http://pygraf.t/E42"/>
+    <sc:R24 rdf:resource="http://pygraf.t/E71"/>
+    <sc:R24 rdf:resource="http://pygraf.t/E49"/>
+    <sc:R23 rdf:resource="http://pygraf.t/E21"/>
+    <sc:R23 rdf:resource="http://pygraf.t/E86"/>
+    <sc:R2 rdf:resource="http://pygraf.t/E36"/>
+    <sc:R10 rdf:resource="http://pygraf.t/E89"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E71">
+    <rdf:type rdf:resource="http://pygraf.t/C23"/>
+    <sc:R11 rdf:resource="http://pygraf.t/E67"/>
+    <sc:R11 rdf:resource="http://pygraf.t/E61"/>
+    <sc:R15 rdf:resource="http://pygraf.t/E47"/>
+    <sc:R15 rdf:resource="http://pygraf.t/E98"/>
+    <sc:R6 rdf:resource="http://pygraf.t/E98"/>
+    <sc:R6 rdf:resource="http://pygraf.t/E47"/>
+    <sc:R6 rdf:resource="http://pygraf.t/E62"/>
+    <sc:R6 rdf:resource="http://pygraf.t/E92"/>
+    <sc:R23 rdf:resource="http://pygraf.t/E93"/>
+    <sc:R23 rdf:resource="http://pygraf.t/E44"/>
+    <sc:R4 rdf:resource="http://pygraf.t/E88"/>
+    <sc:R4 rdf:resource="http://pygraf.t/E96"/>
+    <sc:R13 rdf:resource="http://pygraf.t/E69"/>
+    <sc:R13 rdf:resource="http://pygraf.t/E98"/>
+    <sc:R2 rdf:resource="http://pygraf.t/E57"/>
+    <sc:R5 rdf:resource="http://pygraf.t/E61"/>
+    <sc:R18 rdf:resource="http://pygraf.t/E15"/>
+    <sc:R18 rdf:resource="http://pygraf.t/E71"/>
+    <sc:R18 rdf:resource="http://pygraf.t/E61"/>
+    <sc:R18 rdf:resource="http://pygraf.t/E93"/>
+    <sc:R18 rdf:resource="http://pygraf.t/E88"/>
+    <sc:R16 rdf:resource="http://pygraf.t/E72"/>
+    <sc:R25 rdf:resource="http://pygraf.t/E94"/>
+    <sc:R20 rdf:resource="http://pygraf.t/E34"/>
+    <sc:R9 rdf:resource="http://pygraf.t/E30"/>
+    <sc:R24 rdf:resource="http://pygraf.t/E99"/>
+    <sc:R24 rdf:resource="http://pygraf.t/E61"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E17">
+    <rdf:type rdf:resource="http://pygraf.t/C8"/>
+    <sc:R8 rdf:resource="http://pygraf.t/E22"/>
+    <sc:R17 rdf:resource="http://pygraf.t/E85"/>
+    <sc:R12 rdf:resource="http://pygraf.t/E45"/>
+    <sc:R10 rdf:resource="http://pygraf.t/E42"/>
+    <sc:R24 rdf:resource="http://pygraf.t/E47"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E2">
+    <rdf:type rdf:resource="http://pygraf.t/C14"/>
+    <sc:R21 rdf:resource="http://pygraf.t/E77"/>
+    <sc:R8 rdf:resource="http://pygraf.t/E58"/>
+    <sc:R8 rdf:resource="http://pygraf.t/E59"/>
+    <sc:R25 rdf:resource="http://pygraf.t/E65"/>
+    <sc:R25 rdf:resource="http://pygraf.t/E16"/>
+    <sc:R10 rdf:resource="http://pygraf.t/E74"/>
+    <sc:R2 rdf:resource="http://pygraf.t/E51"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C13">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C19"/>
+    <owl:disjointWith rdf:resource="http://pygraf.t/C2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E51">
+    <sc:R23 rdf:resource="http://pygraf.t/E98"/>
+    <sc:R23 rdf:resource="http://pygraf.t/E71"/>
+    <sc:R23 rdf:resource="http://pygraf.t/E21"/>
+    <rdf:type rdf:resource="http://pygraf.t/C23"/>
+    <sc:R13 rdf:resource="http://pygraf.t/E86"/>
+    <sc:R13 rdf:resource="http://pygraf.t/E44"/>
+    <sc:R13 rdf:resource="http://pygraf.t/E42"/>
+    <sc:R11 rdf:resource="http://pygraf.t/E71"/>
+    <sc:R11 rdf:resource="http://pygraf.t/E67"/>
+    <sc:R11 rdf:resource="http://pygraf.t/E93"/>
+    <sc:R4 rdf:resource="http://pygraf.t/E94"/>
+    <sc:R4 rdf:resource="http://pygraf.t/E61"/>
+    <sc:R4 rdf:resource="http://pygraf.t/E69"/>
+    <sc:R6 rdf:resource="http://pygraf.t/E44"/>
+    <sc:R15 rdf:resource="http://pygraf.t/E69"/>
+    <sc:R15 rdf:resource="http://pygraf.t/E96"/>
+    <sc:R15 rdf:resource="http://pygraf.t/E93"/>
+    <sc:R17 rdf:resource="http://pygraf.t/E30"/>
+    <sc:R5 rdf:resource="http://pygraf.t/E71"/>
+    <sc:R5 rdf:resource="http://pygraf.t/E94"/>
+    <sc:R5 rdf:resource="http://pygraf.t/E61"/>
+    <sc:R5 rdf:resource="http://pygraf.t/E44"/>
+    <sc:R18 rdf:resource="http://pygraf.t/E96"/>
+    <sc:R18 rdf:resource="http://pygraf.t/E15"/>
+    <sc:R9 rdf:resource="http://pygraf.t/E54"/>
+    <sc:R9 rdf:resource="http://pygraf.t/E76"/>
+    <sc:R16 rdf:resource="http://pygraf.t/E72"/>
+    <sc:R20 rdf:resource="http://pygraf.t/E38"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E60">
+    <sc:R8 rdf:resource="http://pygraf.t/E45"/>
+    <rdf:type rdf:resource="http://pygraf.t/C14"/>
+    <sc:R12 rdf:resource="http://pygraf.t/E3"/>
+    <sc:R25 rdf:resource="http://pygraf.t/E46"/>
+    <sc:R2 rdf:resource="http://pygraf.t/E50"/>
+    <sc:R24 rdf:resource="http://pygraf.t/E76"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E38">
+    <sc:R8 rdf:resource="http://pygraf.t/E14"/>
+    <sc:R8 rdf:resource="http://pygraf.t/E12"/>
+    <sc:R8 rdf:resource="http://pygraf.t/E98"/>
+    <rdf:type rdf:resource="http://pygraf.t/C7"/>
+    <sc:R19 rdf:resource="http://pygraf.t/E47"/>
+    <sc:R19 rdf:resource="http://pygraf.t/E67"/>
+    <sc:R19 rdf:resource="http://pygraf.t/E93"/>
+    <sc:R19 rdf:resource="http://pygraf.t/E86"/>
+    <sc:R19 rdf:resource="http://pygraf.t/E44"/>
+    <sc:R19 rdf:resource="http://pygraf.t/E96"/>
+    <sc:R19 rdf:resource="http://pygraf.t/E92"/>
+    <sc:R19 rdf:resource="http://pygraf.t/E98"/>
+    <sc:R19 rdf:resource="http://pygraf.t/E21"/>
+    <sc:R19 rdf:resource="http://pygraf.t/E94"/>
+    <sc:R19 rdf:resource="http://pygraf.t/E61"/>
+    <sc:R10 rdf:resource="http://pygraf.t/E93"/>
+    <sc:R10 rdf:resource="http://pygraf.t/E24"/>
+    <sc:R25 rdf:resource="http://pygraf.t/E23"/>
+    <sc:R17 rdf:resource="http://pygraf.t/E69"/>
+    <sc:R2 rdf:resource="http://pygraf.t/E66"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E49">
+    <rdf:type rdf:resource="http://pygraf.t/C6"/>
+    <sc:R8 rdf:resource="http://pygraf.t/E7"/>
+    <sc:R24 rdf:resource="http://pygraf.t/E99"/>
+    <sc:R24 rdf:resource="http://pygraf.t/E66"/>
+    <sc:R22 rdf:resource="http://pygraf.t/E49"/>
+    <sc:R22 rdf:resource="http://pygraf.t/E1"/>
+    <sc:R25 rdf:resource="http://pygraf.t/E16"/>
+    <sc:R21 rdf:resource="http://pygraf.t/E52"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E52">
+    <sc:R2 rdf:resource="http://pygraf.t/E50"/>
+    <sc:R2 rdf:resource="http://pygraf.t/E10"/>
+    <rdf:type rdf:resource="http://pygraf.t/C1"/>
+    <sc:R12 rdf:resource="http://pygraf.t/E95"/>
+    <sc:R12 rdf:resource="http://pygraf.t/E61"/>
+    <sc:R10 rdf:resource="http://pygraf.t/E27"/>
+    <sc:R10 rdf:resource="http://pygraf.t/E9"/>
+    <sc:R8 rdf:resource="http://pygraf.t/E34"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E28">
+    <sc:R25 rdf:resource="http://pygraf.t/E45"/>
+    <rdf:type rdf:resource="http://pygraf.t/C10"/>
+    <sc:R17 rdf:resource="http://pygraf.t/E98"/>
+    <sc:R1 rdf:resource="http://pygraf.t/E96"/>
+    <sc:R1 rdf:resource="http://pygraf.t/E86"/>
+    <sc:R1 rdf:resource="http://pygraf.t/E51"/>
+    <sc:R1 rdf:resource="http://pygraf.t/E15"/>
+    <sc:R1 rdf:resource="http://pygraf.t/E71"/>
+    <sc:R1 rdf:resource="http://pygraf.t/E62"/>
+    <sc:R1 rdf:resource="http://pygraf.t/E21"/>
+    <sc:R1 rdf:resource="http://pygraf.t/E94"/>
+    <sc:R1 rdf:resource="http://pygraf.t/E61"/>
+    <sc:R1 rdf:resource="http://pygraf.t/E88"/>
+    <sc:R8 rdf:resource="http://pygraf.t/E54"/>
+    <sc:R8 rdf:resource="http://pygraf.t/E53"/>
+    <sc:R21 rdf:resource="http://pygraf.t/E48"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C2">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:disjointWith rdf:resource="http://pygraf.t/C13"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C11">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C25"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C18">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:disjointWith rdf:resource="http://pygraf.t/C7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E3">
+    <sc:R3 rdf:resource="http://pygraf.t/E35"/>
+    <sc:R3 rdf:resource="http://pygraf.t/E80"/>
+    <sc:R3 rdf:resource="http://pygraf.t/E36"/>
+    <sc:R3 rdf:resource="http://pygraf.t/E97"/>
+    <sc:R3 rdf:resource="http://pygraf.t/E79"/>
+    <sc:R3 rdf:resource="http://pygraf.t/E3"/>
+    <rdf:type rdf:resource="http://pygraf.t/C17"/>
+    <sc:R2 rdf:resource="http://pygraf.t/E31"/>
+    <sc:R24 rdf:resource="http://pygraf.t/E77"/>
+    <sc:R10 rdf:resource="http://pygraf.t/E28"/>
+    <sc:R10 rdf:resource="http://pygraf.t/E58"/>
+    <sc:R21 rdf:resource="http://pygraf.t/E73"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E87">
+    <sc:R12 rdf:resource="http://pygraf.t/E69"/>
+    <sc:R12 rdf:resource="http://pygraf.t/E79"/>
+    <rdf:type rdf:resource="http://pygraf.t/C25"/>
+    <sc:R21 rdf:resource="http://pygraf.t/E28"/>
+    <sc:R21 rdf:resource="http://pygraf.t/E82"/>
+    <sc:R24 rdf:resource="http://pygraf.t/E21"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <dcterms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E72">
+    <rdf:type rdf:resource="http://pygraf.t/C16"/>
+    <sc:R2 rdf:resource="http://pygraf.t/E80"/>
+    <sc:R14 rdf:resource="http://pygraf.t/E86"/>
+    <sc:R14 rdf:resource="http://pygraf.t/E44"/>
+    <sc:R14 rdf:resource="http://pygraf.t/E96"/>
+    <sc:R14 rdf:resource="http://pygraf.t/E51"/>
+    <sc:R14 rdf:resource="http://pygraf.t/E42"/>
+    <sc:R14 rdf:resource="http://pygraf.t/E92"/>
+    <sc:R14 rdf:resource="http://pygraf.t/E98"/>
+    <sc:R14 rdf:resource="http://pygraf.t/E15"/>
+    <sc:R14 rdf:resource="http://pygraf.t/E71"/>
+    <sc:R14 rdf:resource="http://pygraf.t/E21"/>
+    <sc:R14 rdf:resource="http://pygraf.t/E94"/>
+    <sc:R14 rdf:resource="http://pygraf.t/E61"/>
+    <sc:R14 rdf:resource="http://pygraf.t/E88"/>
+    <sc:R14 rdf:resource="http://pygraf.t/E47"/>
+    <sc:R14 rdf:resource="http://pygraf.t/E69"/>
+    <sc:R14 rdf:resource="http://pygraf.t/E67"/>
+    <sc:R14 rdf:resource="http://pygraf.t/E93"/>
+    <sc:R14 rdf:resource="http://pygraf.t/E62"/>
+    <sc:R12 rdf:resource="http://pygraf.t/E39"/>
+    <sc:R8 rdf:resource="http://pygraf.t/E3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E47">
+    <sc:R13 rdf:resource="http://pygraf.t/E61"/>
+    <sc:R13 rdf:resource="http://pygraf.t/E88"/>
+    <sc:R13 rdf:resource="http://pygraf.t/E47"/>
+    <sc:R13 rdf:resource="http://pygraf.t/E67"/>
+    <sc:R13 rdf:resource="http://pygraf.t/E93"/>
+    <sc:R13 rdf:resource="http://pygraf.t/E21"/>
+    <rdf:type rdf:resource="http://pygraf.t/C23"/>
+    <sc:R15 rdf:resource="http://pygraf.t/E42"/>
+    <sc:R11 rdf:resource="http://pygraf.t/E86"/>
+    <sc:R11 rdf:resource="http://pygraf.t/E44"/>
+    <sc:R11 rdf:resource="http://pygraf.t/E92"/>
+    <sc:R4 rdf:resource="http://pygraf.t/E86"/>
+    <sc:R4 rdf:resource="http://pygraf.t/E94"/>
+    <sc:R4 rdf:resource="http://pygraf.t/E21"/>
+    <sc:R4 rdf:resource="http://pygraf.t/E88"/>
+    <sc:R12 rdf:resource="http://pygraf.t/E74"/>
+    <sc:R12 rdf:resource="http://pygraf.t/E29"/>
+    <sc:R6 rdf:resource="http://pygraf.t/E62"/>
+    <sc:R6 rdf:resource="http://pygraf.t/E98"/>
+    <sc:R23 rdf:resource="http://pygraf.t/E98"/>
+    <sc:R23 rdf:resource="http://pygraf.t/E93"/>
+    <sc:R16 rdf:resource="http://pygraf.t/E72"/>
+    <sc:R17 rdf:resource="http://pygraf.t/E53"/>
+    <sc:R20 rdf:resource="http://pygraf.t/E34"/>
+    <sc:R20 rdf:resource="http://pygraf.t/E38"/>
+    <sc:R20 rdf:resource="http://pygraf.t/E46"/>
+    <sc:R9 rdf:resource="http://pygraf.t/E30"/>
+    <sc:R8 rdf:resource="http://pygraf.t/E98"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E94">
+    <sc:R23 rdf:resource="http://pygraf.t/E15"/>
+    <sc:R23 rdf:resource="http://pygraf.t/E21"/>
+    <sc:R23 rdf:resource="http://pygraf.t/E47"/>
+    <sc:R23 rdf:resource="http://pygraf.t/E42"/>
+    <rdf:type rdf:resource="http://pygraf.t/C23"/>
+    <sc:R18 rdf:resource="http://pygraf.t/E67"/>
+    <sc:R18 rdf:resource="http://pygraf.t/E96"/>
+    <sc:R15 rdf:resource="http://pygraf.t/E88"/>
+    <sc:R15 rdf:resource="http://pygraf.t/E69"/>
+    <sc:R9 rdf:resource="http://pygraf.t/E30"/>
+    <sc:R9 rdf:resource="http://pygraf.t/E54"/>
+    <sc:R11 rdf:resource="http://pygraf.t/E94"/>
+    <sc:R11 rdf:resource="http://pygraf.t/E61"/>
+    <sc:R11 rdf:resource="http://pygraf.t/E69"/>
+    <sc:R11 rdf:resource="http://pygraf.t/E86"/>
+    <sc:R11 rdf:resource="http://pygraf.t/E98"/>
+    <sc:R11 rdf:resource="http://pygraf.t/E92"/>
+    <sc:R4 rdf:resource="http://pygraf.t/E47"/>
+    <sc:R4 rdf:resource="http://pygraf.t/E42"/>
+    <sc:R4 rdf:resource="http://pygraf.t/E71"/>
+    <sc:R6 rdf:resource="http://pygraf.t/E15"/>
+    <sc:R6 rdf:resource="http://pygraf.t/E93"/>
+    <sc:R6 rdf:resource="http://pygraf.t/E44"/>
+    <sc:R6 rdf:resource="http://pygraf.t/E42"/>
+    <sc:R5 rdf:resource="http://pygraf.t/E15"/>
+    <sc:R20 rdf:resource="http://pygraf.t/E46"/>
+    <sc:R20 rdf:resource="http://pygraf.t/E34"/>
+    <sc:R24 rdf:resource="http://pygraf.t/E44"/>
+    <sc:R16 rdf:resource="http://pygraf.t/E72"/>
+    <sc:R17 rdf:resource="http://pygraf.t/E46"/>
+    <sc:R17 rdf:resource="http://pygraf.t/E72"/>
+    <sc:R13 rdf:resource="http://pygraf.t/E51"/>
+    <sc:R21 rdf:resource="http://pygraf.t/E36"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E4">
+    <sc:R2 rdf:resource="http://pygraf.t/E27"/>
+    <sc:R2 rdf:resource="http://pygraf.t/E47"/>
+    <rdf:type rdf:resource="http://pygraf.t/C8"/>
+    <sc:R12 rdf:resource="http://pygraf.t/E63"/>
+    <sc:R17 rdf:resource="http://pygraf.t/E61"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E29">
+    <sc:R24 rdf:resource="http://pygraf.t/E83"/>
+    <rdf:type rdf:resource="http://pygraf.t/C24"/>
+    <sc:R2 rdf:resource="http://pygraf.t/E12"/>
+    <sc:R10 rdf:resource="http://pygraf.t/E68"/>
+    <sc:R17 rdf:resource="http://pygraf.t/E41"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E69">
+    <sc:R18 rdf:resource="http://pygraf.t/E47"/>
+    <sc:R18 rdf:resource="http://pygraf.t/E44"/>
+    <sc:R18 rdf:resource="http://pygraf.t/E96"/>
+    <sc:R18 rdf:resource="http://pygraf.t/E92"/>
+    <sc:R18 rdf:resource="http://pygraf.t/E69"/>
+    <rdf:type rdf:resource="http://pygraf.t/C23"/>
+    <sc:R5 rdf:resource="http://pygraf.t/E92"/>
+    <sc:R5 rdf:resource="http://pygraf.t/E21"/>
+    <sc:R23 rdf:resource="http://pygraf.t/E62"/>
+    <sc:R23 rdf:resource="http://pygraf.t/E44"/>
+    <sc:R23 rdf:resource="http://pygraf.t/E71"/>
+    <sc:R23 rdf:resource="http://pygraf.t/E67"/>
+    <sc:R6 rdf:resource="http://pygraf.t/E94"/>
+    <sc:R6 rdf:resource="http://pygraf.t/E61"/>
+    <sc:R6 rdf:resource="http://pygraf.t/E62"/>
+    <sc:R6 rdf:resource="http://pygraf.t/E51"/>
+    <sc:R6 rdf:resource="http://pygraf.t/E42"/>
+    <sc:R11 rdf:resource="http://pygraf.t/E86"/>
+    <sc:R11 rdf:resource="http://pygraf.t/E96"/>
+    <sc:R11 rdf:resource="http://pygraf.t/E88"/>
+    <sc:R4 rdf:resource="http://pygraf.t/E42"/>
+    <sc:R4 rdf:resource="http://pygraf.t/E71"/>
+    <sc:R4 rdf:resource="http://pygraf.t/E21"/>
+    <sc:R16 rdf:resource="http://pygraf.t/E72"/>
+    <sc:R15 rdf:resource="http://pygraf.t/E71"/>
+    <sc:R15 rdf:resource="http://pygraf.t/E61"/>
+    <sc:R15 rdf:resource="http://pygraf.t/E47"/>
+    <sc:R15 rdf:resource="http://pygraf.t/E93"/>
+    <sc:R2 rdf:resource="http://pygraf.t/E7"/>
+    <sc:R21 rdf:resource="http://pygraf.t/E30"/>
+    <sc:R13 rdf:resource="http://pygraf.t/E44"/>
+    <sc:R20 rdf:resource="http://pygraf.t/E38"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E32">
+    <rdf:type rdf:resource="http://pygraf.t/C9"/>
+    <sc:R12 rdf:resource="http://pygraf.t/E43"/>
+    <sc:R2 rdf:resource="http://pygraf.t/E18"/>
+    <sc:R2 rdf:resource="http://pygraf.t/E70"/>
+    <sc:R8 rdf:resource="http://pygraf.t/E21"/>
+    <sc:R25 rdf:resource="http://pygraf.t/E43"/>
+    <sc:R21 rdf:resource="http://pygraf.t/E13"/>
+    <sc:R24 rdf:resource="http://pygraf.t/E89"/>
+    <sc:R24 rdf:resource="http://pygraf.t/E29"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E12">
+    <sc:R21 rdf:resource="http://pygraf.t/E68"/>
+    <sc:R21 rdf:resource="http://pygraf.t/E11"/>
+    <rdf:type rdf:resource="http://pygraf.t/C5"/>
+    <sc:R8 rdf:resource="http://pygraf.t/E85"/>
+    <sc:R2 rdf:resource="http://pygraf.t/E57"/>
+    <sc:R2 rdf:resource="http://pygraf.t/E73"/>
+    <sc:R24 rdf:resource="http://pygraf.t/E84"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E36">
+    <rdf:type rdf:resource="http://pygraf.t/C17"/>
+    <sc:R24 rdf:resource="http://pygraf.t/E59"/>
+    <sc:R3 rdf:resource="http://pygraf.t/E35"/>
+    <sc:R3 rdf:resource="http://pygraf.t/E36"/>
+    <sc:R3 rdf:resource="http://pygraf.t/E97"/>
+    <sc:R8 rdf:resource="http://pygraf.t/E91"/>
+    <sc:R25 rdf:resource="http://pygraf.t/E39"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E76">
+    <rdf:type rdf:resource="http://pygraf.t/C3"/>
+    <sc:R25 rdf:resource="http://pygraf.t/E76"/>
+    <sc:R7 rdf:resource="http://pygraf.t/E86"/>
+    <sc:R7 rdf:resource="http://pygraf.t/E44"/>
+    <sc:R7 rdf:resource="http://pygraf.t/E51"/>
+    <sc:R7 rdf:resource="http://pygraf.t/E98"/>
+    <sc:R7 rdf:resource="http://pygraf.t/E71"/>
+    <sc:R7 rdf:resource="http://pygraf.t/E21"/>
+    <sc:R7 rdf:resource="http://pygraf.t/E61"/>
+    <sc:R7 rdf:resource="http://pygraf.t/E47"/>
+    <sc:R7 rdf:resource="http://pygraf.t/E69"/>
+    <sc:R7 rdf:resource="http://pygraf.t/E67"/>
+    <sc:R7 rdf:resource="http://pygraf.t/E96"/>
+    <sc:R7 rdf:resource="http://pygraf.t/E93"/>
+    <sc:R21 rdf:resource="http://pygraf.t/E78"/>
+    <sc:R17 rdf:resource="http://pygraf.t/E77"/>
+    <sc:R10 rdf:resource="http://pygraf.t/E57"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E86">
+    <sc:R23 rdf:resource="http://pygraf.t/E94"/>
+    <sc:R23 rdf:resource="http://pygraf.t/E93"/>
+    <sc:R23 rdf:resource="http://pygraf.t/E51"/>
+    <sc:R23 rdf:resource="http://pygraf.t/E71"/>
+    <rdf:type rdf:resource="http://pygraf.t/C23"/>
+    <sc:R20 rdf:resource="http://pygraf.t/E34"/>
+    <sc:R20 rdf:resource="http://pygraf.t/E46"/>
+    <sc:R9 rdf:resource="http://pygraf.t/E30"/>
+    <sc:R9 rdf:resource="http://pygraf.t/E54"/>
+    <sc:R9 rdf:resource="http://pygraf.t/E76"/>
+    <sc:R15 rdf:resource="http://pygraf.t/E86"/>
+    <sc:R15 rdf:resource="http://pygraf.t/E96"/>
+    <sc:R4 rdf:resource="http://pygraf.t/E88"/>
+    <sc:R4 rdf:resource="http://pygraf.t/E42"/>
+    <sc:R11 rdf:resource="http://pygraf.t/E86"/>
+    <sc:R11 rdf:resource="http://pygraf.t/E51"/>
+    <sc:R11 rdf:resource="http://pygraf.t/E92"/>
+    <sc:R12 rdf:resource="http://pygraf.t/E62"/>
+    <sc:R5 rdf:resource="http://pygraf.t/E93"/>
+    <sc:R5 rdf:resource="http://pygraf.t/E62"/>
+    <sc:R5 rdf:resource="http://pygraf.t/E21"/>
+    <sc:R6 rdf:resource="http://pygraf.t/E69"/>
+    <sc:R25 rdf:resource="http://pygraf.t/E99"/>
+    <sc:R8 rdf:resource="http://pygraf.t/E33"/>
+    <sc:R2 rdf:resource="http://pygraf.t/E96"/>
+    <sc:R16 rdf:resource="http://pygraf.t/E72"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E22">
+    <rdf:type rdf:resource="http://pygraf.t/C9"/>
+    <sc:R12 rdf:resource="http://pygraf.t/E44"/>
+    <sc:R25 rdf:resource="http://pygraf.t/E25"/>
+    <sc:R2 rdf:resource="http://pygraf.t/E30"/>
+    <sc:R8 rdf:resource="http://pygraf.t/E28"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R21">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ReflexiveProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C20">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C25"/>
+    <owl:disjointWith rdf:resource="http://pygraf.t/C19"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E75">
+    <sc:R17 rdf:resource="http://pygraf.t/E14"/>
+    <rdf:type rdf:resource="http://pygraf.t/C19"/>
+    <sc:R21 rdf:resource="http://pygraf.t/E92"/>
+    <sc:R21 rdf:resource="http://pygraf.t/E85"/>
+    <sc:R21 rdf:resource="http://pygraf.t/E20"/>
+    <sc:R8 rdf:resource="http://pygraf.t/E40"/>
+    <sc:R8 rdf:resource="http://pygraf.t/E77"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E9">
+    <rdf:type rdf:resource="http://pygraf.t/C10"/>
+    <sc:R1 rdf:resource="http://pygraf.t/E15"/>
+    <sc:R1 rdf:resource="http://pygraf.t/E71"/>
+    <sc:R1 rdf:resource="http://pygraf.t/E21"/>
+    <sc:R1 rdf:resource="http://pygraf.t/E61"/>
+    <sc:R1 rdf:resource="http://pygraf.t/E69"/>
+    <sc:R1 rdf:resource="http://pygraf.t/E96"/>
+    <sc:R1 rdf:resource="http://pygraf.t/E44"/>
+    <sc:R1 rdf:resource="http://pygraf.t/E98"/>
+    <sc:R1 rdf:resource="http://pygraf.t/E42"/>
+    <sc:R12 rdf:resource="http://pygraf.t/E100"/>
+    <sc:R12 rdf:resource="http://pygraf.t/E9"/>
+    <sc:R21 rdf:resource="http://pygraf.t/E72"/>
+    <sc:R21 rdf:resource="http://pygraf.t/E59"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R5">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    <rdfs:domain rdf:resource="http://pygraf.t/C23"/>
+    <rdfs:range rdf:resource="http://pygraf.t/C23"/>
+    <rdfs:subPropertyOf rdf:resource="http://pygraf.t/R6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E6">
+    <rdf:type rdf:resource="http://pygraf.t/C13"/>
+    <sc:R12 rdf:resource="http://pygraf.t/E74"/>
+    <sc:R8 rdf:resource="http://pygraf.t/E40"/>
+    <sc:R10 rdf:resource="http://pygraf.t/E26"/>
+    <sc:R21 rdf:resource="http://pygraf.t/E39"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E100">
+    <sc:R8 rdf:resource="http://pygraf.t/E72"/>
+    <rdf:type rdf:resource="http://pygraf.t/C4"/>
+    <sc:R12 rdf:resource="http://pygraf.t/E60"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E54">
+    <sc:R7 rdf:resource="http://pygraf.t/E88"/>
+    <sc:R7 rdf:resource="http://pygraf.t/E47"/>
+    <sc:R7 rdf:resource="http://pygraf.t/E67"/>
+    <sc:R7 rdf:resource="http://pygraf.t/E93"/>
+    <sc:R7 rdf:resource="http://pygraf.t/E62"/>
+    <sc:R7 rdf:resource="http://pygraf.t/E44"/>
+    <sc:R7 rdf:resource="http://pygraf.t/E96"/>
+    <sc:R7 rdf:resource="http://pygraf.t/E51"/>
+    <sc:R7 rdf:resource="http://pygraf.t/E42"/>
+    <sc:R7 rdf:resource="http://pygraf.t/E15"/>
+    <sc:R7 rdf:resource="http://pygraf.t/E71"/>
+    <sc:R7 rdf:resource="http://pygraf.t/E94"/>
+    <sc:R7 rdf:resource="http://pygraf.t/E61"/>
+    <rdf:type rdf:resource="http://pygraf.t/C3"/>
+    <sc:R24 rdf:resource="http://pygraf.t/E34"/>
+    <sc:R25 rdf:resource="http://pygraf.t/E97"/>
+    <sc:R25 rdf:resource="http://pygraf.t/E60"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E30">
+    <rdf:type rdf:resource="http://pygraf.t/C3"/>
+    <sc:R7 rdf:resource="http://pygraf.t/E47"/>
+    <sc:R7 rdf:resource="http://pygraf.t/E69"/>
+    <sc:R7 rdf:resource="http://pygraf.t/E67"/>
+    <sc:R7 rdf:resource="http://pygraf.t/E62"/>
+    <sc:R7 rdf:resource="http://pygraf.t/E96"/>
+    <sc:R7 rdf:resource="http://pygraf.t/E51"/>
+    <sc:R7 rdf:resource="http://pygraf.t/E42"/>
+    <sc:R7 rdf:resource="http://pygraf.t/E71"/>
+    <sc:R7 rdf:resource="http://pygraf.t/E21"/>
+    <sc:R7 rdf:resource="http://pygraf.t/E61"/>
+    <sc:R24 rdf:resource="http://pygraf.t/E65"/>
+    <sc:R2 rdf:resource="http://pygraf.t/E4"/>
+    <sc:R12 rdf:resource="http://pygraf.t/E13"/>
+    <sc:R12 rdf:resource="http://pygraf.t/E80"/>
+    <sc:R25 rdf:resource="http://pygraf.t/E68"/>
+    <sc:R10 rdf:resource="http://pygraf.t/E5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E66">
+    <rdf:type rdf:resource="http://pygraf.t/C1"/>
+    <sc:R24 rdf:resource="http://pygraf.t/E18"/>
+    <sc:R12 rdf:resource="http://pygraf.t/E95"/>
+    <sc:R12 rdf:resource="http://pygraf.t/E60"/>
+    <sc:R25 rdf:resource="http://pygraf.t/E27"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://pygraf.t/C10"/>
+    <rdfs:range rdf:resource="http://pygraf.t/C23"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E88">
+    <rdf:type rdf:resource="http://pygraf.t/C23"/>
+    <sc:R4 rdf:resource="http://pygraf.t/E92"/>
+    <sc:R4 rdf:resource="http://pygraf.t/E15"/>
+    <sc:R4 rdf:resource="http://pygraf.t/E94"/>
+    <sc:R4 rdf:resource="http://pygraf.t/E61"/>
+    <sc:R4 rdf:resource="http://pygraf.t/E86"/>
+    <sc:R23 rdf:resource="http://pygraf.t/E71"/>
+    <sc:R23 rdf:resource="http://pygraf.t/E61"/>
+    <sc:R23 rdf:resource="http://pygraf.t/E96"/>
+    <sc:R23 rdf:resource="http://pygraf.t/E86"/>
+    <sc:R13 rdf:resource="http://pygraf.t/E44"/>
+    <sc:R13 rdf:resource="http://pygraf.t/E42"/>
+    <sc:R13 rdf:resource="http://pygraf.t/E92"/>
+    <sc:R13 rdf:resource="http://pygraf.t/E71"/>
+    <sc:R13 rdf:resource="http://pygraf.t/E88"/>
+    <sc:R13 rdf:resource="http://pygraf.t/E47"/>
+    <sc:R13 rdf:resource="http://pygraf.t/E93"/>
+    <sc:R16 rdf:resource="http://pygraf.t/E72"/>
+    <sc:R18 rdf:resource="http://pygraf.t/E15"/>
+    <sc:R18 rdf:resource="http://pygraf.t/E47"/>
+    <sc:R18 rdf:resource="http://pygraf.t/E67"/>
+    <sc:R18 rdf:resource="http://pygraf.t/E92"/>
+    <sc:R20 rdf:resource="http://pygraf.t/E34"/>
+    <sc:R20 rdf:resource="http://pygraf.t/E38"/>
+    <sc:R8 rdf:resource="http://pygraf.t/E37"/>
+    <sc:R11 rdf:resource="http://pygraf.t/E69"/>
+    <sc:R11 rdf:resource="http://pygraf.t/E88"/>
+    <sc:R11 rdf:resource="http://pygraf.t/E92"/>
+    <sc:R2 rdf:resource="http://pygraf.t/E53"/>
+    <sc:R5 rdf:resource="http://pygraf.t/E98"/>
+    <sc:R5 rdf:resource="http://pygraf.t/E94"/>
+    <sc:R15 rdf:resource="http://pygraf.t/E96"/>
+    <sc:R15 rdf:resource="http://pygraf.t/E86"/>
+    <sc:R17 rdf:resource="http://pygraf.t/E92"/>
+    <sc:R17 rdf:resource="http://pygraf.t/E44"/>
+    <sc:R6 rdf:resource="http://pygraf.t/E47"/>
+    <sc:R6 rdf:resource="http://pygraf.t/E62"/>
+    <sc:R10 rdf:resource="http://pygraf.t/E35"/>
+    <sc:R10 rdf:resource="http://pygraf.t/E53"/>
+    <sc:R9 rdf:resource="http://pygraf.t/E76"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E62">
+    <rdf:type rdf:resource="http://pygraf.t/C23"/>
+    <sc:R18 rdf:resource="http://pygraf.t/E44"/>
+    <sc:R13 rdf:resource="http://pygraf.t/E69"/>
+    <sc:R13 rdf:resource="http://pygraf.t/E42"/>
+    <sc:R13 rdf:resource="http://pygraf.t/E86"/>
+    <sc:R10 rdf:resource="http://pygraf.t/E84"/>
+    <sc:R20 rdf:resource="http://pygraf.t/E46"/>
+    <sc:R20 rdf:resource="http://pygraf.t/E38"/>
+    <sc:R23 rdf:resource="http://pygraf.t/E44"/>
+    <sc:R23 rdf:resource="http://pygraf.t/E21"/>
+    <sc:R23 rdf:resource="http://pygraf.t/E88"/>
+    <sc:R23 rdf:resource="http://pygraf.t/E69"/>
+    <sc:R16 rdf:resource="http://pygraf.t/E72"/>
+    <sc:R21 rdf:resource="http://pygraf.t/E31"/>
+    <sc:R11 rdf:resource="http://pygraf.t/E92"/>
+    <sc:R11 rdf:resource="http://pygraf.t/E47"/>
+    <sc:R6 rdf:resource="http://pygraf.t/E96"/>
+    <sc:R6 rdf:resource="http://pygraf.t/E51"/>
+    <sc:R4 rdf:resource="http://pygraf.t/E71"/>
+    <sc:R4 rdf:resource="http://pygraf.t/E21"/>
+    <sc:R4 rdf:resource="http://pygraf.t/E62"/>
+    <sc:R15 rdf:resource="http://pygraf.t/E88"/>
+    <sc:R9 rdf:resource="http://pygraf.t/E30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E84">
+    <rdf:type rdf:resource="http://pygraf.t/C18"/>
+    <sc:R2 rdf:resource="http://pygraf.t/E81"/>
+    <sc:R2 rdf:resource="http://pygraf.t/E22"/>
+    <sc:R12 rdf:resource="http://pygraf.t/E44"/>
+    <sc:R12 rdf:resource="http://pygraf.t/E56"/>
+    <sc:R17 rdf:resource="http://pygraf.t/E60"/>
+    <sc:R21 rdf:resource="http://pygraf.t/E52"/>
+    <sc:R24 rdf:resource="http://pygraf.t/E95"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E80">
+    <rdf:type rdf:resource="http://pygraf.t/C12"/>
+    <sc:R2 rdf:resource="http://pygraf.t/E17"/>
+    <sc:R17 rdf:resource="http://pygraf.t/E13"/>
+    <sc:R3 rdf:resource="http://pygraf.t/E35"/>
+    <sc:R3 rdf:resource="http://pygraf.t/E80"/>
+    <sc:R3 rdf:resource="http://pygraf.t/E36"/>
+    <sc:R3 rdf:resource="http://pygraf.t/E97"/>
+    <sc:R3 rdf:resource="http://pygraf.t/E79"/>
+    <sc:R3 rdf:resource="http://pygraf.t/E3"/>
+    <sc:R25 rdf:resource="http://pygraf.t/E45"/>
+    <sc:R25 rdf:resource="http://pygraf.t/E59"/>
+    <sc:R8 rdf:resource="http://pygraf.t/E13"/>
+    <sc:R10 rdf:resource="http://pygraf.t/E60"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E50">
+    <sc:R8 rdf:resource="http://pygraf.t/E70"/>
+    <sc:R8 rdf:resource="http://pygraf.t/E74"/>
+    <sc:R8 rdf:resource="http://pygraf.t/E12"/>
+    <rdf:type rdf:resource="http://pygraf.t/C18"/>
+    <sc:R12 rdf:resource="http://pygraf.t/E92"/>
+    <sc:R21 rdf:resource="http://pygraf.t/E24"/>
+    <sc:R2 rdf:resource="http://pygraf.t/E19"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R11">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://pygraf.t/C23"/>
+    <rdfs:range rdf:resource="http://pygraf.t/C23"/>
+    <owl:inverseOf rdf:resource="http://pygraf.t/R13"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E43">
+    <rdf:type rdf:resource="http://pygraf.t/C19"/>
+    <sc:R17 rdf:resource="http://pygraf.t/E25"/>
+    <sc:R24 rdf:resource="http://pygraf.t/E34"/>
+    <sc:R8 rdf:resource="http://pygraf.t/E55"/>
+    <sc:R8 rdf:resource="http://pygraf.t/E42"/>
+    <sc:R2 rdf:resource="http://pygraf.t/E67"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E65">
+    <sc:R1 rdf:resource="http://pygraf.t/E51"/>
+    <sc:R1 rdf:resource="http://pygraf.t/E42"/>
+    <sc:R1 rdf:resource="http://pygraf.t/E92"/>
+    <sc:R1 rdf:resource="http://pygraf.t/E86"/>
+    <sc:R1 rdf:resource="http://pygraf.t/E71"/>
+    <sc:R1 rdf:resource="http://pygraf.t/E47"/>
+    <sc:R1 rdf:resource="http://pygraf.t/E67"/>
+    <sc:R1 rdf:resource="http://pygraf.t/E93"/>
+    <sc:R1 rdf:resource="http://pygraf.t/E88"/>
+    <rdf:type rdf:resource="http://pygraf.t/C10"/>
+    <sc:R25 rdf:resource="http://pygraf.t/E93"/>
+    <sc:R17 rdf:resource="http://pygraf.t/E39"/>
+    <sc:R17 rdf:resource="http://pygraf.t/E81"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R13">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://pygraf.t/C23"/>
+    <rdfs:range rdf:resource="http://pygraf.t/C23"/>
+    <owl:inverseOf rdf:resource="http://pygraf.t/R11"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E59">
+    <sc:R12 rdf:resource="http://pygraf.t/E32"/>
+    <sc:R12 rdf:resource="http://pygraf.t/E65"/>
+    <rdf:type rdf:resource="http://pygraf.t/C19"/>
+    <sc:R25 rdf:resource="http://pygraf.t/E16"/>
+    <sc:R24 rdf:resource="http://pygraf.t/E35"/>
+    <sc:R8 rdf:resource="http://pygraf.t/E98"/>
+    <sc:R17 rdf:resource="http://pygraf.t/E48"/>
+    <sc:R2 rdf:resource="http://pygraf.t/E10"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E67">
+    <sc:R18 rdf:resource="http://pygraf.t/E93"/>
+    <sc:R18 rdf:resource="http://pygraf.t/E47"/>
+    <sc:R18 rdf:resource="http://pygraf.t/E96"/>
+    <rdf:type rdf:resource="http://pygraf.t/C23"/>
+    <sc:R4 rdf:resource="http://pygraf.t/E88"/>
+    <sc:R4 rdf:resource="http://pygraf.t/E47"/>
+    <sc:R23 rdf:resource="http://pygraf.t/E67"/>
+    <sc:R23 rdf:resource="http://pygraf.t/E96"/>
+    <sc:R13 rdf:resource="http://pygraf.t/E47"/>
+    <sc:R13 rdf:resource="http://pygraf.t/E69"/>
+    <sc:R13 rdf:resource="http://pygraf.t/E62"/>
+    <sc:R12 rdf:resource="http://pygraf.t/E10"/>
+    <sc:R20 rdf:resource="http://pygraf.t/E46"/>
+    <sc:R20 rdf:resource="http://pygraf.t/E34"/>
+    <sc:R20 rdf:resource="http://pygraf.t/E38"/>
+    <sc:R9 rdf:resource="http://pygraf.t/E54"/>
+    <sc:R9 rdf:resource="http://pygraf.t/E76"/>
+    <sc:R6 rdf:resource="http://pygraf.t/E62"/>
+    <sc:R6 rdf:resource="http://pygraf.t/E42"/>
+    <sc:R11 rdf:resource="http://pygraf.t/E86"/>
+    <sc:R5 rdf:resource="http://pygraf.t/E47"/>
+    <sc:R17 rdf:resource="http://pygraf.t/E3"/>
+    <sc:R16 rdf:resource="http://pygraf.t/E72"/>
+    <sc:R15 rdf:resource="http://pygraf.t/E69"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R18">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    <rdfs:domain rdf:resource="http://pygraf.t/C23"/>
+    <rdfs:range rdf:resource="http://pygraf.t/C23"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E10">
+    <sc:R12 rdf:resource="http://pygraf.t/E90"/>
+    <rdf:type rdf:resource="http://pygraf.t/C8"/>
+    <sc:R25 rdf:resource="http://pygraf.t/E47"/>
+    <sc:R17 rdf:resource="http://pygraf.t/E34"/>
+    <sc:R17 rdf:resource="http://pygraf.t/E25"/>
+    <sc:R10 rdf:resource="http://pygraf.t/E16"/>
+    <sc:R8 rdf:resource="http://pygraf.t/E98"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C17">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E16">
+    <rdf:type rdf:resource="http://pygraf.t/C2"/>
+    <sc:R21 rdf:resource="http://pygraf.t/E61"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E41">
+    <sc:R2 rdf:resource="http://pygraf.t/E70"/>
+    <sc:R2 rdf:resource="http://pygraf.t/E71"/>
+    <rdf:type rdf:resource="http://pygraf.t/C4"/>
+    <sc:R8 rdf:resource="http://pygraf.t/E43"/>
+    <sc:R24 rdf:resource="http://pygraf.t/E52"/>
+    <sc:R12 rdf:resource="http://pygraf.t/E86"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E63">
+    <sc:R17 rdf:resource="http://pygraf.t/E42"/>
+    <rdf:type rdf:resource="http://pygraf.t/C11"/>
+    <sc:R10 rdf:resource="http://pygraf.t/E74"/>
+    <sc:R10 rdf:resource="http://pygraf.t/E73"/>
+    <sc:R25 rdf:resource="http://pygraf.t/E22"/>
+    <sc:R21 rdf:resource="http://pygraf.t/E89"/>
+    <sc:R12 rdf:resource="http://pygraf.t/E42"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E34">
+    <rdf:type rdf:resource="http://pygraf.t/C7"/>
+    <sc:R2 rdf:resource="http://pygraf.t/E11"/>
+    <sc:R19 rdf:resource="http://pygraf.t/E47"/>
+    <sc:R19 rdf:resource="http://pygraf.t/E69"/>
+    <sc:R19 rdf:resource="http://pygraf.t/E96"/>
+    <sc:R19 rdf:resource="http://pygraf.t/E51"/>
+    <sc:R19 rdf:resource="http://pygraf.t/E86"/>
+    <sc:R19 rdf:resource="http://pygraf.t/E98"/>
+    <sc:R19 rdf:resource="http://pygraf.t/E44"/>
+    <sc:R19 rdf:resource="http://pygraf.t/E15"/>
+    <sc:R19 rdf:resource="http://pygraf.t/E71"/>
+    <sc:R19 rdf:resource="http://pygraf.t/E21"/>
+    <sc:R8 rdf:resource="http://pygraf.t/E97"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E40">
+    <sc:R8 rdf:resource="http://pygraf.t/E5"/>
+    <rdf:type rdf:resource="http://pygraf.t/C24"/>
+    <sc:R17 rdf:resource="http://pygraf.t/E48"/>
+    <sc:R24 rdf:resource="http://pygraf.t/E44"/>
+    <sc:R2 rdf:resource="http://pygraf.t/E19"/>
+    <sc:R10 rdf:resource="http://pygraf.t/E29"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E46">
+    <sc:R19 rdf:resource="http://pygraf.t/E86"/>
+    <sc:R19 rdf:resource="http://pygraf.t/E44"/>
+    <sc:R19 rdf:resource="http://pygraf.t/E92"/>
+    <sc:R19 rdf:resource="http://pygraf.t/E15"/>
+    <sc:R19 rdf:resource="http://pygraf.t/E93"/>
+    <sc:R19 rdf:resource="http://pygraf.t/E62"/>
+    <sc:R19 rdf:resource="http://pygraf.t/E61"/>
+    <sc:R19 rdf:resource="http://pygraf.t/E69"/>
+    <sc:R19 rdf:resource="http://pygraf.t/E67"/>
+    <sc:R19 rdf:resource="http://pygraf.t/E96"/>
+    <rdf:type rdf:resource="http://pygraf.t/C7"/>
+    <sc:R10 rdf:resource="http://pygraf.t/E51"/>
+    <sc:R24 rdf:resource="http://pygraf.t/E24"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R16">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://pygraf.t/C23"/>
+    <rdfs:range rdf:resource="http://pygraf.t/C16"/>
+    <owl:inverseOf rdf:resource="http://pygraf.t/R14"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E89">
+    <sc:R24 rdf:resource="http://pygraf.t/E17"/>
+    <sc:R24 rdf:resource="http://pygraf.t/E62"/>
+    <rdf:type rdf:resource="http://pygraf.t/C18"/>
+    <sc:R8 rdf:resource="http://pygraf.t/E67"/>
+    <sc:R8 rdf:resource="http://pygraf.t/E37"/>
+    <sc:R2 rdf:resource="http://pygraf.t/E34"/>
+    <sc:R2 rdf:resource="http://pygraf.t/E81"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E37">
+    <rdf:type rdf:resource="http://pygraf.t/C18"/>
+    <sc:R10 rdf:resource="http://pygraf.t/E57"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C25">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E85">
+    <sc:R17 rdf:resource="http://pygraf.t/E65"/>
+    <rdf:type rdf:resource="http://pygraf.t/C14"/>
+    <sc:R25 rdf:resource="http://pygraf.t/E8"/>
+    <sc:R24 rdf:resource="http://pygraf.t/E99"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C7">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C19"/>
+    <owl:disjointWith rdf:resource="http://pygraf.t/C18"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E14">
+    <rdf:type rdf:resource="http://pygraf.t/C20"/>
+    <sc:R21 rdf:resource="http://pygraf.t/E27"/>
+    <sc:R17 rdf:resource="http://pygraf.t/E8"/>
+    <sc:R17 rdf:resource="http://pygraf.t/E2"/>
+    <sc:R17 rdf:resource="http://pygraf.t/E99"/>
+    <sc:R17 rdf:resource="http://pygraf.t/E46"/>
+    <sc:R8 rdf:resource="http://pygraf.t/E10"/>
+    <sc:R8 rdf:resource="http://pygraf.t/E58"/>
+    <sc:R10 rdf:resource="http://pygraf.t/E86"/>
+    <sc:R12 rdf:resource="http://pygraf.t/E8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E95">
+    <rdf:type rdf:resource="http://pygraf.t/C19"/>
+    <sc:R10 rdf:resource="http://pygraf.t/E80"/>
+    <sc:R10 rdf:resource="http://pygraf.t/E42"/>
+    <sc:R21 rdf:resource="http://pygraf.t/E81"/>
+    <sc:R21 rdf:resource="http://pygraf.t/E88"/>
+    <sc:R21 rdf:resource="http://pygraf.t/E2"/>
+    <sc:R2 rdf:resource="http://pygraf.t/E7"/>
+    <sc:R24 rdf:resource="http://pygraf.t/E72"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E35">
+    <rdf:type rdf:resource="http://pygraf.t/C12"/>
+    <sc:R3 rdf:resource="http://pygraf.t/E79"/>
+    <sc:R3 rdf:resource="http://pygraf.t/E80"/>
+    <sc:R3 rdf:resource="http://pygraf.t/E36"/>
+    <sc:R3 rdf:resource="http://pygraf.t/E97"/>
+    <sc:R2 rdf:resource="http://pygraf.t/E45"/>
+    <sc:R24 rdf:resource="http://pygraf.t/E43"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R24">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ReflexiveProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E5">
+    <sc:R17 rdf:resource="http://pygraf.t/E36"/>
+    <rdf:type rdf:resource="http://pygraf.t/C9"/>
+    <sc:R24 rdf:resource="http://pygraf.t/E50"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E31">
+    <rdf:type rdf:resource="http://pygraf.t/C25"/>
+    <sc:R2 rdf:resource="http://pygraf.t/E67"/>
+    <sc:R25 rdf:resource="http://pygraf.t/E85"/>
+    <sc:R25 rdf:resource="http://pygraf.t/E39"/>
+    <sc:R17 rdf:resource="http://pygraf.t/E21"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E83">
+    <rdf:type rdf:resource="http://pygraf.t/C14"/>
+    <sc:R10 rdf:resource="http://pygraf.t/E25"/>
+    <sc:R10 rdf:resource="http://pygraf.t/E1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E25">
+    <sc:R25 rdf:resource="http://pygraf.t/E95"/>
+    <rdf:type rdf:resource="http://pygraf.t/C1"/>
+    <sc:R10 rdf:resource="http://pygraf.t/E87"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E33">
+    <sc:R2 rdf:resource="http://pygraf.t/E56"/>
+    <rdf:type rdf:resource="http://pygraf.t/C22"/>
+    <sc:R24 rdf:resource="http://pygraf.t/E78"/>
+    <sc:R17 rdf:resource="http://pygraf.t/E45"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E20">
+    <rdf:type rdf:resource="http://pygraf.t/C5"/>
+    <sc:R25 rdf:resource="http://pygraf.t/E35"/>
+    <sc:R25 rdf:resource="http://pygraf.t/E89"/>
+    <sc:R25 rdf:resource="http://pygraf.t/E79"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R7">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://pygraf.t/C3"/>
+    <rdfs:range rdf:resource="http://pygraf.t/C23"/>
+    <owl:inverseOf rdf:resource="http://pygraf.t/R9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C12">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C17"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E27">
+    <rdf:type rdf:resource="http://pygraf.t/C11"/>
+    <sc:R25 rdf:resource="http://pygraf.t/E70"/>
+    <sc:R8 rdf:resource="http://pygraf.t/E81"/>
+    <sc:R21 rdf:resource="http://pygraf.t/E83"/>
+    <sc:R17 rdf:resource="http://pygraf.t/E39"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R8">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ReflexiveProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://pygraf.t/R10"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C9">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C15"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C5">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:disjointWith rdf:resource="http://pygraf.t/C1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C24">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C25"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E82">
+    <sc:R8 rdf:resource="http://pygraf.t/E54"/>
+    <rdf:type rdf:resource="http://pygraf.t/C13"/>
+    <sc:R25 rdf:resource="http://pygraf.t/E32"/>
+    <sc:R25 rdf:resource="http://pygraf.t/E95"/>
+    <sc:R12 rdf:resource="http://pygraf.t/E37"/>
+    <sc:R12 rdf:resource="http://pygraf.t/E84"/>
+    <sc:R10 rdf:resource="http://pygraf.t/E22"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E99">
+    <rdf:type rdf:resource="http://pygraf.t/C24"/>
+    <sc:R24 rdf:resource="http://pygraf.t/E24"/>
+    <sc:R8 rdf:resource="http://pygraf.t/E16"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C8">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C18"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E70">
+    <rdf:type rdf:resource="http://pygraf.t/C21"/>
+    <sc:R25 rdf:resource="http://pygraf.t/E28"/>
+    <sc:R8 rdf:resource="http://pygraf.t/E47"/>
+    <sc:R24 rdf:resource="http://pygraf.t/E52"/>
+    <sc:R24 rdf:resource="http://pygraf.t/E85"/>
+    <sc:R12 rdf:resource="http://pygraf.t/E77"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E58">
+    <rdf:type rdf:resource="http://pygraf.t/C11"/>
+    <sc:R21 rdf:resource="http://pygraf.t/E78"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E57">
+    <sc:R8 rdf:resource="http://pygraf.t/E77"/>
+    <rdf:type rdf:resource="http://pygraf.t/C22"/>
+    <sc:R17 rdf:resource="http://pygraf.t/E16"/>
+    <sc:R21 rdf:resource="http://pygraf.t/E22"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R25">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R19">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://pygraf.t/C7"/>
+    <rdfs:range rdf:resource="http://pygraf.t/C23"/>
+    <owl:inverseOf rdf:resource="http://pygraf.t/R20"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E81">
+    <sc:R12 rdf:resource="http://pygraf.t/E15"/>
+    <rdf:type rdf:resource="http://pygraf.t/C8"/>
+    <sc:R24 rdf:resource="http://pygraf.t/E51"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E68">
+    <sc:R10 rdf:resource="http://pygraf.t/E84"/>
+    <sc:R10 rdf:resource="http://pygraf.t/E48"/>
+    <rdf:type rdf:resource="http://pygraf.t/C14"/>
+    <sc:R17 rdf:resource="http://pygraf.t/E26"/>
+    <sc:R24 rdf:resource="http://pygraf.t/E59"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C21">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C25"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E48">
+    <sc:R2 rdf:resource="http://pygraf.t/E89"/>
+    <sc:R2 rdf:resource="http://pygraf.t/E99"/>
+    <rdf:type rdf:resource="http://pygraf.t/C25"/>
+    <sc:R12 rdf:resource="http://pygraf.t/E49"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E24">
+    <sc:R2 rdf:resource="http://pygraf.t/E62"/>
+    <rdf:type rdf:resource="http://pygraf.t/C21"/>
+    <sc:R10 rdf:resource="http://pygraf.t/E20"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C4">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R10">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ReflexiveProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E19">
+    <sc:R25 rdf:resource="http://pygraf.t/E9"/>
+    <rdf:type rdf:resource="http://pygraf.t/C4"/>
+    <sc:R10 rdf:resource="http://pygraf.t/E47"/>
+    <sc:R21 rdf:resource="http://pygraf.t/E11"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E77">
+    <rdf:type rdf:resource="http://pygraf.t/C4"/>
+    <sc:R10 rdf:resource="http://pygraf.t/E18"/>
+    <sc:R10 rdf:resource="http://pygraf.t/E59"/>
+    <sc:R12 rdf:resource="http://pygraf.t/E75"/>
+    <sc:R8 rdf:resource="http://pygraf.t/E89"/>
+    <sc:R8 rdf:resource="http://pygraf.t/E39"/>
+    <sc:R17 rdf:resource="http://pygraf.t/E45"/>
+    <sc:R17 rdf:resource="http://pygraf.t/E71"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C10">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C15"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R15">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+    <rdfs:domain rdf:resource="http://pygraf.t/C23"/>
+    <rdfs:range rdf:resource="http://pygraf.t/C23"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R22">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    <rdfs:domain rdf:resource="http://pygraf.t/C6"/>
+    <rdfs:range rdf:resource="http://pygraf.t/C6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E73">
+    <sc:R10 rdf:resource="http://pygraf.t/E16"/>
+    <rdf:type rdf:resource="http://pygraf.t/C9"/>
+    <sc:R21 rdf:resource="http://pygraf.t/E3"/>
+    <sc:R2 rdf:resource="http://pygraf.t/E36"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E90">
+    <rdf:type rdf:resource="http://pygraf.t/C2"/>
+    <sc:R8 rdf:resource="http://pygraf.t/E60"/>
+    <sc:R2 rdf:resource="http://pygraf.t/E47"/>
+    <sc:R24 rdf:resource="http://pygraf.t/E65"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E23">
+    <sc:R8 rdf:resource="http://pygraf.t/E67"/>
+    <rdf:type rdf:resource="http://pygraf.t/C18"/>
+    <sc:R10 rdf:resource="http://pygraf.t/E78"/>
+    <sc:R21 rdf:resource="http://pygraf.t/E68"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R4">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://pygraf.t/C23"/>
+    <rdfs:range rdf:resource="http://pygraf.t/C23"/>
+    <rdfs:subPropertyOf rdf:resource="http://pygraf.t/R11"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R17">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ReflexiveProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R12">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ReflexiveProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R9">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://pygraf.t/C23"/>
+    <rdfs:range rdf:resource="http://pygraf.t/C3"/>
+    <owl:inverseOf rdf:resource="http://pygraf.t/R7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C14">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R6">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    <rdfs:domain rdf:resource="http://pygraf.t/C23"/>
+    <rdfs:range rdf:resource="http://pygraf.t/C23"/>
+    <rdfs:subPropertyOf rdf:resource="http://pygraf.t/R18"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C22">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C25"/>
+    <owl:disjointWith rdf:resource="http://pygraf.t/C23"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E56">
+    <rdf:type rdf:resource="http://pygraf.t/C25"/>
+    <sc:R25 rdf:resource="http://pygraf.t/E60"/>
+    <sc:R25 rdf:resource="http://pygraf.t/E49"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R2">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ReflexiveProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C6">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C25"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E53">
+    <rdf:type rdf:resource="http://pygraf.t/C14"/>
+    <sc:R21 rdf:resource="http://pygraf.t/E51"/>
+    <sc:R12 rdf:resource="http://pygraf.t/E99"/>
+    <sc:R2 rdf:resource="http://pygraf.t/E90"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E45">
+    <rdf:type rdf:resource="http://pygraf.t/C8"/>
+    <sc:R17 rdf:resource="http://pygraf.t/E79"/>
+    <sc:R24 rdf:resource="http://pygraf.t/E44"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C16">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R23">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+    <rdfs:domain rdf:resource="http://pygraf.t/C23"/>
+    <rdfs:range rdf:resource="http://pygraf.t/C23"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C15">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C23">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://pygraf.t/C24"/>
+    <owl:disjointWith rdf:resource="http://pygraf.t/C22"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R3">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    <rdfs:domain rdf:resource="http://pygraf.t/C17"/>
+    <rdfs:range rdf:resource="http://pygraf.t/C17"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E8">
+    <sc:R24 rdf:resource="http://pygraf.t/E66"/>
+    <rdf:type rdf:resource="http://pygraf.t/C13"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/C3">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E26">
+    <sc:R10 rdf:resource="http://pygraf.t/E1"/>
+    <rdf:type rdf:resource="http://pygraf.t/C4"/>
+    <sc:R12 rdf:resource="http://pygraf.t/E44"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/R14">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://pygraf.t/C16"/>
+    <rdfs:range rdf:resource="http://pygraf.t/C23"/>
+    <owl:inverseOf rdf:resource="http://pygraf.t/R16"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E11">
+    <rdf:type rdf:resource="http://pygraf.t/C5"/>
+    <sc:R12 rdf:resource="http://pygraf.t/E7"/>
+    <sc:R12 rdf:resource="http://pygraf.t/E66"/>
+    <sc:R12 rdf:resource="http://pygraf.t/E51"/>
+    <sc:R21 rdf:resource="http://pygraf.t/E48"/>
+    <sc:R25 rdf:resource="http://pygraf.t/E68"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pygraf.t/E13">
+    <rdf:type rdf:resource="http://pygraf.t/C18"/>
+    <sc:R2 rdf:resource="http://pygraf.t/E29"/>
+    <sc:R12 rdf:resource="http://pygraf.t/E33"/>
+  </rdf:Description>
+</rdf:RDF>

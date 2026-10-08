@@ -1,0 +1,197 @@
+{
+    "statistics": {
+        "num_relations": 25,
+        "prop_reflexive": 0.28,
+        "prop_irreflexive": 0.0,
+        "prop_functional": 0.0,
+        "prop_inversefunctional": 0.0,
+        "prop_symmetric": 0.28,
+        "prop_asymmetric": 0.0,
+        "prop_transitive": 0.08,
+        "prop_inverseof": 0.32,
+        "prop_subpropertyof": 0.32,
+        "prop_profiled_relations": 0.94,
+        "relation_specificity": 2.5
+    },
+    "relations": [
+        "R1",
+        "R2",
+        "R3",
+        "R4",
+        "R5",
+        "R6",
+        "R7",
+        "R8",
+        "R9",
+        "R10",
+        "R11",
+        "R12",
+        "R13",
+        "R14",
+        "R15",
+        "R16",
+        "R17",
+        "R18",
+        "R19",
+        "R20",
+        "R21",
+        "R22",
+        "R23",
+        "R24",
+        "R25"
+    ],
+    "rel2patterns": {
+        "R1": [],
+        "R2": [
+            "owl:Symmetric",
+            "owl:Reflexive"
+        ],
+        "R3": [
+            "owl:Symmetric"
+        ],
+        "R4": [],
+        "R5": [
+            "owl:Symmetric"
+        ],
+        "R6": [
+            "owl:Symmetric"
+        ],
+        "R7": [],
+        "R8": [
+            "owl:Reflexive"
+        ],
+        "R9": [],
+        "R10": [
+            "owl:Reflexive"
+        ],
+        "R11": [],
+        "R12": [
+            "owl:Reflexive"
+        ],
+        "R13": [],
+        "R14": [],
+        "R15": [
+            "owl:Transitive"
+        ],
+        "R16": [],
+        "R17": [
+            "owl:Reflexive"
+        ],
+        "R18": [
+            "owl:Symmetric"
+        ],
+        "R19": [],
+        "R20": [],
+        "R21": [
+            "owl:Reflexive"
+        ],
+        "R22": [
+            "owl:Symmetric"
+        ],
+        "R23": [
+            "owl:Transitive"
+        ],
+        "R24": [
+            "owl:Reflexive"
+        ],
+        "R25": [
+            "owl:Symmetric"
+        ]
+    },
+    "reflexive_relations": [
+        "R24",
+        "R8",
+        "R2",
+        "R17",
+        "R10",
+        "R12",
+        "R21"
+    ],
+    "irreflexive_relations": [],
+    "symmetric_relations": [
+        "R2",
+        "R3",
+        "R5",
+        "R18",
+        "R22",
+        "R6",
+        "R25"
+    ],
+    "asymmetric_relations": [],
+    "functional_relations": [],
+    "inversefunctional_relations": [],
+    "transitive_relations": [
+        "R23",
+        "R15"
+    ],
+    "inverseof_relations": [
+        "R20",
+        "R19",
+        "R16",
+        "R14",
+        "R13",
+        "R11",
+        "R9",
+        "R7"
+    ],
+    "subrelations": [
+        "R4",
+        "R5",
+        "R6",
+        "R8"
+    ],
+    "rel2inverse": {
+        "R20": "R19",
+        "R19": "R20",
+        "R16": "R14",
+        "R14": "R16",
+        "R13": "R11",
+        "R11": "R13",
+        "R9": "R7",
+        "R7": "R9"
+    },
+    "rel2dom": {
+        "R1": "C10",
+        "R3": "C17",
+        "R4": "C23",
+        "R5": "C23",
+        "R6": "C23",
+        "R7": "C3",
+        "R9": "C23",
+        "R11": "C23",
+        "R13": "C23",
+        "R14": "C16",
+        "R16": "C23",
+        "R15": "C23",
+        "R18": "C23",
+        "R19": "C7",
+        "R20": "C23",
+        "R22": "C6",
+        "R23": "C23"
+    },
+    "rel2range": {
+        "R1": "C23",
+        "R3": "C17",
+        "R4": "C23",
+        "R5": "C23",
+        "R6": "C23",
+        "R7": "C23",
+        "R9": "C3",
+        "R11": "C23",
+        "R13": "C23",
+        "R14": "C23",
+        "R16": "C16",
+        "R15": "C23",
+        "R18": "C23",
+        "R19": "C23",
+        "R20": "C7",
+        "R22": "C6",
+        "R23": "C23"
+    },
+    "rel2superrel": {
+        "R4": "R11",
+        "R5": "R6",
+        "R6": "R18",
+        "R8": "R10"
+    }
+}

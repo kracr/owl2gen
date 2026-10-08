@@ -1,3 +1,0 @@
-UGStudent enrollFor exactly 1 UGProgram 
-PhDStudent enrollFor exactly 1 PhDProgram 
-PGStudent enrollFor exactly 1 PGProgram 

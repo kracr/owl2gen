@@ -1,0 +1,292 @@
+{
+  "prov-o": {
+    "reference": "prov-o",
+    "entityCounts": {
+      "classes": 31,
+      "objectProperties": 44,
+      "dataProperties": 6,
+      "individuals": 3
+    },
+    "observedEntityCounts": {
+      "classes": 31,
+      "objectProperties": 44,
+      "dataProperties": 6,
+      "individuals": 3
+    },
+    "minimumRequiredEntityCounts": {
+      "classes": 2,
+      "objectProperties": 2,
+      "dataProperties": 1,
+      "individuals": 2
+    },
+    "entityCountsBumpedFields": {},
+    "constructs": {
+      "OBJECT_UNION_OF": 6,
+      "DISJOINT_WITH": 4,
+      "SUB_CLASS_OF": 29,
+      "INVERSE_OF_PROPERTY": 3,
+      "OBJECT_PROPERTY_DOMAIN": 45,
+      "OBJECT_PROPERTY_RANGE": 41,
+      "PROPERTY_CHAIN_AXIOM": 13,
+      "SUB_OBJECT_PROPERTY_OF": 33,
+      "OBJECT_MAX_CARDINALITY": 1,
+      "DATA_PROPERTY_DOMAIN": 6,
+      "DATA_PROPERTY_RANGE": 5,
+      "OBJECT_PROPERTY_ASSERTION": 1
+    },
+    "totalRequestedAxioms": 187,
+    "structure": {
+      "hierarchyTargetDepth": 3,
+      "hierarchyBranchingFactor": 3,
+      "nestingMaxDepth": 1
+    },
+    "structureObserved": {
+      "hierarchyMaxDepth": 3,
+      "hierarchyAvgBranchingFactor": 3.111111111111111,
+      "nestingMaxDepth": 1
+    }
+  },
+  "ssn": {
+    "reference": "ssn",
+    "entityCounts": {
+      "classes": 22,
+      "objectProperties": 35,
+      "dataProperties": 1,
+      "individuals": 1
+    },
+    "observedEntityCounts": {
+      "classes": 22,
+      "objectProperties": 35,
+      "dataProperties": 1,
+      "individuals": 1
+    },
+    "minimumRequiredEntityCounts": {
+      "classes": 2,
+      "objectProperties": 2,
+      "dataProperties": 1,
+      "individuals": 1
+    },
+    "entityCountsBumpedFields": {},
+    "constructs": {
+      "SUB_CLASS_OF": 80,
+      "FUNCTIONAL_OBJECT_PROPERTY": 2,
+      "INVERSE_FUNCTIONAL_PROPERTY": 1,
+      "INVERSE_OF_PROPERTY": 4,
+      "PROPERTY_CHAIN_AXIOM": 4,
+      "SUB_OBJECT_PROPERTY_OF": 1,
+      "OBJECT_ALL_VALUES_FROM": 48,
+      "OBJECT_MIN_CARDINALITY": 13,
+      "OBJECT_EXACT_CARDINALITY": 9,
+      "DATA_EXACT_CARDINALITY": 3,
+      "CLASS_ASSERTION": 3
+    },
+    "totalRequestedAxioms": 168,
+    "structure": {
+      "hierarchyTargetDepth": 1,
+      "hierarchyBranchingFactor": 2,
+      "nestingMaxDepth": 1
+    },
+    "structureObserved": {
+      "hierarchyMaxDepth": 1,
+      "hierarchyAvgBranchingFactor": 1.75,
+      "nestingMaxDepth": 1
+    }
+  },
+  "sosa": {
+    "reference": "sosa",
+    "entityCounts": {
+      "classes": 16,
+      "objectProperties": 21,
+      "dataProperties": 2,
+      "individuals": 1
+    },
+    "observedEntityCounts": {
+      "classes": 16,
+      "objectProperties": 21,
+      "dataProperties": 2,
+      "individuals": 1
+    },
+    "minimumRequiredEntityCounts": {
+      "classes": 1,
+      "objectProperties": 2,
+      "dataProperties": 1,
+      "individuals": 1
+    },
+    "entityCountsBumpedFields": {},
+    "constructs": {
+      "INVERSE_OF_PROPERTY": 9,
+      "DATA_PROPERTY_RANGE": 1,
+      "CLASS_ASSERTION": 3
+    },
+    "totalRequestedAxioms": 13,
+    "structure": {
+      "hierarchyTargetDepth": 1,
+      "hierarchyBranchingFactor": 1,
+      "nestingMaxDepth": 0
+    },
+    "structureObserved": {
+      "hierarchyMaxDepth": 0,
+      "hierarchyAvgBranchingFactor": 0.0,
+      "nestingMaxDepth": 0
+    }
+  },
+  "pizza": {
+    "reference": "pizza",
+    "entityCounts": {
+      "classes": 100,
+      "objectProperties": 8,
+      "dataProperties": 0,
+      "individuals": 5
+    },
+    "observedEntityCounts": {
+      "classes": 100,
+      "objectProperties": 8,
+      "dataProperties": 0,
+      "individuals": 5
+    },
+    "minimumRequiredEntityCounts": {
+      "classes": 3,
+      "objectProperties": 2,
+      "dataProperties": 0,
+      "individuals": 2
+    },
+    "entityCountsBumpedFields": {},
+    "constructs": {
+      "OBJECT_COMPLEMENT_OF": 3,
+      "OBJECT_INTERSECTION_OF": 15,
+      "OBJECT_ONE_OF": 1,
+      "OBJECT_UNION_OF": 25,
+      "DISJOINT_WITH": 5,
+      "EQUIVALENT_CLASSES": 15,
+      "SUB_CLASS_OF": 259,
+      "ALL_DISJOINT_CLASSES": 9,
+      "FUNCTIONAL_OBJECT_PROPERTY": 4,
+      "INVERSE_FUNCTIONAL_PROPERTY": 3,
+      "INVERSE_OF_PROPERTY": 3,
+      "TRANSITIVE_PROPERTY": 2,
+      "OBJECT_PROPERTY_DOMAIN": 3,
+      "OBJECT_PROPERTY_RANGE": 4,
+      "SUB_OBJECT_PROPERTY_OF": 4,
+      "OBJECT_ALL_VALUES_FROM": 26,
+      "OBJECT_HAS_VALUE": 6,
+      "OBJECT_SOME_VALUES_FROM": 155,
+      "OBJECT_MIN_CARDINALITY": 1,
+      "CLASS_ASSERTION": 10,
+      "DIFFERENT_INDIVIDUALS": 1
+    },
+    "totalRequestedAxioms": 554,
+    "structure": {
+      "hierarchyTargetDepth": 6,
+      "hierarchyBranchingFactor": 4,
+      "nestingMaxDepth": 4
+    },
+    "structureObserved": {
+      "hierarchyMaxDepth": 6,
+      "hierarchyAvgBranchingFactor": 4.0,
+      "nestingMaxDepth": 4
+    }
+  },
+  "goslim_generic": {
+    "reference": "goslim_generic",
+    "entityCounts": {
+      "classes": 140,
+      "objectProperties": 9,
+      "dataProperties": 0,
+      "individuals": 0
+    },
+    "observedEntityCounts": {
+      "classes": 140,
+      "objectProperties": 9,
+      "dataProperties": 0,
+      "individuals": 0
+    },
+    "minimumRequiredEntityCounts": {
+      "classes": 2,
+      "objectProperties": 2,
+      "dataProperties": 0,
+      "individuals": 0
+    },
+    "entityCountsBumpedFields": {},
+    "constructs": {
+      "OBJECT_INTERSECTION_OF": 1,
+      "EQUIVALENT_CLASSES": 1,
+      "SUB_CLASS_OF": 64,
+      "INVERSE_OF_PROPERTY": 1,
+      "TRANSITIVE_PROPERTY": 4,
+      "PROPERTY_CHAIN_AXIOM": 2,
+      "SUB_OBJECT_PROPERTY_OF": 3,
+      "OBJECT_SOME_VALUES_FROM": 30
+    },
+    "totalRequestedAxioms": 106,
+    "structure": {
+      "hierarchyTargetDepth": 2,
+      "hierarchyBranchingFactor": 4,
+      "nestingMaxDepth": 2
+    },
+    "structureObserved": {
+      "hierarchyMaxDepth": 2,
+      "hierarchyAvgBranchingFactor": 3.5,
+      "nestingMaxDepth": 2
+    }
+  },
+  "wine": {
+    "reference": "wine",
+    "entityCounts": {
+      "classes": 77,
+      "objectProperties": 13,
+      "dataProperties": 1,
+      "individuals": 161
+    },
+    "observedEntityCounts": {
+      "classes": 77,
+      "objectProperties": 13,
+      "dataProperties": 1,
+      "individuals": 161
+    },
+    "minimumRequiredEntityCounts": {
+      "classes": 2,
+      "objectProperties": 2,
+      "dataProperties": 1,
+      "individuals": 2
+    },
+    "entityCountsBumpedFields": {},
+    "constructs": {
+      "OBJECT_INTERSECTION_OF": 56,
+      "OBJECT_ONE_OF": 31,
+      "OBJECT_UNION_OF": 1,
+      "DISJOINT_WITH": 1,
+      "EQUIVALENT_CLASSES": 61,
+      "SUB_CLASS_OF": 126,
+      "FUNCTIONAL_OBJECT_PROPERTY": 6,
+      "INVERSE_OF_PROPERTY": 2,
+      "SYMMETRIC_PROPERTY": 1,
+      "TRANSITIVE_PROPERTY": 1,
+      "OBJECT_PROPERTY_DOMAIN": 6,
+      "OBJECT_PROPERTY_RANGE": 9,
+      "SUB_OBJECT_PROPERTY_OF": 5,
+      "OBJECT_ALL_VALUES_FROM": 28,
+      "OBJECT_HAS_VALUE": 115,
+      "OBJECT_SOME_VALUES_FROM": 1,
+      "OBJECT_MIN_CARDINALITY": 2,
+      "OBJECT_MAX_CARDINALITY": 22,
+      "OBJECT_EXACT_CARDINALITY": 6,
+      "DATA_PROPERTY_DOMAIN": 1,
+      "DATA_PROPERTY_RANGE": 1,
+      "CLASS_ASSERTION": 182,
+      "OBJECT_PROPERTY_ASSERTION": 246,
+      "DATA_PROPERTY_ASSERTION": 1,
+      "DIFFERENT_INDIVIDUALS": 8
+    },
+    "totalRequestedAxioms": 919,
+    "structure": {
+      "hierarchyTargetDepth": 3,
+      "hierarchyBranchingFactor": 2,
+      "nestingMaxDepth": 2
+    },
+    "structureObserved": {
+      "hierarchyMaxDepth": 3,
+      "hierarchyAvgBranchingFactor": 1.5,
+      "nestingMaxDepth": 2
+    }
+  }
+}

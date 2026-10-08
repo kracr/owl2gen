@@ -1,0 +1,1082 @@
+{
+  "prov-o": {
+    "reference": {
+      "hierarchy_depth": 3,
+      "branching": 3.111111111111111,
+      "tangledness": 0.21739130434782608,
+      "avg_degree": 5.3584905660377355,
+      "clustering": 0.26964441960498975,
+      "inferred_ratio": 0.5862068965517241
+    },
+    "variants": {
+      "UNIFORM_RANDOM": {
+        "n_consistent": 10,
+        "n_timeout": 0,
+        "metrics": {
+          "hierarchy_depth": {
+            "median": 4.5,
+            "q1": 4.0,
+            "q3": 7.25,
+            "ref_in_iqr": false
+          },
+          "branching": {
+            "median": 1.3495670995670994,
+            "q1": 1.3181818181818181,
+            "q3": 1.45,
+            "ref_in_iqr": false
+          },
+          "tangledness": {
+            "median": 0.35,
+            "q1": 0.234472049689441,
+            "q3": 0.3732142857142857,
+            "ref_in_iqr": false
+          },
+          "avg_degree": {
+            "median": 5.055562415112977,
+            "q1": 5.03315224101741,
+            "q3": 5.145848595848596,
+            "ref_in_iqr": false
+          },
+          "clustering": {
+            "median": 0.14867202394674922,
+            "q1": 0.14383606510011,
+            "q3": 0.15548213362141,
+            "ref_in_iqr": false
+          },
+          "inferred_ratio": {
+            "median": 5.944444444444445,
+            "q1": 5.15,
+            "q3": 7.075000000000001,
+            "ref_in_iqr": false
+          }
+        }
+      },
+      "CHAIN": {
+        "n_consistent": 0,
+        "n_timeout": 10,
+        "metrics": {
+          "hierarchy_depth": {
+            "median": null,
+            "q1": null,
+            "q3": null,
+            "ref_in_iqr": null
+          },
+          "branching": {
+            "median": null,
+            "q1": null,
+            "q3": null,
+            "ref_in_iqr": null
+          },
+          "tangledness": {
+            "median": null,
+            "q1": null,
+            "q3": null,
+            "ref_in_iqr": null
+          },
+          "avg_degree": {
+            "median": null,
+            "q1": null,
+            "q3": null,
+            "ref_in_iqr": null
+          },
+          "clustering": {
+            "median": null,
+            "q1": null,
+            "q3": null,
+            "ref_in_iqr": null
+          },
+          "inferred_ratio": {
+            "median": null,
+            "q1": null,
+            "q3": null,
+            "ref_in_iqr": null
+          }
+        }
+      },
+      "BALANCED_TREE": {
+        "n_consistent": 0,
+        "n_timeout": 10,
+        "metrics": {
+          "hierarchy_depth": {
+            "median": null,
+            "q1": null,
+            "q3": null,
+            "ref_in_iqr": null
+          },
+          "branching": {
+            "median": null,
+            "q1": null,
+            "q3": null,
+            "ref_in_iqr": null
+          },
+          "tangledness": {
+            "median": null,
+            "q1": null,
+            "q3": null,
+            "ref_in_iqr": null
+          },
+          "avg_degree": {
+            "median": null,
+            "q1": null,
+            "q3": null,
+            "ref_in_iqr": null
+          },
+          "clustering": {
+            "median": null,
+            "q1": null,
+            "q3": null,
+            "ref_in_iqr": null
+          },
+          "inferred_ratio": {
+            "median": null,
+            "q1": null,
+            "q3": null,
+            "ref_in_iqr": null
+          }
+        }
+      },
+      "PREFERENTIAL": {
+        "n_consistent": 0,
+        "n_timeout": 10,
+        "metrics": {
+          "hierarchy_depth": {
+            "median": null,
+            "q1": null,
+            "q3": null,
+            "ref_in_iqr": null
+          },
+          "branching": {
+            "median": null,
+            "q1": null,
+            "q3": null,
+            "ref_in_iqr": null
+          },
+          "tangledness": {
+            "median": null,
+            "q1": null,
+            "q3": null,
+            "ref_in_iqr": null
+          },
+          "avg_degree": {
+            "median": null,
+            "q1": null,
+            "q3": null,
+            "ref_in_iqr": null
+          },
+          "clustering": {
+            "median": null,
+            "q1": null,
+            "q3": null,
+            "ref_in_iqr": null
+          },
+          "inferred_ratio": {
+            "median": null,
+            "q1": null,
+            "q3": null,
+            "ref_in_iqr": null
+          }
+        }
+      }
+    }
+  },
+  "ssn": {
+    "reference": {
+      "hierarchy_depth": 1,
+      "branching": 1.75,
+      "tangledness": 0.16666666666666666,
+      "avg_degree": 5.044776119402985,
+      "clustering": 0.5096354318786276,
+      "inferred_ratio": 0.0
+    },
+    "variants": {
+      "UNIFORM_RANDOM": {
+        "n_consistent": 0,
+        "n_timeout": 10,
+        "metrics": {
+          "hierarchy_depth": {
+            "median": null,
+            "q1": null,
+            "q3": null,
+            "ref_in_iqr": null
+          },
+          "branching": {
+            "median": null,
+            "q1": null,
+            "q3": null,
+            "ref_in_iqr": null
+          },
+          "tangledness": {
+            "median": null,
+            "q1": null,
+            "q3": null,
+            "ref_in_iqr": null
+          },
+          "avg_degree": {
+            "median": null,
+            "q1": null,
+            "q3": null,
+            "ref_in_iqr": null
+          },
+          "clustering": {
+            "median": null,
+            "q1": null,
+            "q3": null,
+            "ref_in_iqr": null
+          },
+          "inferred_ratio": {
+            "median": null,
+            "q1": null,
+            "q3": null,
+            "ref_in_iqr": null
+          }
+        }
+      },
+      "CHAIN": {
+        "n_consistent": 0,
+        "n_timeout": 10,
+        "metrics": {
+          "hierarchy_depth": {
+            "median": null,
+            "q1": null,
+            "q3": null,
+            "ref_in_iqr": null
+          },
+          "branching": {
+            "median": null,
+            "q1": null,
+            "q3": null,
+            "ref_in_iqr": null
+          },
+          "tangledness": {
+            "median": null,
+            "q1": null,
+            "q3": null,
+            "ref_in_iqr": null
+          },
+          "avg_degree": {
+            "median": null,
+            "q1": null,
+            "q3": null,
+            "ref_in_iqr": null
+          },
+          "clustering": {
+            "median": null,
+            "q1": null,
+            "q3": null,
+            "ref_in_iqr": null
+          },
+          "inferred_ratio": {
+            "median": null,
+            "q1": null,
+            "q3": null,
+            "ref_in_iqr": null
+          }
+        }
+      },
+      "BALANCED_TREE": {
+        "n_consistent": 0,
+        "n_timeout": 10,
+        "metrics": {
+          "hierarchy_depth": {
+            "median": null,
+            "q1": null,
+            "q3": null,
+            "ref_in_iqr": null
+          },
+          "branching": {
+            "median": null,
+            "q1": null,
+            "q3": null,
+            "ref_in_iqr": null
+          },
+          "tangledness": {
+            "median": null,
+            "q1": null,
+            "q3": null,
+            "ref_in_iqr": null
+          },
+          "avg_degree": {
+            "median": null,
+            "q1": null,
+            "q3": null,
+            "ref_in_iqr": null
+          },
+          "clustering": {
+            "median": null,
+            "q1": null,
+            "q3": null,
+            "ref_in_iqr": null
+          },
+          "inferred_ratio": {
+            "median": null,
+            "q1": null,
+            "q3": null,
+            "ref_in_iqr": null
+          }
+        }
+      },
+      "PREFERENTIAL": {
+        "n_consistent": 0,
+        "n_timeout": 10,
+        "metrics": {
+          "hierarchy_depth": {
+            "median": null,
+            "q1": null,
+            "q3": null,
+            "ref_in_iqr": null
+          },
+          "branching": {
+            "median": null,
+            "q1": null,
+            "q3": null,
+            "ref_in_iqr": null
+          },
+          "tangledness": {
+            "median": null,
+            "q1": null,
+            "q3": null,
+            "ref_in_iqr": null
+          },
+          "avg_degree": {
+            "median": null,
+            "q1": null,
+            "q3": null,
+            "ref_in_iqr": null
+          },
+          "clustering": {
+            "median": null,
+            "q1": null,
+            "q3": null,
+            "ref_in_iqr": null
+          },
+          "inferred_ratio": {
+            "median": null,
+            "q1": null,
+            "q3": null,
+            "ref_in_iqr": null
+          }
+        }
+      }
+    }
+  },
+  "sosa": {
+    "reference": {
+      "hierarchy_depth": 0,
+      "branching": 0.0,
+      "tangledness": 0.0,
+      "avg_degree": 1.0303030303030303,
+      "clustering": 0.0,
+      "inferred_ratio": 0.0
+    },
+    "variants": {
+      "UNIFORM_RANDOM": {
+        "n_consistent": 10,
+        "n_timeout": 0,
+        "metrics": {
+          "hierarchy_depth": {
+            "median": 0.0,
+            "q1": 0.0,
+            "q3": 0.0,
+            "ref_in_iqr": true
+          },
+          "branching": {
+            "median": 0.0,
+            "q1": 0.0,
+            "q3": 0.0,
+            "ref_in_iqr": true
+          },
+          "tangledness": {
+            "median": 0.0,
+            "q1": 0.0,
+            "q3": 0.0,
+            "ref_in_iqr": true
+          },
+          "avg_degree": {
+            "median": 1.3508771929824561,
+            "q1": 1.3,
+            "q3": 1.425438596491228,
+            "ref_in_iqr": false
+          },
+          "clustering": {
+            "median": 0.0,
+            "q1": 0.0,
+            "q3": 0.0,
+            "ref_in_iqr": true
+          },
+          "inferred_ratio": {
+            "median": 0.0,
+            "q1": 0.0,
+            "q3": 0.0,
+            "ref_in_iqr": true
+          }
+        }
+      },
+      "CHAIN": {
+        "n_consistent": 7,
+        "n_timeout": 3,
+        "metrics": {
+          "hierarchy_depth": {
+            "median": 0,
+            "q1": 0.0,
+            "q3": 0.0,
+            "ref_in_iqr": true
+          },
+          "branching": {
+            "median": 0.0,
+            "q1": 0.0,
+            "q3": 0.0,
+            "ref_in_iqr": true
+          },
+          "tangledness": {
+            "median": 0.0,
+            "q1": 0.0,
+            "q3": 0.0,
+            "ref_in_iqr": true
+          },
+          "avg_degree": {
+            "median": 1.5714285714285714,
+            "q1": 1.5714285714285714,
+            "q3": 1.5714285714285714,
+            "ref_in_iqr": false
+          },
+          "clustering": {
+            "median": 0.0,
+            "q1": 0.0,
+            "q3": 0.0,
+            "ref_in_iqr": true
+          },
+          "inferred_ratio": {
+            "median": 0.0,
+            "q1": 0.0,
+            "q3": 0.0,
+            "ref_in_iqr": true
+          }
+        }
+      },
+      "BALANCED_TREE": {
+        "n_consistent": 10,
+        "n_timeout": 0,
+        "metrics": {
+          "hierarchy_depth": {
+            "median": 0.0,
+            "q1": 0.0,
+            "q3": 0.0,
+            "ref_in_iqr": true
+          },
+          "branching": {
+            "median": 0.0,
+            "q1": 0.0,
+            "q3": 0.0,
+            "ref_in_iqr": true
+          },
+          "tangledness": {
+            "median": 0.0,
+            "q1": 0.0,
+            "q3": 0.0,
+            "ref_in_iqr": true
+          },
+          "avg_degree": {
+            "median": 1.0833333333333333,
+            "q1": 1.0833333333333333,
+            "q3": 1.0833333333333333,
+            "ref_in_iqr": false
+          },
+          "clustering": {
+            "median": 0.0,
+            "q1": 0.0,
+            "q3": 0.0,
+            "ref_in_iqr": true
+          },
+          "inferred_ratio": {
+            "median": 0.0,
+            "q1": 0.0,
+            "q3": 0.0,
+            "ref_in_iqr": true
+          }
+        }
+      },
+      "PREFERENTIAL": {
+        "n_consistent": 10,
+        "n_timeout": 0,
+        "metrics": {
+          "hierarchy_depth": {
+            "median": 0.0,
+            "q1": 0.0,
+            "q3": 0.0,
+            "ref_in_iqr": true
+          },
+          "branching": {
+            "median": 0.0,
+            "q1": 0.0,
+            "q3": 0.0,
+            "ref_in_iqr": true
+          },
+          "tangledness": {
+            "median": 0.0,
+            "q1": 0.0,
+            "q3": 0.0,
+            "ref_in_iqr": true
+          },
+          "avg_degree": {
+            "median": 1.5647058823529412,
+            "q1": 1.415966386554622,
+            "q3": 1.6919642857142856,
+            "ref_in_iqr": false
+          },
+          "clustering": {
+            "median": 0.0,
+            "q1": 0.0,
+            "q3": 0.09337797619047618,
+            "ref_in_iqr": true
+          },
+          "inferred_ratio": {
+            "median": 0.0,
+            "q1": 0.0,
+            "q3": 0.0,
+            "ref_in_iqr": true
+          }
+        }
+      }
+    }
+  },
+  "pizza": {
+    "reference": {
+      "hierarchy_depth": 6,
+      "branching": 4.0,
+      "tangledness": 0.012048192771084338,
+      "avg_degree": 16.297520661157026,
+      "clustering": 0.6219368376381414,
+      "inferred_ratio": 2.335907335907336
+    },
+    "variants": {
+      "UNIFORM_RANDOM": {
+        "n_consistent": 10,
+        "n_timeout": 0,
+        "metrics": {
+          "hierarchy_depth": {
+            "median": 5.5,
+            "q1": 5.0,
+            "q3": 6.0,
+            "ref_in_iqr": true
+          },
+          "branching": {
+            "median": 6.831196581196581,
+            "q1": 6.562805474095797,
+            "q3": 7.867826086956521,
+            "ref_in_iqr": false
+          },
+          "tangledness": {
+            "median": 0.4159663865546218,
+            "q1": 0.3665254237288136,
+            "q3": 0.44845030737704916,
+            "ref_in_iqr": false
+          },
+          "avg_degree": {
+            "median": 7.316429854646415,
+            "q1": 7.114019851116625,
+            "q3": 7.4307868813545905,
+            "ref_in_iqr": false
+          },
+          "clustering": {
+            "median": 0.37722010709270887,
+            "q1": 0.3621911963990661,
+            "q3": 0.41867619083487917,
+            "ref_in_iqr": false
+          },
+          "inferred_ratio": {
+            "median": 23.05947497140152,
+            "q1": 19.52583251283494,
+            "q3": 29.410725516621742,
+            "ref_in_iqr": false
+          }
+        }
+      },
+      "CHAIN": {
+        "n_consistent": 10,
+        "n_timeout": 0,
+        "metrics": {
+          "hierarchy_depth": {
+            "median": 1.0,
+            "q1": 1.0,
+            "q3": 1.0,
+            "ref_in_iqr": false
+          },
+          "branching": {
+            "median": 1.0,
+            "q1": 1.0,
+            "q3": 1.0,
+            "ref_in_iqr": false
+          },
+          "tangledness": {
+            "median": 1.0,
+            "q1": 1.0,
+            "q3": 1.0,
+            "ref_in_iqr": false
+          },
+          "avg_degree": {
+            "median": 2.9904541631623216,
+            "q1": 2.9756264861898667,
+            "q3": 3.0273972602739727,
+            "ref_in_iqr": false
+          },
+          "clustering": {
+            "median": 0.5642929840726916,
+            "q1": 0.5442398862127721,
+            "q3": 0.5853579914463282,
+            "ref_in_iqr": false
+          },
+          "inferred_ratio": {
+            "median": 28.757575757575758,
+            "q1": 27.745974915495466,
+            "q3": 29.629799475902928,
+            "ref_in_iqr": false
+          }
+        }
+      },
+      "BALANCED_TREE": {
+        "n_consistent": 10,
+        "n_timeout": 0,
+        "metrics": {
+          "hierarchy_depth": {
+            "median": 4.0,
+            "q1": 3.0,
+            "q3": 5.0,
+            "ref_in_iqr": false
+          },
+          "branching": {
+            "median": 4.2,
+            "q1": 1.6888888888888889,
+            "q3": 4.364153627311522,
+            "ref_in_iqr": true
+          },
+          "tangledness": {
+            "median": 0.23851799242424243,
+            "q1": 0.05113636363636364,
+            "q3": 0.2566146540027137,
+            "ref_in_iqr": false
+          },
+          "avg_degree": {
+            "median": 6.8164556962025316,
+            "q1": 5.6455696202531644,
+            "q3": 6.917112950340798,
+            "ref_in_iqr": false
+          },
+          "clustering": {
+            "median": 0.4248784360015623,
+            "q1": 0.40677595215555123,
+            "q3": 0.4317514400198795,
+            "ref_in_iqr": false
+          },
+          "inferred_ratio": {
+            "median": 25.820923847209883,
+            "q1": 10.992424242424242,
+            "q3": 30.191200849608872,
+            "ref_in_iqr": false
+          }
+        }
+      },
+      "PREFERENTIAL": {
+        "n_consistent": 10,
+        "n_timeout": 0,
+        "metrics": {
+          "hierarchy_depth": {
+            "median": 0.0,
+            "q1": 0.0,
+            "q3": 5.0,
+            "ref_in_iqr": false
+          },
+          "branching": {
+            "median": 0.0,
+            "q1": 0.0,
+            "q3": 6.759243697478992,
+            "ref_in_iqr": true
+          },
+          "tangledness": {
+            "median": 0.0,
+            "q1": 0.0,
+            "q3": 0.5582994498923701,
+            "ref_in_iqr": true
+          },
+          "avg_degree": {
+            "median": 6.081026162052324,
+            "q1": 5.7631183506641825,
+            "q3": 7.5846432356057925,
+            "ref_in_iqr": false
+          },
+          "clustering": {
+            "median": 0.48791963359244783,
+            "q1": 0.2996011849622612,
+            "q3": 0.5507214483016163,
+            "ref_in_iqr": false
+          },
+          "inferred_ratio": {
+            "median": 61.4057239057239,
+            "q1": 23.082628514116347,
+            "q3": 84.7237215909091,
+            "ref_in_iqr": false
+          }
+        }
+      }
+    }
+  },
+  "goslim_generic": {
+    "reference": {
+      "hierarchy_depth": 2,
+      "branching": 3.5,
+      "tangledness": 0.0,
+      "avg_degree": 2.5891472868217056,
+      "clustering": 0.3466605433254803,
+      "inferred_ratio": 0.0625
+    },
+    "variants": {
+      "UNIFORM_RANDOM": {
+        "n_consistent": 10,
+        "n_timeout": 0,
+        "metrics": {
+          "hierarchy_depth": {
+            "median": 4.0,
+            "q1": 4.0,
+            "q3": 4.75,
+            "ref_in_iqr": false
+          },
+          "branching": {
+            "median": 1.2549019607843137,
+            "q1": 1.2115384615384615,
+            "q3": 1.2549019607843137,
+            "ref_in_iqr": false
+          },
+          "tangledness": {
+            "median": 0.20615384615384616,
+            "q1": 0.16981132075471697,
+            "q3": 0.2627050820328131,
+            "ref_in_iqr": false
+          },
+          "avg_degree": {
+            "median": 3.3688341669873028,
+            "q1": 3.2600056971941322,
+            "q3": 3.507647323436797,
+            "ref_in_iqr": false
+          },
+          "clustering": {
+            "median": 0.2791682282311311,
+            "q1": 0.2666404297651581,
+            "q3": 0.29149790555494426,
+            "ref_in_iqr": false
+          },
+          "inferred_ratio": {
+            "median": 0.5691489361702128,
+            "q1": 0.523936170212766,
+            "q3": 0.6382120796156486,
+            "ref_in_iqr": false
+          }
+        }
+      },
+      "CHAIN": {
+        "n_consistent": 10,
+        "n_timeout": 0,
+        "metrics": {
+          "hierarchy_depth": {
+            "median": 1.0,
+            "q1": 1.0,
+            "q3": 1.0,
+            "ref_in_iqr": false
+          },
+          "branching": {
+            "median": 1.0,
+            "q1": 1.0,
+            "q3": 1.0,
+            "ref_in_iqr": false
+          },
+          "tangledness": {
+            "median": 1.0,
+            "q1": 1.0,
+            "q3": 1.0,
+            "ref_in_iqr": false
+          },
+          "avg_degree": {
+            "median": 2.310344827586207,
+            "q1": 2.2162698412698414,
+            "q3": 2.448084677419355,
+            "ref_in_iqr": false
+          },
+          "clustering": {
+            "median": 0.1757556945518151,
+            "q1": 0.12139315496313466,
+            "q3": 0.198758210180624,
+            "ref_in_iqr": false
+          },
+          "inferred_ratio": {
+            "median": 0.8716129032258064,
+            "q1": 0.8111263736263736,
+            "q3": 1.3665865384615383,
+            "ref_in_iqr": false
+          }
+        }
+      },
+      "BALANCED_TREE": {
+        "n_consistent": 10,
+        "n_timeout": 0,
+        "metrics": {
+          "hierarchy_depth": {
+            "median": 1.0,
+            "q1": 1.0,
+            "q3": 1.0,
+            "ref_in_iqr": false
+          },
+          "branching": {
+            "median": 1.0,
+            "q1": 1.0,
+            "q3": 1.0,
+            "ref_in_iqr": false
+          },
+          "tangledness": {
+            "median": 0.0,
+            "q1": 0.0,
+            "q3": 0.0,
+            "ref_in_iqr": true
+          },
+          "avg_degree": {
+            "median": 2.5866666666666664,
+            "q1": 2.5733333333333333,
+            "q3": 2.65,
+            "ref_in_iqr": true
+          },
+          "clustering": {
+            "median": 0.20798292448292438,
+            "q1": 0.20221809671809665,
+            "q3": 0.21990703740703732,
+            "ref_in_iqr": false
+          },
+          "inferred_ratio": {
+            "median": 0.02127659574468085,
+            "q1": 0.01329787234042553,
+            "q3": 0.0425531914893617,
+            "ref_in_iqr": false
+          }
+        }
+      },
+      "PREFERENTIAL": {
+        "n_consistent": 10,
+        "n_timeout": 0,
+        "metrics": {
+          "hierarchy_depth": {
+            "median": 6.0,
+            "q1": 4.25,
+            "q3": 8.0,
+            "ref_in_iqr": false
+          },
+          "branching": {
+            "median": 1.4222222222222223,
+            "q1": 1.365721040189125,
+            "q3": 1.4464646464646465,
+            "ref_in_iqr": false
+          },
+          "tangledness": {
+            "median": 0.29545454545454547,
+            "q1": 0.2865079365079365,
+            "q3": 0.32558139534883723,
+            "ref_in_iqr": false
+          },
+          "avg_degree": {
+            "median": 3.8481767180925663,
+            "q1": 3.748728562980485,
+            "q3": 4.224734042553191,
+            "ref_in_iqr": false
+          },
+          "clustering": {
+            "median": 0.2890064121368294,
+            "q1": 0.25004167349251133,
+            "q3": 0.31355818591681683,
+            "ref_in_iqr": false
+          },
+          "inferred_ratio": {
+            "median": 1.2723633035918556,
+            "q1": 0.9680851063829787,
+            "q3": 1.604371201496026,
+            "ref_in_iqr": false
+          }
+        }
+      }
+    }
+  },
+  "wine": {
+    "reference": {
+      "hierarchy_depth": 3,
+      "branching": 1.5,
+      "tangledness": 0.07142857142857142,
+      "avg_degree": 16.591439688715955,
+      "clustering": 0.48463471800698255,
+      "inferred_ratio": 3.6825396825396823
+    },
+    "variants": {
+      "UNIFORM_RANDOM": {
+        "n_consistent": 10,
+        "n_timeout": 0,
+        "metrics": {
+          "hierarchy_depth": {
+            "median": 0.0,
+            "q1": 0.0,
+            "q3": 0.0,
+            "ref_in_iqr": false
+          },
+          "branching": {
+            "median": 0.0,
+            "q1": 0.0,
+            "q3": 0.0,
+            "ref_in_iqr": false
+          },
+          "tangledness": {
+            "median": 0.0,
+            "q1": 0.0,
+            "q3": 0.0,
+            "ref_in_iqr": false
+          },
+          "avg_degree": {
+            "median": 5.670897944464479,
+            "q1": 4.755364806866953,
+            "q3": 6.296120732032753,
+            "ref_in_iqr": false
+          },
+          "clustering": {
+            "median": 0.5213284701121722,
+            "q1": 0.4360869581148594,
+            "q3": 0.5666698688765812,
+            "ref_in_iqr": true
+          },
+          "inferred_ratio": {
+            "median": 3.8389830508474576,
+            "q1": 0.0,
+            "q3": 15.165254237288137,
+            "ref_in_iqr": true
+          }
+        }
+      },
+      "CHAIN": {
+        "n_consistent": 10,
+        "n_timeout": 0,
+        "metrics": {
+          "hierarchy_depth": {
+            "median": 1.0,
+            "q1": 1.0,
+            "q3": 1.0,
+            "ref_in_iqr": false
+          },
+          "branching": {
+            "median": 1.0,
+            "q1": 1.0,
+            "q3": 1.0,
+            "ref_in_iqr": false
+          },
+          "tangledness": {
+            "median": 1.0,
+            "q1": 1.0,
+            "q3": 1.0,
+            "ref_in_iqr": false
+          },
+          "avg_degree": {
+            "median": 3.202062714688977,
+            "q1": 3.199383983572895,
+            "q3": 3.2100498918939264,
+            "ref_in_iqr": false
+          },
+          "clustering": {
+            "median": 0.5359175857649492,
+            "q1": 0.5307731396918421,
+            "q3": 0.5453055361194888,
+            "ref_in_iqr": false
+          },
+          "inferred_ratio": {
+            "median": 105.179945799458,
+            "q1": 103.62877572841487,
+            "q3": 111.04598214285713,
+            "ref_in_iqr": false
+          }
+        }
+      },
+      "BALANCED_TREE": {
+        "n_consistent": 4,
+        "n_timeout": 6,
+        "metrics": {
+          "hierarchy_depth": {
+            "median": 0.0,
+            "q1": 0.0,
+            "q3": 0.0,
+            "ref_in_iqr": false
+          },
+          "branching": {
+            "median": 0.0,
+            "q1": 0.0,
+            "q3": 0.0,
+            "ref_in_iqr": false
+          },
+          "tangledness": {
+            "median": 0.0,
+            "q1": 0.0,
+            "q3": 0.0,
+            "ref_in_iqr": false
+          },
+          "avg_degree": {
+            "median": 4.765625,
+            "q1": 4.665127840909091,
+            "q3": 4.807286479083666,
+            "ref_in_iqr": false
+          },
+          "clustering": {
+            "median": 0.4889043682012436,
+            "q1": 0.48159362084372437,
+            "q3": 0.5152546900965743,
+            "ref_in_iqr": true
+          },
+          "inferred_ratio": {
+            "median": 12.086206896551724,
+            "q1": 0.0,
+            "q3": 38.67592051431912,
+            "ref_in_iqr": true
+          }
+        }
+      },
+      "PREFERENTIAL": {
+        "n_consistent": 10,
+        "n_timeout": 0,
+        "metrics": {
+          "hierarchy_depth": {
+            "median": 0.0,
+            "q1": 0.0,
+            "q3": 0.0,
+            "ref_in_iqr": false
+          },
+          "branching": {
+            "median": 0.0,
+            "q1": 0.0,
+            "q3": 0.0,
+            "ref_in_iqr": false
+          },
+          "tangledness": {
+            "median": 0.0,
+            "q1": 0.0,
+            "q3": 0.0,
+            "ref_in_iqr": false
+          },
+          "avg_degree": {
+            "median": 6.290710255815751,
+            "q1": 5.392296918767507,
+            "q3": 8.604547499284342,
+            "ref_in_iqr": false
+          },
+          "clustering": {
+            "median": 0.5398803106041931,
+            "q1": 0.45079353355986196,
+            "q3": 0.5789086057090533,
+            "ref_in_iqr": true
+          },
+          "inferred_ratio": {
+            "median": 23.183734939759034,
+            "q1": 0.8066037735849056,
+            "q3": 38.190751445086704,
+            "ref_in_iqr": true
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,1 +1,0 @@
-LeisureStudent takesCourse max 1 Course 

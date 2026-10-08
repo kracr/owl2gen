@@ -1,0 +1,170 @@
+{
+  "prov-o_UNIFORM_RANDOM": {
+    "status": "COMPLETED",
+    "elapsed_s": 2.341135263442993,
+    "verif_status": "CONSISTENT",
+    "depth": 5,
+    "branching": 1.2608695652173914
+  },
+  "prov-o_CHAIN": {
+    "status": "COMPLETED",
+    "elapsed_s": 78.24591088294983,
+    "verif_status": "NOT_VERIFIED_TIMEOUT",
+    "depth": 1,
+    "branching": 1.0
+  },
+  "prov-o_BALANCED_TREE": {
+    "status": "COMPLETED",
+    "elapsed_s": 0.18554425239562988,
+    "verif_status": "CONSISTENT",
+    "depth": 3,
+    "branching": 1.16
+  },
+  "prov-o_PREFERENTIAL": {
+    "status": "COMPLETED",
+    "elapsed_s": 99.77987837791443,
+    "verif_status": "NOT_VERIFIED_TIMEOUT",
+    "depth": 8,
+    "branching": 1.4
+  },
+  "ssn_UNIFORM_RANDOM": {
+    "status": "COMPLETED",
+    "elapsed_s": 63.542540073394775,
+    "verif_status": "NOT_VERIFIED_TIMEOUT",
+    "depth": 5,
+    "branching": 4.266666666666667
+  },
+  "ssn_CHAIN": {
+    "status": "COMPLETED",
+    "elapsed_s": 63.20628809928894,
+    "verif_status": "NOT_VERIFIED_TIMEOUT",
+    "depth": 1,
+    "branching": 1.0
+  },
+  "ssn_BALANCED_TREE": {
+    "status": "COMPLETED",
+    "elapsed_s": 93.17871236801147,
+    "verif_status": "NOT_VERIFIED_TIMEOUT",
+    "depth": 2,
+    "branching": 5.909090909090909
+  },
+  "ssn_PREFERENTIAL": {
+    "status": "COMPLETED",
+    "elapsed_s": 63.19214749336243,
+    "verif_status": "NOT_VERIFIED_TIMEOUT",
+    "depth": 8,
+    "branching": 4.533333333333333
+  },
+  "sosa_UNIFORM_RANDOM": {
+    "status": "COMPLETED",
+    "elapsed_s": 39.050734758377075,
+    "verif_status": "NOT_VERIFIED_TIMEOUT",
+    "depth": 0,
+    "branching": 0.0
+  },
+  "sosa_CHAIN": {
+    "status": "COMPLETED",
+    "elapsed_s": 39.09218907356262,
+    "verif_status": "NOT_VERIFIED_TIMEOUT",
+    "depth": 0,
+    "branching": 0.0
+  },
+  "sosa_BALANCED_TREE": {
+    "status": "COMPLETED",
+    "elapsed_s": 39.06876826286316,
+    "verif_status": "NOT_VERIFIED_TIMEOUT",
+    "depth": 0,
+    "branching": 0.0
+  },
+  "sosa_PREFERENTIAL": {
+    "status": "COMPLETED",
+    "elapsed_s": 39.09800720214844,
+    "verif_status": "NOT_VERIFIED_TIMEOUT",
+    "depth": 0,
+    "branching": 0.0
+  },
+  "pizza_UNIFORM_RANDOM": {
+    "status": "COMPLETED",
+    "elapsed_s": 93.60018515586853,
+    "verif_status": "NOT_VERIFIED_TIMEOUT",
+    "depth": 58,
+    "branching": 2.134453781512605
+  },
+  "pizza_CHAIN": {
+    "status": "COMPLETED",
+    "elapsed_s": 93.51659393310547,
+    "verif_status": "NOT_VERIFIED_TIMEOUT",
+    "depth": 1,
+    "branching": 1.0
+  },
+  "pizza_BALANCED_TREE": {
+    "status": "COMPLETED",
+    "elapsed_s": 93.50935339927673,
+    "verif_status": "NOT_VERIFIED_TIMEOUT",
+    "depth": 48,
+    "branching": 1.9545454545454546
+  },
+  "pizza_PREFERENTIAL": {
+    "status": "COMPLETED",
+    "elapsed_s": 93.37093329429626,
+    "verif_status": "NOT_VERIFIED_TIMEOUT",
+    "depth": 34,
+    "branching": 2.5247524752475248
+  },
+  "goslim_generic_UNIFORM_RANDOM": {
+    "status": "COMPLETED",
+    "elapsed_s": 54.206990480422974,
+    "verif_status": "NOT_VERIFIED_TIMEOUT",
+    "depth": 4,
+    "branching": 1.2075471698113207
+  },
+  "goslim_generic_CHAIN": {
+    "status": "COMPLETED",
+    "elapsed_s": 54.154807806015015,
+    "verif_status": "NOT_VERIFIED_TIMEOUT",
+    "depth": 1,
+    "branching": 1.0
+  },
+  "goslim_generic_BALANCED_TREE": {
+    "status": "COMPLETED",
+    "elapsed_s": 54.29275965690613,
+    "verif_status": "NOT_VERIFIED_TIMEOUT",
+    "depth": 1,
+    "branching": 1.0
+  },
+  "goslim_generic_PREFERENTIAL": {
+    "status": "COMPLETED",
+    "elapsed_s": 54.19390249252319,
+    "verif_status": "NOT_VERIFIED_TIMEOUT",
+    "depth": 7,
+    "branching": 1.5609756097560976
+  },
+  "wine_UNIFORM_RANDOM": {
+    "status": "COMPLETED",
+    "elapsed_s": 105.6473126411438,
+    "verif_status": "NOT_VERIFIED_TIMEOUT",
+    "depth": 7,
+    "branching": 1.3548387096774193
+  },
+  "wine_CHAIN": {
+    "status": "COMPLETED",
+    "elapsed_s": 105.64637851715088,
+    "verif_status": "NOT_VERIFIED_TIMEOUT",
+    "depth": 1,
+    "branching": 1.0
+  },
+  "wine_BALANCED_TREE": {
+    "status": "COMPLETED",
+    "elapsed_s": 105.58102869987488,
+    "verif_status": "NOT_VERIFIED_TIMEOUT",
+    "depth": 4,
+    "branching": 1.2233009708737863
+  },
+  "wine_PREFERENTIAL": {
+    "status": "COMPLETED",
+    "elapsed_s": 105.66514921188354,
+    "verif_status": "NOT_VERIFIED_TIMEOUT",
+    "depth": 14,
+    "branching": 1.5432098765432098
+  }
+}

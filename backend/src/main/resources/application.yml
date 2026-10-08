@@ -1,0 +1,97 @@
+spring:
+  application:
+    name: owl2gen-dl-backend
+
+server:
+  port: 8080
+
+owl2gendl:
+  generation:
+    # Deployment-level tuning for Guarantee Consistency's per-construct-type intermediate reasoner checks
+    # (OntologyGenerationService). Defaults match the project's original, always-hardcoded values. Widen
+    # intermediate-check-timeout-seconds if requests using reasoner-heavy constructs (property chains,
+    # cardinality restrictions) are timing out at the intermediate-check stage rather than failing cleanly.
+    max-batch-retry-attempts: 3
+    intermediate-check-timeout-seconds: 3
+    # Default budget for the final, authoritative consistency check (VariantOrchestrator), used only when a
+    # request does not set its own reasoning.timeoutSeconds (that field already overrides this per-request via
+    # the API/UI). This is the setting that matters for reasoner-heavy construct mixes that reliably run past
+    # 30s: raising it here changes the default for every request that doesn't explicitly ask for something
+    # else, without needing a UI field or a code change.
+    default-final-verification-timeout-seconds: 30
+    # Whole-variant retry budget (VariantOrchestrator): if the final verification comes back genuinely
+    # INCONSISTENT, the entire variant is regenerated from a new seed, up to this many times, before the
+    # inconsistent result is accepted as final. Distinct from max-batch-retry-attempts above, which only
+    # retries a single construct-type batch mid-generation under Guarantee Consistency.
+    max-inconsistent-attempts: 3
+
+    # Entity counts used whenever a request leaves classes/objectProperties/dataProperties/individuals unset
+    # (EntityCountsResolver). These were previously hardcoded; unchanged in value, just externalized so a
+    # deployment can shift the default pool sizes without a code change.
+    default-classes: 20
+    default-object-properties: 6
+    default-data-properties: 3
+    default-individuals: 10
+
+    # Topology (h, x) defaults used whenever a request's structure block is omitted or leaves a field unset
+    # (VariantOrchestrator#toTopologyConfig, formerly TopologyConfig.defaults()). hierarchy-target-depth/
+    # -branching-factor govern the asserted class hierarchy's shape; nesting-max-depth/-probability govern
+    # how deep and how often class expressions recurse into compound expressions (see NestingStrategy).
+    default-hierarchy-target-depth: 4
+    default-hierarchy-branching-factor: 3
+    default-nesting-max-depth: 2
+    default-nesting-probability: 0.3
+
+    # Order construct-type batches are generated in (ConstructOrderPlanner). DEFAULT is a deliberate no-op -
+    # ConstructId declaration order, exactly what every request has always used; see
+    # OntologyGenerationService's class doc for why a curated reordering was tried under strictConsistency
+    # and reverted after it made cumulative reasoning cost worse, not better. CATEGORY/RANDOM/CUSTOM are
+    # opt-in controls for exploring a different order on your own construct mix - none is claimed to reduce
+    # reasoning cost or improve outcomes; that would need its own real experiment.
+    construct-order-mode: DEFAULT
+
+    # CATEGORY mode only: the order ConstructCategory groups are processed in. Any category left out is still
+    # processed, appended after the ones listed here, so an incomplete list never silently drops constructs.
+    category-order: CLASS_AXIOM,OBJECT_PROPERTY_AXIOM,DATA_PROPERTY_AXIOM,ASSERTION,CLASS_EXPRESSION,OBJECT_PROPERTY_RESTRICTION,DATA_PROPERTY_RESTRICTION,DATA_RANGE
+
+    # CUSTOM mode only: an explicit, comma-separated ConstructId sequence. Any requested construct type not
+    # listed here is appended afterward in declaration order, not dropped. Example:
+    # custom-construct-order: SUB_CLASS_OF,CLASS_ASSERTION,OBJECT_SOME_VALUES_FROM,OBJECT_MIN_CARDINALITY
+    custom-construct-order: ""
+
+  reasoning:
+    # Tiers to try, in order, for the per-construct-type intermediate consistency check under
+    # strictConsistency (VerificationService#checkConsistencyWithFallback). A batch one reasoner cannot
+    # resolve within intermediate-check-timeout-seconds may still resolve quickly under another - stopped at
+    # the first tier that returns a definite CONSISTENT/INCONSISTENT answer. Available: OPENLLET, HERMIT,
+    # KONCLUDE, CUSTOM (the last two require konclude-executable / a registered CustomReasonerFactory bean,
+    # respectively - see ReasonerTier's own doc comment).
+    #
+    # KONCLUDE first, OPENLLET as fallback: chosen deliberately for this project's own reasoner-comparison
+    # experiments, not because Konclude-first is faster here - real measurement on a hard generated case
+    # (Chain topology, 758 axioms) showed the opposite at this stage: Konclude re-parses the whole ontology
+    # from a fresh subprocess on every call with no in-memory state between the many short-lived intermediate
+    # checks strictConsistency makes, so most such checks are expected to run out the per-tier timeout before
+    # falling through to Openllet, making generation slower under this order than under OPENLLET alone. That
+    # cost is accepted here because surfacing exactly this kind of per-reasoner divergence during generation -
+    # not just at final verification - is the evaluation this ordering is set up to produce.
+    fallback-order: KONCLUDE,OPENLLET
+
+    # Absolute path to the Konclude executable (e.g. Konclude.exe on Windows, or the Binaries/Konclude
+    # launcher on Linux/macOS). Required only if KONCLUDE appears in fallback-order or is used as an explicit
+    # per-request reasoner override. Left blank by default - selecting KONCLUDE without this set fails with a
+    # clear error rather than a confusing one.
+    konclude-executable: "D:/downloads/Konclude-v0.7.0-1135-Windows-x64-MSVC-Dynamic-Qt5.15.2/Konclude-v0.7.0-1135-Windows-x64-MSVC-Dynamic-Qt5.15.2/Binaries/Konclude.exe"
+
+    # Worker threads Konclude uses per call (its -w flag). Omitting -w entirely defaults to effectively
+    # single-threaded and is dramatically slower even on ontologies Konclude otherwise solves in well under a
+    # second - confirmed via direct measurement, not a tuning nicety. AUTO scales to every logical core, which
+    # is the right choice for a single large check but not necessarily for strictConsistency's pattern of up
+    # to 100+ short-lived calls per generation request, where a fixed, smaller count trades peak single-call
+    # speed for lower per-call thread-spinup overhead and less contention with everything else on the
+    # machine. Tune per deployment/workload; AUTO is a safe, real default, not necessarily the fastest one.
+    konclude-worker-threads: "AUTO"
+
+    # Where dropped-batch diagnostic reports and their ontology snapshots are written (BatchDiagnosticService),
+    # one subfolder per job id. Created on demand if it does not exist.
+    diagnostics-directory: "diagnostics"

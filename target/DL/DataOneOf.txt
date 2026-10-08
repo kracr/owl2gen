@@ -1,2 +1,0 @@
-hasTitle OneOf Dr.,xsd:string,Miss.,xsd:string,Mr.,xsd:string,Prof.,xsd:string
-hasTenure OneOf indefinite,xsd:string,probationary,xsd:string

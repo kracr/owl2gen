@@ -1,0 +1,27 @@
+diff --git a/module-core/src/main/java/openllet/core/rules/rete/JoinCondition.java b/module-core/src/main/java/openllet/core/rules/rete/JoinCondition.java
+index 51c9fea..7626e17 100644
+--- a/module-core/src/main/java/openllet/core/rules/rete/JoinCondition.java
++++ b/module-core/src/main/java/openllet/core/rules/rete/JoinCondition.java
+@@ -6,6 +6,8 @@
+ 
+ package openllet.core.rules.rete;
+ 
++import java.util.Objects;
++
+ import openllet.core.rules.rete.NodeProvider.TokenNodeProvider;
+ import openllet.core.rules.rete.NodeProvider.WMENodeProvider;
+ 
+@@ -23,7 +25,12 @@ public class JoinCondition implements FilterCondition
+ 	@Override
+ 	public boolean test(final WME wme, final Token token)
+ 	{
+-		return _wmeProvider.getNode(wme, token).getTerm().equals(_tokenProvider.getNode(wme, token).getTerm());
++		// Upstream defect (Galigator/openllet#39): getTerm() can return null for an anonymous literal with
++		// no value, and the original direct .equals() call throws NullPointerException in that case instead
++		// of simply reporting a non-match. Objects.equals handles either side being null the same way a
++		// missing term should be treated here -- as "does not join" -- matching the fix proposed in the
++		// upstream issue but never merged as of openllet 2.6.5 (the latest release at time of patching).
++		return Objects.equals(_wmeProvider.getNode(wme, token).getTerm(), _tokenProvider.getNode(wme, token).getTerm());
+ 	}
+ 
+ 	public WMENodeProvider getWME()

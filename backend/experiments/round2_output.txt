@@ -1,0 +1,14 @@
+[Chain@640/seed=2] submitted job 55ffdf1a-067e-4e58-bc3c-842457d974ba
+[Chain@640/seed=2] job 55ffdf1a-067e-4e58-bc3c-842457d974ba -> status=COMPLETED variant.status=COMPLETED axioms=724 verification={"status":"INCONSISTENT","tier":"OPENLLET","profile":{"el":false,"ql":false,"rl":false,"dl":false},"elapsedMillis":9129,"requestedProfile":"DL","profileGuaranteeSatisfied":null} totalMs=749984
+[Chain@640/seed=3] submitted job 83bc00d4-5ed6-4303-9506-890fc0a1b295
+[Chain@640/seed=3] job 83bc00d4-5ed6-4303-9506-890fc0a1b295 -> status=COMPLETED variant.status=COMPLETED axioms=698 verification={"status":"INCONSISTENT","tier":"OPENLLET","profile":{"el":false,"ql":false,"rl":false,"dl":false},"elapsedMillis":9793,"requestedProfile":"DL","profileGuaranteeSatisfied":null} totalMs=438172
+[BalancedTree@512/seed=1] submitted job 6c3fa19b-bde3-414f-b9fd-c4b570cac560
+[BalancedTree@512/seed=1] job 6c3fa19b-bde3-414f-b9fd-c4b570cac560 -> status=COMPLETED variant.status=COMPLETED axioms=589 verification={"status":"CONSISTENT","tier":"OPENLLET","profile":{"el":false,"ql":false,"rl":false,"dl":true},"elapsedMillis":2458,"requestedProfile":"DL","profileGuaranteeSatisfied":null} totalMs=74337
+[Preferential@512/seed=1] submitted job b5d95b9b-0bcf-4506-981a-d030aea64c1c
+[Preferential@512/seed=1] job b5d95b9b-0bcf-4506-981a-d030aea64c1c -> status=COMPLETED variant.status=COMPLETED axioms=568 verification={"status":"CONSISTENT","tier":"OPENLLET","profile":{"el":false,"ql":false,"rl":false,"dl":true},"elapsedMillis":9,"requestedProfile":"DL","profileGuaranteeSatisfied":null} totalMs=18088
+
+=== SUMMARY ===
+{"label":"Chain@640/seed=2","jobId":"55ffdf1a-067e-4e58-bc3c-842457d974ba","timedOut":false,"totalMs":749984}
+{"label":"Chain@640/seed=3","jobId":"83bc00d4-5ed6-4303-9506-890fc0a1b295","timedOut":false,"totalMs":438172}
+{"label":"BalancedTree@512/seed=1","jobId":"6c3fa19b-bde3-414f-b9fd-c4b570cac560","timedOut":false,"totalMs":74337}
+{"label":"Preferential@512/seed=1","jobId":"b5d95b9b-0bcf-4506-981a-d030aea64c1c","timedOut":false,"totalMs":18088}

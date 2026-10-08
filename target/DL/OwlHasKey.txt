@@ -1,4 +1,0 @@
-Course HasKey hasCode
-Publication HasKey hasDOI
-Person HasKey hasID
-Student HasKey hasID

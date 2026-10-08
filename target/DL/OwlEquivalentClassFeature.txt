@@ -1,6 +1,0 @@
-Human EquivalentClasses Person
-Football EquivalentClasses Soccer
-AcademicStaff EquivalentClasses Faculty
-Course EquivalentClasses TeachingCourse
-College EquivalentClasses School
-Employee EquivalentClasses Staff
