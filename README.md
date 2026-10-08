@@ -16,27 +16,15 @@ backend build).
 for neuro-symbolic reasoners and schema-based (seed-from-existing-TBox) generation are deferred to future
 work.
 
-## How it works
+## Contents
 
-1. `GET /api/catalog` serves the full OWL2 construct catalog (64 constructs across 8 categories) from one
-   enum (`ConstructId`) — the frontend has no hardcoded construct list; it renders whatever the backend
-   advertises.
-2. `POST /api/generations` takes entity counts, a construct → count map, structural parameters (hierarchy
-   depth/branching, axiom nesting depth/probability), one or more topology variants to compare, and a
-   reasoning timeout. It creates a job and returns immediately (`202 Accepted`) — generation runs
-   asynchronously per variant. The hierarchy and nesting parameters are **targets, not guarantees**: hierarchy
-   depth/branching can only be realized through however many `SUB_CLASS_OF` axioms are actually requested in
-   the construct/count map, so a high target paired with a low `SUB_CLASS_OF` count will fall well short of
-   it — the results view reports achieved-vs-target for both.
-3. For each variant: entity pools are seeded, all 64 construct generators build real OWL API axioms by
-   drawing from those pools (which entity gets reused is decided by the variant's **attachment strategy** —
-   `UNIFORM_RANDOM`, `PREFERENTIAL`, `CHAIN`, or `BALANCED_TREE` — this is what makes "variants" produce
-   genuinely different ontology shapes from the same construct/count selection, not just shuffled axioms), a
-   constraint guard blocks a small set of known local logical clashes as axioms are added, the ontology is
-   verified for consistency via Openllet under a hard time budget (never blocks indefinitely — reports
-   `NOT_VERIFIED_TIMEOUT` rather than hanging), and structural quality metrics are computed.
-4. `GET /api/generations/{id}` polls job/variant status; `GET /api/generations/{id}/variants/{variant}/ontology`
-   downloads the result in RDF/XML, Turtle, OWL/XML, Manchester, or Functional syntax.
+- [Screenshots](#screenshots)
+- [How it works](#how-it-works)
+- [Structure](#structure)
+- [Running](#running)
+- [Configuration](#configuration)
+- [Troubleshooting](#troubleshooting)
+- [Deferred / future work](#deferred--future-work)
 
 ## Screenshots
 
@@ -59,6 +47,28 @@ work.
 **Results** — consistency badge, structural profile metrics, download in the chosen syntax and an interactive graph of the generated ontology.
 
 ![Results](Images/OWL2Gen5.png)
+
+## How it works
+
+1. `GET /api/catalog` serves the full OWL2 construct catalog (64 constructs across 8 categories) from one
+   enum (`ConstructId`) — the frontend has no hardcoded construct list; it renders whatever the backend
+   advertises.
+2. `POST /api/generations` takes entity counts, a construct → count map, structural parameters (hierarchy
+   depth/branching, axiom nesting depth/probability), one or more topology variants to compare, and a
+   reasoning timeout. It creates a job and returns immediately (`202 Accepted`) — generation runs
+   asynchronously per variant. The hierarchy and nesting parameters are **targets, not guarantees**: hierarchy
+   depth/branching can only be realized through however many `SUB_CLASS_OF` axioms are actually requested in
+   the construct/count map, so a high target paired with a low `SUB_CLASS_OF` count will fall well short of
+   it — the results view reports achieved-vs-target for both.
+3. For each variant: entity pools are seeded, all 64 construct generators build real OWL API axioms by
+   drawing from those pools (which entity gets reused is decided by the variant's **attachment strategy** —
+   `UNIFORM_RANDOM`, `PREFERENTIAL`, `CHAIN`, or `BALANCED_TREE` — this is what makes "variants" produce
+   genuinely different ontology shapes from the same construct/count selection, not just shuffled axioms), a
+   constraint guard blocks a small set of known local logical clashes as axioms are added, the ontology is
+   verified for consistency via Openllet under a hard time budget (never blocks indefinitely — reports
+   `NOT_VERIFIED_TIMEOUT` rather than hanging), and structural quality metrics are computed.
+4. `GET /api/generations/{id}` polls job/variant status; `GET /api/generations/{id}/variants/{variant}/ontology`
+   downloads the result in RDF/XML, Turtle, OWL/XML, Manchester, or Functional syntax.
 
 ## Structure
 
