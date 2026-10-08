@@ -1,20 +1,10 @@
-# OWL2Gen-DL
+# OWL2Gen (supports EL & DL)
 
 A configurable OWL 2 ontology generator for benchmarking Description Logic (DL) reasoners. Users pick OWL2
 constructs and how many axioms of each they want; the tool generates a domain-agnostic ontology exercising
 exactly that selection, verifies its consistency, and reports structural quality metrics (nesting depth,
 hierarchy shape, entity connectivity, inferred-vs-asserted axioms) so generated ontologies can be shown to
 have genuine structural complexity rather than being repetitive or arbitrary.
-
-This is a from-scratch rebuild of an earlier version of the tool, focused on a cleaner architecture (a
-construct-generator registry instead of reflection dispatch, per-request generation state instead of shared
-statics, a pluggable topology/attachment strategy layer, and a reasoning layer that degrades gracefully at
-scale instead of blocking indefinitely) and a lighter, decoupled build (no embedded frontend build inside the
-backend build).
-
-**Scope for this build**: DL-reasoner benchmarking only, domain-agnostic from-scratch generation only. Support
-for neuro-symbolic reasoners and schema-based (seed-from-existing-TBox) generation are deferred to future
-work.
 
 ## Contents
 
